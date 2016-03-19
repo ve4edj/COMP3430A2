@@ -8,15 +8,13 @@
 #include <pthread.h>
 
 #include "screen.h"
+#include "attendee.h"
+#include "ride.h"
 
-typedef struct {
-	char ch;
-	short colour;
-} ScreenChar;
-
-typedef struct {
-	int row, col;
-} Pos;
+#define MAX_RIDES 10
+#define MAX_ATTENDEES 52
+ride_t * rides[MAX_RIDES];
+attendee_t * attendees[MAX_ATTENDEES];
 
 void loadPark(char * parkFile) {
 	initialize_screen();
@@ -27,6 +25,122 @@ void loadPark(char * parkFile) {
 	}
 }
 
+#define EVENT_BUFFER_SIZE 64
+char eventBuffer[EVENT_BUFFER_SIZE];
+
+typedef enum loadState_t {
+	LS_RIDE,
+	LS_ATTENDEE
+} loadState;
+
+typedef enum ridePart_t {
+	RP_NUM,
+	RP_TIMEOUT,
+	RP_DURATION
+} ridePart;
+
+typedef enum attendeePart_t {
+	AP_DELAY,
+	AP_NAME,
+	AP_XPOS,
+	AP_SPEED,
+	AP_RIDES
+} attendeePart;
+
+void loadEvents(char * eventFile) {
+	FILE * events = fopen(eventFile, "r");
+	if (NULL != events) {
+		for (int i = 0; i < MAX_RIDES; rides[i++] = NULL);
+		for (int i = 0; i < MAX_ATTENDEES; attendees[i++] = NULL);
+		loadState ls = LS_RIDE;
+		ridePart rp = RP_NUM;
+		int rideIdx = -1;
+		attendeePart ap = AP_DELAY;
+		int attendeeIdx = -1;
+		while (fgets(eventBuffer, EVENT_BUFFER_SIZE, events)) {
+			if (eventBuffer[0] == '\n') {
+				ls = LS_ATTENDEE;
+				continue;
+			}
+			char * toke = strtok(eventBuffer, ",");
+			while (NULL != toke) {
+				switch (ls) {
+				case LS_RIDE:
+					switch (rp) {
+					case RP_NUM:
+						rides[++rideIdx] = malloc(sizeof(ride_t));
+						if (NULL == rides[rideIdx]) {
+							perror("Error in malloc");
+							exit(EXIT_FAILURE);
+						}
+						rides[rideIdx]->number = atoi(toke);
+						rp = RP_TIMEOUT;
+						break;
+					case RP_TIMEOUT:
+						rides[rideIdx]->timeout = atoi(toke);
+						rp = RP_DURATION;
+						break;
+					case RP_DURATION:
+						rides[rideIdx]->duration = atoi(toke);
+						rp = RP_NUM;
+						break;
+					}
+					break;
+				case LS_ATTENDEE:
+					switch (ap) {
+					case AP_DELAY:
+						attendees[++attendeeIdx] = malloc(sizeof(attendee_t));
+						if (NULL == attendees[attendeeIdx]) {
+							perror("Error in malloc");
+							exit(EXIT_FAILURE);
+						}
+						attendees[attendeeIdx]->delay = atoi(toke);
+						ap = AP_NAME;
+						break;
+					case AP_NAME:
+						attendees[attendeeIdx]->name = toke[0];
+						ap = AP_XPOS;
+						break;
+					case AP_XPOS:
+						attendees[attendeeIdx]->xpos = atoi(toke);
+						ap = AP_SPEED;
+						break;
+					case AP_SPEED:
+						attendees[attendeeIdx]->speed = atoi(toke);
+						ap = AP_RIDES;
+						break;
+					case AP_RIDES:
+						attendees[attendeeIdx]->currRide = 0;
+						int numRides = strlen(toke);
+						if (toke[numRides-1] == '\n')
+							numRides--;
+						attendees[attendeeIdx]->numRides = numRides;
+						attendees[attendeeIdx]->rides = malloc(sizeof(int) * numRides);
+						if (NULL == attendees[attendeeIdx]->rides) {
+							perror("Error in malloc");
+							exit(EXIT_FAILURE);
+						}
+						for (int i = 0; i < numRides; i++) {
+							attendees[attendeeIdx]->rides[i] = toke[i] - '0';
+						}
+						ap = AP_DELAY;
+						break;
+					}
+					break;
+				}
+				toke = strtok(NULL, ",");
+			}
+		}
+	} else {
+		perror("Unable to load events file");
+		exit(EXIT_FAILURE);
+	}
+}
+
+typedef struct {
+	int row, col;
+} Pos;
+
 int main(int argc, char *argv[]) {
 	char ch;
 	Pos letters[26];
@@ -35,11 +149,12 @@ int main(int argc, char *argv[]) {
 	char targets[2*MAX_RIDES + 1] = "";
 	const int CHARDIFF = '0' - '!';
 	
-	if (argc != 2) {
-		fprintf(stderr, "Usage: %s mapfile.txt\n", argv[0]);
+	if (argc != 4) {
+		fprintf(stderr, "Usage: %s <mapfile> <eventfile> <outfile>\n", argv[0]);
 		return EXIT_FAILURE;
 	}
 	loadPark(argv[1]);
+	loadEvents(argv[2]);
 
 	for (int i = 0; i < 26; i++) {
 		do {
@@ -79,6 +194,6 @@ int main(int argc, char *argv[]) {
 	}
 	
 	finish_screen();
-	
-	return 0;
+
+	return EXIT_SUCCESS;
 }

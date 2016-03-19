@@ -6,6 +6,7 @@ typedef struct {
 	int currRide;
 	int numRides;
 	int * rides;
+	int xpos;
 } attendee_t;
 
 void * attendeeThread(void *);
