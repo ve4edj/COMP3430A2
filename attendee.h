@@ -1,3 +1,5 @@
+#include <pthread.h>
+
 typedef struct {
 	char name;
 	pthread_t threadID;

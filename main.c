@@ -14,7 +14,9 @@
 #define MAX_RIDES 10
 #define MAX_ATTENDEES 52
 ride_t * rides[MAX_RIDES];
+pthread_t rideThreads[MAX_RIDES];
 attendee_t * attendees[MAX_ATTENDEES];
+pthread_t attendeeThreads[MAX_ATTENDEES];
 
 void loadPark(char * parkFile) {
 	initialize_screen();
@@ -142,13 +144,6 @@ typedef struct {
 } Pos;
 
 int main(int argc, char *argv[]) {
-	char ch;
-	Pos letters[26];
-	Pos *current;
-	int new_col, new_row;
-	char targets[2*MAX_RIDES + 1] = "";
-	const int CHARDIFF = '0' - '!';
-	
 	if (argc != 4) {
 		fprintf(stderr, "Usage: %s <mapfile> <eventfile> <outfile>\n", argv[0]);
 		return EXIT_FAILURE;
@@ -156,18 +151,44 @@ int main(int argc, char *argv[]) {
 	loadPark(argv[1]);
 	loadEvents(argv[2]);
 
-	for (int i = 0; i < 26; i++) {
+	for (int i = 0; i < MAX_RIDES; i++) {
+		if (NULL != rides[i]) {
+			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
+		}
+	}
+
+	for (int i = 0; i < MAX_ATTENDEES; i++) {
+		if (NULL != attendees[i]) {
+			pthread_create(&(attendeeThreads[i]), NULL, attendeeThread, (void *)attendees[i]);
+		}
+	}
+
+
+
+
+
+	char ch;
+	Pos letters[52];
+	Pos *current;
+	int new_col, new_row;
+	char targets[2*MAX_RIDES + 1] = "";
+	const int CHARDIFF = '0' - '!';
+
+	for (int i = 0; i < 52; i++) {
 		do {
 			letters[i].col = random() % SCREEN_WIDTH;
 			letters[i].row = 0;
 		} while (SPACE != get_screen_char(letters[i].col, letters[i].row));
-		set_screen_char(letters[i].col, letters[i].row, 'a' + i);
+		set_screen_char(letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
 	}
 	update_screen();
 	
 	while ((ch = getch()) != '`') {
-		if (ch >= 'a' && ch <= 'z') {
-			current = &letters[ch-'a'];
+		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+			if (ch >= 'a' && ch <= 'z')
+				current = &letters[ch-'a'];
+			if (ch >= 'A' && ch <= 'Z')
+				current = &letters[(ch-'A')+26];
 			if (current->col >= 0) {
 				char target = '0' + ch % MAX_RIDES;
 				new_col = current->col;
