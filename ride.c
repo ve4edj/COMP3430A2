@@ -3,5 +3,5 @@
 
 void * rideThread(void * in) {
 	
-	return NULL;
+	pthread_exit(NULL);
 }

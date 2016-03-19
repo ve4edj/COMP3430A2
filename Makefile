@@ -1,16 +1,30 @@
 #!/usr/bin/make
 
-CC=gcc
-CFLAGS=-Wall -std=gnu99 -DTEST_SCREEN
-LIBS=-lncurses
+PRGM   = simulator
+HDRS   = screen.h ride.h attendee.h
+SRCS   = main.c screen.c ride.c attendee.c
+ODIR   = bin
+LIBS   = -lncurses -lpthread
 
-targets  = simulator
-simulator_c = screen.c
+#note to future self: do not modify below this line :)
 
-all: $(targets)
+CC     = gcc
+OBJS   = $(SRCS:%.c=$(ODIR)/%.o)
+CFLAGS = -std=c99 -lm -g -Wall -DNDEBUG
 
-simulator: $(simulator_c) screen.h
-	$(CC) $(CFLAGS) $(LIBS) $(simulator_c) -o $@
+$(PRGM): $(OBJS) $(ODIR)
+	$(CC) $(CFLAGS) $(LIBS) $(OBJS) -o $(PRGM)
+
+$(ODIR)/%.o: %.c $(HDRS) $(ODIR)
+	$(CC) $(LIBS) $(CFLAGS) -c $< -o $@
+
+$(ODIR):
+	mkdir $(ODIR)
+
+all: clean $(PRGM)
 
 clean:
-	rm -f $(targets)
+	rm -rf $(PRGM) $(OBJS) $(ODIR)
+
+release: $(PRGM)
+	rm -rf $(OBJS) $(ODIR)

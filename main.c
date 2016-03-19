@@ -18,6 +18,8 @@ pthread_t rideThreads[MAX_RIDES];
 attendee_t * attendees[MAX_ATTENDEES];
 pthread_t attendeeThreads[MAX_ATTENDEES];
 
+pthread_t kbThread, screenThread, logThread;
+
 void loadPark(char * parkFile) {
 	initialize_screen();
 	if (load_screen(parkFile) < 0) {
@@ -139,6 +141,22 @@ void loadEvents(char * eventFile) {
 	}
 }
 
+void * keyboardInput(void *) {
+
+	pthread_exit(NULL);
+}
+
+pthread_mutex_t screenMutex = PTHREAD_MUTEX_INITIALIZER;
+void * screenOutput(void *) {
+
+	pthread_exit(NULL);
+}
+
+void * logOutput(void *) {
+
+	pthread_exit(NULL);
+}
+
 typedef struct {
 	int row, col;
 } Pos;
@@ -150,6 +168,9 @@ int main(int argc, char *argv[]) {
 	}
 	loadPark(argv[1]);
 	loadEvents(argv[2]);
+
+	pthread_create(&screenThread, NULL, screenOutput, (void *)NULL);
+	pthread_create(&logThread, NULL, logOutput, (void *)NULL);
 
 	for (int i = 0; i < MAX_RIDES; i++) {
 		if (NULL != rides[i]) {
@@ -163,10 +184,9 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
+	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
 
-
-
-
+/*
 	char ch;
 	Pos letters[52];
 	Pos *current;
@@ -182,7 +202,7 @@ int main(int argc, char *argv[]) {
 		set_screen_char(letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
 	}
 	update_screen();
-	
+
 	while ((ch = getch()) != '`') {
 		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
 			if (ch >= 'a' && ch <= 'z')
@@ -213,7 +233,7 @@ int main(int argc, char *argv[]) {
 		blink_screen(targets);
 		update_screen();
 	}
-	
+*/
 	finish_screen();
 
 	return EXIT_SUCCESS;

@@ -3,5 +3,5 @@
 
 void * attendeeThread(void * in) {
 	
-	return NULL;
+	pthread_exit(NULL);
 }
