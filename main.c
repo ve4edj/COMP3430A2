@@ -184,6 +184,7 @@ int main(int argc, char *argv[]) {
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
 		if (NULL != attendees[i]) {
 			pthread_create(&(attendeeThreads[i]), NULL, attendeeThread, (void *)attendees[i]);
+			attendees[i]->threadID = attendeeThreads[i];
 		}
 	}
 

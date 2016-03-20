@@ -3,11 +3,19 @@
 
 #include <pthread.h>
 
+typedef enum attendeeState_t {
+	AS_ENTER,
+	AS_FINDRIDE,
+	AS_ONRIDE,
+	AS_EXIT
+} attendeeState;
+
 typedef struct {
 	char name;
 	pthread_t threadID;
 	int delay;
 	int speed;
+	attendeeState state;
 	int numRides;
 	int currRide;
 	int * rides;
