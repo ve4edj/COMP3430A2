@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <pthread.h>
 
+#include "safeScreen.h"
 #include "screen.h"
 #include "attendee.h"
 #include "ride.h"
@@ -148,12 +149,6 @@ void * keyboardInput(void * in) {
 	pthread_exit(NULL);
 }
 
-pthread_mutex_t screenMutex = PTHREAD_MUTEX_INITIALIZER;
-void * screenOutput(void * in) {
-
-	pthread_exit(NULL);
-}
-
 void * logOutput(void * in) {
 
 	pthread_exit(NULL);
@@ -167,7 +162,6 @@ int main(int argc, char *argv[]) {
 	loadPark(argv[1]);
 	loadEvents(argv[2]);
 
-	pthread_create(&screenThread, NULL, screenOutput, (void *)NULL);
 	pthread_create(&logThread, NULL, logOutput, (void *)NULL);
 
 	int rideLengths[MAX_RIDES] = {0};
@@ -195,7 +189,10 @@ int main(int argc, char *argv[]) {
 
 	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
 
-/*
+
+
+
+
 	typedef struct {
 		int row, col;
 	} Pos;
@@ -211,10 +208,10 @@ int main(int argc, char *argv[]) {
 		do {
 			letters[i].col = random() % SCREEN_WIDTH;
 			letters[i].row = 0;
-		} while (SPACE != get_screen_char(letters[i].col, letters[i].row));
-		set_screen_char(letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
+		} while (SPACE != safe_get_screen_char(letters[i].col, letters[i].row));
+		safe_set_screen_char(letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
 	}
-	update_screen();
+	safe_update_screen();
 
 	while ((ch = getch()) != '`') {
 		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
@@ -226,9 +223,9 @@ int main(int argc, char *argv[]) {
 				char target = '0' + ch % MAX_RIDES;
 				new_col = current->col;
 				new_row = current->row;
-				find_target(target, &new_col, &new_row);
-				if (move_to_target(current->col, current->row, &new_col, &new_row)) {
-					set_screen_char(current->col, current->row, ' ');
+				safe_find_target(target, &new_col, &new_row);
+				if (safe_move_to_target(current->col, current->row, &new_col, &new_row)) {
+					safe_set_screen_char(current->col, current->row, ' ');
 					current->col = -1;
 					current->row = -1;
 					int oldlen = strlen(targets);
@@ -236,17 +233,17 @@ int main(int argc, char *argv[]) {
 					targets[oldlen+1] = target;
 					targets[oldlen+2] = '\0';
 				} else {
-					set_screen_char(current->col, current->row, ' ');
-					set_screen_char(new_col, new_row, ch);
+					safe_set_screen_char(current->col, current->row, ' ');
+					safe_set_screen_char(new_col, new_row, ch);
 					current->col = new_col;
 					current->row = new_row;
 				}
 			}
 		}
-		blink_screen(targets);
-		update_screen();
+		safe_blink_screen(targets);
+		safe_update_screen();
 	}
-*/
+
 	finish_screen();
 
 	return EXIT_SUCCESS;
