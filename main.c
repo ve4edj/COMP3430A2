@@ -61,6 +61,7 @@ void loadEvents(char * eventFile) {
 		int rideIdx = -1;
 		attendeePart ap = AP_DELAY;
 		int attendeeIdx = -1;
+		int startupDelay = 0;
 		while (fgets(eventBuffer, EVENT_BUFFER_SIZE, events)) {
 			if (eventBuffer[0] == '\n') {
 				ls = LS_ATTENDEE;
@@ -98,7 +99,8 @@ void loadEvents(char * eventFile) {
 							perror("Error in malloc");
 							exit(EXIT_FAILURE);
 						}
-						attendees[attendeeIdx]->delay = atoi(toke);
+						startupDelay += atoi(toke);
+						attendees[attendeeIdx]->delay = startupDelay;
 						ap = AP_NAME;
 						break;
 					case AP_NAME:
@@ -172,6 +174,15 @@ int main(int argc, char *argv[]) {
 	pthread_create(&screenThread, NULL, screenOutput, (void *)NULL);
 	pthread_create(&logThread, NULL, logOutput, (void *)NULL);
 
+	int rideLengths[MAX_RIDES] = {0};
+	for (int r = 0; r < SCREEN_HEIGHT; r++) {
+		for (int c = 0; c < SCREEN_WIDTH; c++) {
+			char ch = get_screen_char(c, r);
+			if (('0' <= ch) && ('9' >= ch)) {
+				rideLengths[ch - '0']++;
+			}
+		}
+	}
 	for (int i = 0; i < MAX_RIDES; i++) {
 		if (NULL != rides[i]) {
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);

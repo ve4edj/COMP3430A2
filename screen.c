@@ -228,8 +228,7 @@ int move_to_target(int col, int row, int *to_col, int *to_row) {
 	assert(col >= 0 && col < SCREEN_WIDTH && row >= 0 && row < SCREEN_HEIGHT);
 	assert(NULL != to_col && NULL != to_row);
 	
-	char ch = screen[col][row].ch;
-	assert(SPACE != ch);
+	assert(SPACE != screen[col][row].ch);
 	
 	target_c = *to_col;
 	target_r = *to_row;
