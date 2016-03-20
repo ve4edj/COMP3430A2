@@ -185,10 +185,11 @@ int main(int argc, char *argv[]) {
 	}
 	for (int i = 0; i < MAX_RIDES; i++) {
 		if (NULL != rides[i]) {
+			rides[i]->maxRiders = rideLengths[i];
+			rides[i]->riders = malloc(sizeof(attendee_t)*rideLengths[i]);
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
 		}
 	}
-
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
 		if (NULL != attendees[i]) {
 			pthread_create(&(attendeeThreads[i]), NULL, attendeeThread, (void *)attendees[i]);
