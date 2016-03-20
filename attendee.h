@@ -8,8 +8,8 @@ typedef struct {
 	pthread_t threadID;
 	int delay;
 	int speed;
-	int currRide;
 	int numRides;
+	int currRide;
 	int * rides;
 	int xpos;
 } attendee_t;

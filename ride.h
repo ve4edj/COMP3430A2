@@ -8,7 +8,8 @@ typedef struct {
 	int number;
 	int timeout;
 	int duration;
-	int maxRiders;
+	int numRiders;
+	int currRider;
 	attendee_t ** riders;
 } ride_t;
 
