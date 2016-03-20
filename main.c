@@ -158,11 +158,11 @@ void * logOutput(void * in) {
 
 	pthread_exit(NULL);
 }
-
+/*
 typedef struct {
 	int row, col;
 } Pos;
-
+*/
 int main(int argc, char *argv[]) {
 	if (argc != 4) {
 		fprintf(stderr, "Usage: %s <mapfile> <eventfile> <outfile>\n", argv[0]);
@@ -186,7 +186,7 @@ int main(int argc, char *argv[]) {
 	for (int i = 0; i < MAX_RIDES; i++) {
 		if (NULL != rides[i]) {
 			rides[i]->maxRiders = rideLengths[i];
-			rides[i]->riders = malloc(sizeof(attendee_t)*rideLengths[i]);
+			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
 		}
 	}
