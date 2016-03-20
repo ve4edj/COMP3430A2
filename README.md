@@ -1,4 +1,4 @@
 ## Amusement Park Simulator
 
-make all
-./simulator park1.txt events.txt outfile.txt
+ - make all
+ - ./simulator park1.txt events.txt outfile.txt
