@@ -1,3 +1,6 @@
+#ifndef _ATTENDEE_H
+#define _ATTENDEE_H
+
 #include <pthread.h>
 
 typedef struct {
@@ -12,3 +15,5 @@ typedef struct {
 } attendee_t;
 
 void * attendeeThread(void *);
+
+#endif

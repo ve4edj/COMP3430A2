@@ -1,4 +1,8 @@
+#ifndef _RIDE_H
+#define _RIDE_H
+
 #include <pthread.h>
+#include "attendee.h"
 
 typedef struct {
 	int number;
@@ -9,3 +13,5 @@ typedef struct {
 } ride_t;
 
 void * rideThread(void *);
+
+#endif

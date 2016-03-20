@@ -141,18 +141,18 @@ void loadEvents(char * eventFile) {
 	}
 }
 
-void * keyboardInput(void *) {
+void * keyboardInput(void * in) {
 
 	pthread_exit(NULL);
 }
 
 pthread_mutex_t screenMutex = PTHREAD_MUTEX_INITIALIZER;
-void * screenOutput(void *) {
+void * screenOutput(void * in) {
 
 	pthread_exit(NULL);
 }
 
-void * logOutput(void *) {
+void * logOutput(void * in) {
 
 	pthread_exit(NULL);
 }
