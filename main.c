@@ -70,8 +70,8 @@ void loadEvents(char * eventFile) {
 		ridePart rp = RP_NUM;
 		ride_t * rt = NULL;
 		attendeePart ap = AP_DELAY;
-		int startupDelay = 0;
 		attendee_t * at = NULL;
+		int startupDelay = 0;
 		while (fgets(eventBuffer, EVENT_BUFFER_SIZE, events)) {
 			if (eventBuffer[0] == '\n') {
 				ls = LS_ATTENDEE;
@@ -158,6 +158,7 @@ void loadEvents(char * eventFile) {
 }
 
 void * keyboardInput(void * in) {
+	writeToLog("Started keyboard event thread");
 	char ch;
 	while ((ch = getch()) != '`') {
 		int idx = attendeeNameToIdx(ch);
@@ -171,6 +172,7 @@ void * keyboardInput(void * in) {
 			// start the ride if it's stopped, stop the ride if it's started
 		}
 	}
+	writeToLog("Exiting keyboard event thread");
 	pthread_exit(NULL);
 }
 
@@ -179,10 +181,13 @@ int main(int argc, char *argv[]) {
 		fprintf(stderr, "Usage: %s <mapfile> <eventfile> <outfile>\n", argv[0]);
 		return EXIT_FAILURE;
 	}
-	loadPark(argv[1]);
-	loadEvents(argv[2]);
 
-	pthread_create(&logThread, NULL, logOutput, (void *)NULL);
+	pthread_create(&logThread, NULL, logOutput, (void *)argv[3]);
+
+	loadEvents(argv[2]);
+	writeToLog("Event file loaded");
+	loadPark(argv[1]);
+	writeToLog("Park file loaded");
 
 	int rideLengths[MAX_RIDES] = {0};
 	for (int r = 0; r < SCREEN_HEIGHT; r++) {
@@ -199,6 +204,7 @@ int main(int argc, char *argv[]) {
 			rides[i]->currRider = 0;
 			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
+			rides[i]->threadID = rideThreads[i];
 		}
 	}
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
@@ -210,6 +216,12 @@ int main(int argc, char *argv[]) {
 
 	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
 	pthread_join(kbThread, NULL);
+
+	stopLog();
+	pthread_join(logThread, NULL);
+	finish_screen();
+
+	return EXIT_SUCCESS;
 
 
 
@@ -266,6 +278,8 @@ int main(int argc, char *argv[]) {
 		safe_update_screen();
 	}
 
+	stopLog();
+	pthread_join(logThread, NULL);
 	finish_screen();
 
 	return EXIT_SUCCESS;

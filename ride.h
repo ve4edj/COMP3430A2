@@ -5,6 +5,7 @@
 #include "attendee.h"
 
 typedef struct {
+	pthread_t threadID;
 	int number;
 	int timeout;
 	int duration;

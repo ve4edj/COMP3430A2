@@ -11,8 +11,8 @@ typedef enum attendeeState_t {
 } attendeeState;
 
 typedef struct {
-	char name;
 	pthread_t threadID;
+	char name;
 	int delay;
 	int speed;
 	attendeeState state;
