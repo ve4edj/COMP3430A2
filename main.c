@@ -251,8 +251,8 @@ int main(int argc, char *argv[]) {
 				char target = '0' + ch % MAX_RIDES;
 				new_col = current->col;
 				new_row = current->row;
-				safe_find_target(FALSE, target, &new_col, &new_row);
-				if (safe_move_to_target(FALSE, current->col, current->row, &new_col, &new_row)) {
+				safe_find_target(TRUE, target, &new_col, &new_row);
+				if (safe_move_to_target(TRUE, current->col, current->row, &new_col, &new_row)) {
 					safe_set_screen_char(FALSE, current->col, current->row, ' ');
 					current->col = -1;
 					current->row = -1;
