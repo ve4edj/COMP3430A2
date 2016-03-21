@@ -28,14 +28,16 @@ void * logOutput(void * in) {
 		fprintf(f, "---------------- Log Opened ----------------\n");
 		while (!stop) {
 			pthread_mutex_lock(&logFileMutex);
-			while (bufferIsEmpty)
+			while (bufferIsEmpty && !stop)
 				pthread_cond_wait(&emptyCond, &logFileMutex);
-			ch = buffer[out++];
-			out %= BUFFER_SIZE;
-			if (--count == 0)
-				bufferIsEmpty = 1;
+			while (!bufferIsEmpty) {
+				ch = buffer[out++];
+				out %= BUFFER_SIZE;
+				if (--count == 0)
+					bufferIsEmpty = 1;
+				fputc(ch, f);
+			}
 			bufferIsFull = 0;
-			fputc(ch, f);
 			pthread_cond_signal(&fullCond);
 			pthread_mutex_unlock(&logFileMutex);
 		}
@@ -70,6 +72,8 @@ void writeToLog(char * str) {
 }
 
 void stopLog() {
-	writeToLog("\n");
+	pthread_mutex_lock(&logFileMutex);
 	stop = 1;
+	pthread_cond_signal(&emptyCond);
+	pthread_mutex_unlock(&logFileMutex);
 }

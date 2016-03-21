@@ -1,9 +1,9 @@
 ---------------- Log Opened ----------------
 Event file loaded
 Park file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
 Ride 0: timeout 7000, duration 3000, 9 riders
 Ride 2: timeout 4000, duration 20000, 9 riders
+Ride 1: timeout 5000, duration 2000, 9 riders
 Ride 3: timeout 3000, duration 12000, 9 riders
 Ride 4: timeout 2000, duration 99000, 9 riders
 Ride 5: timeout 1000, duration 16000, 9 riders
@@ -50,15 +50,14 @@ Attendee O: delay 132, speed 444, start position 45, 10 rides assigned
 Attendee P: delay 133, speed 555, start position 46, 10 rides assigned
 Attendee Q: delay 136, speed 666, start position 47, 10 rides assigned
 Attendee R: delay 139, speed 777, start position 48, 10 rides assigned
-Attendee T: delay 145, speed 999, start position 50, 10 rides assigned
 Attendee S: delay 142, speed 888, start position 49, 10 rides assigned
-Attendee V: delay 149, speed 222, start position 52, 10 rides assigned
+Attendee T: delay 145, speed 999, start position 50, 10 rides assigned
 Attendee U: delay 146, speed 111, start position 51, 10 rides assigned
+Attendee V: delay 149, speed 222, start position 52, 10 rides assigned
 Attendee W: delay 152, speed 333, start position 53, 10 rides assigned
 Attendee X: delay 155, speed 444, start position 54, 10 rides assigned
 Attendee Y: delay 156, speed 555, start position 55, 10 rides assigned
 Attendee Z: delay 159, speed 666, start position 56, 10 rides assigned
 Started keyboard event thread
 Exiting keyboard event thread
-
 ---------------- Log Closed ----------------
