@@ -1,6 +1,7 @@
 #include "ride.h"
 #include "log.h"
 #include <stdio.h>
+#include <pthread.h>
 
 #define LOCAL_LOG_BUFF_SIZE 64
 

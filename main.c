@@ -179,6 +179,7 @@ void * keyboardInput(void * in) {
 				at->xpos = 0;
 				at->ypos = 0;
 				at->state = AS_ENTER;
+				at->wantsToLeave = 0;
 				at->numRides = 10;
 				at->currRide = 0;
 				at->rides = malloc(sizeof(int) * at->numRides);
@@ -189,9 +190,8 @@ void * keyboardInput(void * in) {
 				}
 				attendees[idx] = at;
 				pthread_create(&(attendeeThreads[idx]), NULL, attendeeThread, (void *)attendees[idx]);
-				attendees[idx]->threadID = attendeeThreads[idx];
 			} else {
-				// make attendee[idx] want to leave
+				attendees[idx]->wantsToLeave = 1;
 			}
 		} else if ('0' <= ch && '9' >= ch) {
 			// start the ride if it's stopped, stop the ride if it's started
@@ -229,7 +229,6 @@ int main(int argc, char *argv[]) {
 			rides[i]->currRider = 0;
 			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
-			rides[i]->threadID = rideThreads[i];
 		} else {
 			// if there is a nonzero length in rideLengths
 			// create a default ride with timeout = 5 and duration = 20
@@ -238,7 +237,6 @@ int main(int argc, char *argv[]) {
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
 		if (NULL != attendees[i]) {
 			pthread_create(&(attendeeThreads[i]), NULL, attendeeThread, (void *)attendees[i]);
-			attendees[i]->threadID = attendeeThreads[i];
 		}
 	}
 
