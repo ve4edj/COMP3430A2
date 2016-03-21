@@ -10,6 +10,26 @@
 
 extern ride_t * rides[10];
 
+int moveTowardsTarget(attendee_t * self, char target) {
+	int result = 0;
+	int new_col = self->xpos;
+	int new_row = self->ypos;
+	lockScreen();
+	safe_find_target(TRUE, target, &new_col, &new_row);
+	if (safe_move_to_target(TRUE, self->xpos, self->ypos, &new_col, &new_row)) {
+		safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
+		result = 1;
+	} else {
+		safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
+		safe_set_screen_char(TRUE, new_col, new_row, self->name);
+	}
+	unlockScreen();
+	safe_update_screen();
+	self->xpos = new_col;
+	self->ypos = new_row;
+	return result;
+}
+
 void * attendeeThread(void * in) {
 	attendee_t * self = (attendee_t *)in;
 	char buff[LOCAL_LOG_BUFF_SIZE];
@@ -18,8 +38,6 @@ void * attendeeThread(void * in) {
 	usleep(self->delay * 1000);
 
 	while (self->state != AS_EXIT) {
-		int new_col, new_row;
-		char target;
 		switch (self->state) {
 		case AS_ENTER:
 			while (' ' != safe_get_screen_char(FALSE, self->xpos, self->ypos)) { }
@@ -30,22 +48,12 @@ void * attendeeThread(void * in) {
 			self->state = AS_FINDRIDE;
 			break;
 		case AS_FINDRIDE:
-			target = '0' + self->rides[self->currRide];
-			new_col = self->xpos;
-			new_row = self->ypos;
-			lockScreen();
-			safe_find_target(TRUE, target, &new_col, &new_row);
-			if (safe_move_to_target(TRUE, self->xpos, self->ypos, &new_col, &new_row)) {
-				safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
-				self->state = AS_WAITFORRIDE;
-			} else {
-				safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
-				safe_set_screen_char(TRUE, new_col, new_row, self->name);
+			if (self->wantsToLeave) {
+				self->state = AS_FINDEXIT;
+				break;
 			}
-			unlockScreen();
-			self->xpos = new_col;
-			self->ypos = new_row;
-			safe_update_screen();
+			if (moveTowardsTarget(self, '0' + self->rides[self->currRide]))
+				self->state = AS_WAITFORRIDE;
 			usleep(self->speed * 1000);
 			break;
 		case AS_WAITFORRIDE:

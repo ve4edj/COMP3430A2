@@ -1828,3 +1828,264 @@ Attendee E entered ride 9
 Attendee i entered ride 0
 Exiting keyboard event thread
 ---------------- Log Closed ----------------
+---------------- Log Opened ----------------
+Park file loaded
+Event file loaded
+Ride 0: timeout 7000, duration 3000, 9 riders
+Ride 1: timeout 5000, duration 2000, 9 riders
+Ride 2: timeout 4000, duration 20000, 9 riders
+Ride 3: timeout 3000, duration 12000, 9 riders
+Ride 4: timeout 2000, duration 99000, 9 riders
+Ride 5: timeout 1000, duration 16000, 9 riders
+Ride 6: timeout 1000, duration 5000, 9 riders
+Ride 7: timeout 1000, duration 9000, 9 riders
+Ride 8: timeout 1000, duration 18000, 9 riders
+Ride 9: timeout 1000, duration 21000, 9 riders
+Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
+Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
+Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
+Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
+Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
+Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
+Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
+Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
+Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
+Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
+Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
+Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
+Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
+Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
+Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
+Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
+Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
+Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
+Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
+Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
+Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
+Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
+Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
+Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
+Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
+Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
+Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
+Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
+Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
+Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
+Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
+Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
+Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
+Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
+Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
+Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
+Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
+Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
+Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
+Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
+Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
+Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
+Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
+Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
+Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
+Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
+Started keyboard event thread
+Attendee a entered the park
+Attendee b entered the park
+Attendee c entered the park
+Attendee d entered the park
+Attendee e entered the park
+Attendee f entered the park
+Attendee g entered the park
+Attendee i entered the park
+Attendee k entered the park
+Attendee m entered the park
+Attendee o entered the park
+Attendee p entered the park
+Attendee r entered the park
+Attendee t entered the park
+Attendee l entered the park
+Attendee v entered the park
+Attendee u entered the park
+Attendee x entered the park
+Attendee w entered the park
+Attendee z entered the park
+Attendee y entered the park
+Attendee n entered the park
+Attendee h entered the park
+Attendee j entered the park
+Attendee q entered the park
+Attendee a entered ride 1
+Attendee s entered the park
+Attendee F entered the park
+Attendee H entered the park
+Attendee G entered the park
+Attendee J entered the park
+Attendee I entered the park
+Attendee K entered the park
+Attendee L entered the park
+Attendee z entered ride 5
+Attendee N entered the park
+Attendee M entered the park
+Attendee P entered the park
+Attendee x entered ride 5
+Attendee R entered the park
+Attendee T entered the park
+Attendee V entered the park
+Attendee w entered ride 5
+Attendee W entered the park
+Attendee Y entered the park
+Attendee O entered the park
+Attendee Q entered the park
+Attendee X entered the park
+Attendee Z entered the park
+Attendee S entered the park
+Attendee U entered the park
+Attendee y entered ride 2
+Attendee z entered ride 6
+Attendee q entered ride 0
+Attendee x entered ride 6
+Attendee w entered ride 6
+Attendee U entered ride 9
+Attendee L entered ride 0
+Attendee v entered ride 0
+Attendee x entered ride 7
+Attendee w entered ride 7
+Attendee z entered ride 4
+Attendee y entered ride 6
+Attendee F entered ride 6
+Attendee k entered ride 5
+Attendee H entered ride 5
+Attendee z entered ride 7
+Attendee y entered ride 4
+Attendee V entered ride 2
+Attendee w entered ride 2
+Attendee N entered ride 9
+Exiting keyboard event thread
+---------------- Log Closed ----------------
+---------------- Log Opened ----------------
+Park file loaded
+Event file loaded
+Ride 0: timeout 7000, duration 3000, 9 riders
+Ride 1: timeout 5000, duration 2000, 9 riders
+Ride 2: timeout 4000, duration 20000, 9 riders
+Ride 3: timeout 3000, duration 12000, 9 riders
+Ride 4: timeout 2000, duration 99000, 9 riders
+Ride 5: timeout 1000, duration 16000, 9 riders
+Ride 6: timeout 1000, duration 5000, 9 riders
+Ride 7: timeout 1000, duration 9000, 9 riders
+Ride 8: timeout 1000, duration 18000, 9 riders
+Ride 9: timeout 1000, duration 21000, 9 riders
+Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
+Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
+Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
+Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
+Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
+Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
+Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
+Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
+Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
+Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
+Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
+Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
+Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
+Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
+Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
+Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
+Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
+Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
+Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
+Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
+Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
+Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
+Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
+Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
+Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
+Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
+Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
+Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
+Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
+Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
+Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
+Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
+Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
+Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
+Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
+Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
+Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
+Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
+Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
+Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
+Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
+Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
+Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
+Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
+Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
+Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
+Started keyboard event thread
+Attendee a entered the park
+Attendee b entered the park
+Attendee c entered the park
+Attendee d entered the park
+Attendee e entered the park
+Attendee f entered the park
+Attendee g entered the park
+Attendee i entered the park
+Attendee k entered the park
+Attendee m entered the park
+Attendee o entered the park
+Attendee p entered the park
+Attendee r entered the park
+Attendee t entered the park
+Attendee l entered the park
+Attendee v entered the park
+Attendee w entered the park
+Attendee u entered the park
+Attendee y entered the park
+Attendee x entered the park
+Attendee z entered the park
+Attendee n entered the park
+Attendee h entered the park
+Attendee j entered the park
+Attendee q entered the park
+Attendee a entered ride 1
+Attendee s entered the park
+Attendee F entered the park
+Attendee H entered the park
+Attendee I entered the park
+Attendee G entered the park
+Attendee J entered the park
+Attendee K entered the park
+Attendee L entered the park
+Attendee z entered ride 5
+Attendee N entered the park
+Attendee M entered the park
+Attendee P entered the park
+Attendee R entered the park
+Attendee w entered ride 5
+Attendee T entered the park
+Attendee V entered the park
+Attendee x entered ride 5
+Attendee W entered the park
+Attendee Y entered the park
+Attendee O entered the park
+Attendee Q entered the park
+Attendee X entered the park
+Attendee Z entered the park
+Attendee S entered the park
+Attendee U entered the park
+Attendee y entered ride 2
+Attendee q entered ride 0
+Attendee z entered ride 6
+Attendee w entered ride 6
+Attendee U entered ride 9
+Attendee L entered ride 0
+Attendee v entered ride 0
+Attendee k entered ride 5
+Attendee H entered ride 5
+Attendee N entered ride 9
+Attendee V entered ride 2
+Attendee s entered ride 2
+Attendee R entered ride 9
+Exiting keyboard event thread
+---------------- Log Closed ----------------
