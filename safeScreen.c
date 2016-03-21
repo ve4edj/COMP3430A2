@@ -10,17 +10,19 @@ void safe_update_screen() {
 	pthread_mutex_unlock(&screenMutex);
 }
 
-void safe_set_screen_char(int col, int row, char ch) {
-	pthread_mutex_lock(&screenMutex);
-	set_screen_char(col, row, ch);
-	pthread_mutex_unlock(&screenMutex);
-}
-
-char safe_get_screen_char(int col, int row) {
+char safe_get_screen_char(int multipart, int col, int row) {
 	pthread_mutex_lock(&screenMutex);
 	char ch = get_screen_char(col, row);
-	pthread_mutex_unlock(&screenMutex);
+	if (!multipart)
+		pthread_mutex_unlock(&screenMutex);
 	return ch;
+}
+
+void safe_set_screen_char(int multipart, int col, int row, char ch) {
+	if (!multipart)
+		pthread_mutex_lock(&screenMutex);
+	set_screen_char(col, row, ch);
+	pthread_mutex_unlock(&screenMutex);
 }
 
 void safe_blink_screen(char * charset) {
@@ -29,15 +31,17 @@ void safe_blink_screen(char * charset) {
 	pthread_mutex_unlock(&screenMutex);
 }
 
-int safe_find_target(char ch, int * col, int * row) {
+int safe_find_target(int multipart, char ch, int * col, int * row) {
 	pthread_mutex_lock(&screenMutex);
 	int target = find_target(ch, col, row);
-	pthread_mutex_unlock(&screenMutex);
+	if (!multipart)
+		pthread_mutex_unlock(&screenMutex);
 	return target;
 }
 
-int safe_move_to_target(int col, int row, int * to_col, int * to_row) {
-	pthread_mutex_lock(&screenMutex);
+int safe_move_to_target(int multipart, int col, int row, int * to_col, int * to_row) {
+	if (!multipart)
+		pthread_mutex_lock(&screenMutex);
 	int target = move_to_target(col, row, to_col, to_row);
 	pthread_mutex_unlock(&screenMutex);
 	return target;

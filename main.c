@@ -30,6 +30,14 @@ void loadPark(char * parkFile) {
 	}
 }
 
+int attendeeNameToIdx(char atName) {
+	if ('a' <= atName && 'z' >= atName)
+		return atName - 'a';
+	if ('A' <= atName && 'Z' >= atName)
+		return (atName - 'A') + 26;
+	return -1;
+}
+
 #define EVENT_BUFFER_SIZE 64
 char eventBuffer[EVENT_BUFFER_SIZE];
 
@@ -59,10 +67,10 @@ void loadEvents(char * eventFile) {
 		for (int i = 0; i < MAX_ATTENDEES; attendees[i++] = NULL);
 		loadState ls = LS_RIDE;
 		ridePart rp = RP_NUM;
-		int rideIdx = -1;
+		ride_t * rt = NULL;
 		attendeePart ap = AP_DELAY;
-		int attendeeIdx = -1;
 		int startupDelay = 0;
+		attendee_t * at = NULL;
 		while (fgets(eventBuffer, EVENT_BUFFER_SIZE, events)) {
 			if (eventBuffer[0] == '\n') {
 				ls = LS_ATTENDEE;
@@ -74,20 +82,22 @@ void loadEvents(char * eventFile) {
 				case LS_RIDE:
 					switch (rp) {
 					case RP_NUM:
-						rides[++rideIdx] = malloc(sizeof(ride_t));
-						if (NULL == rides[rideIdx]) {
+						rt = malloc(sizeof(ride_t));
+						if (NULL == rt) {
 							perror("Error in malloc");
 							exit(EXIT_FAILURE);
 						}
-						rides[rideIdx]->number = atoi(toke);
+						rt->number = atoi(toke);
 						rp = RP_TIMEOUT;
 						break;
 					case RP_TIMEOUT:
-						rides[rideIdx]->timeout = atoi(toke);
+						rt->timeout = atoi(toke);
 						rp = RP_DURATION;
 						break;
 					case RP_DURATION:
-						rides[rideIdx]->duration = atoi(toke);
+						rt->duration = atoi(toke);
+						rides[rt->number] = rt;
+						rt = NULL;
 						rp = RP_NUM;
 						break;
 					}
@@ -95,41 +105,43 @@ void loadEvents(char * eventFile) {
 				case LS_ATTENDEE:
 					switch (ap) {
 					case AP_DELAY:
-						attendees[++attendeeIdx] = malloc(sizeof(attendee_t));
-						if (NULL == attendees[attendeeIdx]) {
+						at = malloc(sizeof(attendee_t));
+						if (NULL == at) {
 							perror("Error in malloc");
 							exit(EXIT_FAILURE);
 						}
 						startupDelay += atoi(toke);
-						attendees[attendeeIdx]->delay = startupDelay;
+						at->delay = startupDelay;
 						ap = AP_NAME;
 						break;
 					case AP_NAME:
-						attendees[attendeeIdx]->name = toke[0];
+						at->name = toke[0];
 						ap = AP_XPOS;
 						break;
 					case AP_XPOS:
-						attendees[attendeeIdx]->xpos = atoi(toke);
+						at->xpos = atoi(toke);
 						ap = AP_SPEED;
 						break;
 					case AP_SPEED:
-						attendees[attendeeIdx]->speed = atoi(toke);
+						at->speed = atoi(toke);
 						ap = AP_RIDES;
 						break;
 					case AP_RIDES:
-						attendees[attendeeIdx]->currRide = 0;
+						at->currRide = 0;
 						int numRides = strlen(toke);
 						if (toke[numRides-1] == '\n')
 							numRides--;
-						attendees[attendeeIdx]->numRides = numRides;
-						attendees[attendeeIdx]->rides = malloc(sizeof(int) * numRides);
-						if (NULL == attendees[attendeeIdx]->rides) {
+						at->numRides = numRides;
+						at->rides = malloc(sizeof(int) * numRides);
+						if (NULL == at->rides) {
 							perror("Error in malloc");
 							exit(EXIT_FAILURE);
 						}
 						for (int i = 0; i < numRides; i++) {
-							attendees[attendeeIdx]->rides[i] = toke[i] - '0';
+							at->rides[i] = toke[i] - '0';
 						}
+						attendees[attendeeNameToIdx(at->name)] = at;
+						at = NULL;
 						ap = AP_DELAY;
 						break;
 					}
@@ -145,7 +157,19 @@ void loadEvents(char * eventFile) {
 }
 
 void * keyboardInput(void * in) {
-
+	char ch;
+	while ((ch = getch()) != '`') {
+		int idx = attendeeNameToIdx(ch);
+		if (0 <= idx) {
+			if (NULL == attendees[idx]) {
+				// make a new attendee and start its thread
+			} else {
+				// make attendee[idx] want to leave
+			}
+		} else if ('0' <= ch && '9' >= ch) {
+			// start the ride if it's stopped, stop the ride if it's started
+		}
+	}
 	pthread_exit(NULL);
 }
 
@@ -189,6 +213,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
+	pthread_join(kbThread, NULL);
 
 
 
@@ -209,8 +234,8 @@ int main(int argc, char *argv[]) {
 		do {
 			letters[i].col = random() % SCREEN_WIDTH;
 			letters[i].row = 0;
-		} while (SPACE != safe_get_screen_char(letters[i].col, letters[i].row));
-		safe_set_screen_char(letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
+		} while (SPACE != safe_get_screen_char(TRUE, letters[i].col, letters[i].row));
+		safe_set_screen_char(TRUE, letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
 	}
 	safe_update_screen();
 
@@ -224,9 +249,9 @@ int main(int argc, char *argv[]) {
 				char target = '0' + ch % MAX_RIDES;
 				new_col = current->col;
 				new_row = current->row;
-				safe_find_target(target, &new_col, &new_row);
-				if (safe_move_to_target(current->col, current->row, &new_col, &new_row)) {
-					safe_set_screen_char(current->col, current->row, ' ');
+				safe_find_target(TRUE, target, &new_col, &new_row);
+				if (safe_move_to_target(TRUE, current->col, current->row, &new_col, &new_row)) {
+					safe_set_screen_char(FALSE, current->col, current->row, ' ');
 					current->col = -1;
 					current->row = -1;
 					int oldlen = strlen(targets);
@@ -234,8 +259,8 @@ int main(int argc, char *argv[]) {
 					targets[oldlen+1] = target;
 					targets[oldlen+2] = '\0';
 				} else {
-					safe_set_screen_char(current->col, current->row, ' ');
-					safe_set_screen_char(new_col, new_row, ch);
+					safe_set_screen_char(FALSE, current->col, current->row, ' ');
+					safe_set_screen_char(FALSE, new_col, new_row, ch);
 					current->col = new_col;
 					current->row = new_row;
 				}
