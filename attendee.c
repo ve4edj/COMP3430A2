@@ -59,11 +59,11 @@ void * attendeeThread(void * in) {
 		case AS_WAITFORRIDE:
 			// wait until there is room on the ride
 			self->state = AS_ONRIDE;
-			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
-			writeToLog(buff);
 			break;
 		case AS_ONRIDE:
 			// wait until the ride is over
+			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
+			writeToLog(buff);
 			self->state = AS_RIDEFINISHED;
 			break;
 		case AS_RIDEFINISHED:

@@ -1,4 +1,5 @@
 #include "log.h"
+#include <sys/time.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
@@ -17,6 +18,7 @@ static int in;
 static int out;
 static int count;
 static int stop;
+static struct timeval logStart;
 
 void * logOutput(void * filename) {
 	stop = 0;
@@ -25,6 +27,7 @@ void * logOutput(void * filename) {
 	char ch;
 	FILE * f = fopen((char *)filename, "a");
 	if (NULL != f) {
+		gettimeofday(&logStart, NULL);
 		fprintf(f, "---------------- Log Opened ----------------\n");
 		while (!stop) {
 			pthread_mutex_lock(&logFileMutex);
@@ -50,16 +53,12 @@ void * logOutput(void * filename) {
 	pthread_exit(NULL);
 }
 
-void writeToLog(char * str) {
-	pthread_mutex_lock(&logInUse);
-	for (int i = 0; i <= strlen(str); i++) {
+void writeToBufferUnsafe(char * str) {
+	for (int i = 0; i < strlen(str); i++) {
 		pthread_mutex_lock(&logFileMutex);
 		while (bufferIsFull)
 			pthread_cond_wait(&fullCond, &logFileMutex);
-		if (strlen(str) == i)
-			buffer[in++] = '\n';
-		else
-			buffer[in++] = str[i];
+		buffer[in++] = str[i];
 		in %= LOG_BUFFER_SIZE;
 		if (++count == (LOG_BUFFER_SIZE - 1))
 			bufferIsFull = 1;
@@ -68,6 +67,17 @@ void writeToLog(char * str) {
 		pthread_cond_signal(&emptyCond);
 		pthread_mutex_unlock(&logFileMutex);
 	}
+}
+
+void writeToLog(char * str) {
+	pthread_mutex_lock(&logInUse);
+	struct timeval now;
+	gettimeofday(&now, NULL);
+	char timeBuffer[32];
+	snprintf(timeBuffer, 32, "Time %-10lu - ", ((now.tv_sec - logStart.tv_sec) * 1000) + ((now.tv_usec - logStart.tv_usec) / 1000));
+	writeToBufferUnsafe(timeBuffer);
+	writeToBufferUnsafe(str);
+	writeToBufferUnsafe("\n");
 	pthread_mutex_unlock(&logInUse);
 }
 
