@@ -4,22 +4,24 @@
 #include <unistd.h>
 #include <pthread.h>
 
-#define BUFFER_SIZE 128
+#define BUFFER_SIZE 256
 
 static pthread_mutex_t logFileMutex = PTHREAD_MUTEX_INITIALIZER;
 static pthread_mutex_t logInUse = PTHREAD_MUTEX_INITIALIZER;
 static pthread_cond_t emptyCond = PTHREAD_COND_INITIALIZER;
 static pthread_cond_t fullCond = PTHREAD_COND_INITIALIZER;
-static int bufferIsEmpty = 1;
-static int bufferIsFull = 0;
+static int bufferIsEmpty;
+static int bufferIsFull;
 static char buffer[BUFFER_SIZE];
 static int in;
 static int out;
 static int count;
-
-static int stop = 0;
+static int stop;
 
 void * logOutput(void * in) {
+	stop = 0;
+	bufferIsEmpty = 1;
+	bufferIsFull = 0;
 	char ch;
 	FILE * f = fopen((char *)in, "a");
 	if (NULL != f) {
@@ -60,7 +62,7 @@ void writeToLog(char * str) {
 		if (++count == (BUFFER_SIZE - 1))
 			bufferIsFull = 1;
 		bufferIsEmpty = 0;
-		usleep(1000);
+		usleep(10);
 		pthread_cond_signal(&emptyCond);
 		pthread_mutex_unlock(&logFileMutex);
 	}
@@ -68,7 +70,6 @@ void writeToLog(char * str) {
 }
 
 void stopLog() {
-	pthread_mutex_lock(&logInUse);
+	writeToLog("\n");
 	stop = 1;
-	pthread_mutex_unlock(&logInUse);
 }

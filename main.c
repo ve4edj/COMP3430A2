@@ -214,14 +214,14 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
-	pthread_join(kbThread, NULL);
+	// pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
+	// pthread_join(kbThread, NULL);
+	// writeToLog("Back in main()");
+	// stopLog();
+	// pthread_join(logThread, NULL);
+	// finish_screen();
 
-	stopLog();
-	pthread_join(logThread, NULL);
-	finish_screen();
-
-	return EXIT_SUCCESS;
+	// return EXIT_SUCCESS;
 
 
 
@@ -242,8 +242,8 @@ int main(int argc, char *argv[]) {
 		do {
 			letters[i].col = random() % SCREEN_WIDTH;
 			letters[i].row = 0;
-		} while (SPACE != safe_get_screen_char(TRUE, letters[i].col, letters[i].row));
-		safe_set_screen_char(TRUE, letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
+		} while (SPACE != safe_get_screen_char(FALSE, letters[i].col, letters[i].row));
+		safe_set_screen_char(FALSE, letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
 	}
 	safe_update_screen();
 
@@ -257,8 +257,8 @@ int main(int argc, char *argv[]) {
 				char target = '0' + ch % MAX_RIDES;
 				new_col = current->col;
 				new_row = current->row;
-				safe_find_target(TRUE, target, &new_col, &new_row);
-				if (safe_move_to_target(TRUE, current->col, current->row, &new_col, &new_row)) {
+				safe_find_target(FALSE, target, &new_col, &new_row);
+				if (safe_move_to_target(FALSE, current->col, current->row, &new_col, &new_row)) {
 					safe_set_screen_char(FALSE, current->col, current->row, ' ');
 					current->col = -1;
 					current->row = -1;
