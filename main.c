@@ -11,6 +11,7 @@
 #include "screen.h"
 #include "attendee.h"
 #include "ride.h"
+#include "log.h"
 
 #define MAX_RIDES 10
 #define MAX_ATTENDEES 52
@@ -170,11 +171,6 @@ void * keyboardInput(void * in) {
 			// start the ride if it's stopped, stop the ride if it's started
 		}
 	}
-	pthread_exit(NULL);
-}
-
-void * logOutput(void * in) {
-
 	pthread_exit(NULL);
 }
 
