@@ -214,14 +214,8 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
-	// pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
-	// pthread_join(kbThread, NULL);
-	// writeToLog("Back in main()");
-	// stopLog();
-	// pthread_join(logThread, NULL);
-	// finish_screen();
-
-	// return EXIT_SUCCESS;
+	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
+	pthread_join(kbThread, NULL);
 
 
 
