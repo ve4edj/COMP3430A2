@@ -91,7 +91,7 @@ void * attendeeThread(void * in) {
 			unlockScreen();
 			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c left ride %d", self->name, self->rides[self->currRide]);
 			writeToLog(buff);
-			if (self->currRide++ < self->numRides)
+			if (++(self->currRide) < self->numRides)
 				self->state = AS_FINDRIDE;
 			else
 				self->state = AS_FINDEXIT;
@@ -99,13 +99,14 @@ void * attendeeThread(void * in) {
 		case AS_FINDEXIT:
 			if (moveTowardsTarget(self, '~'))
 				self->state = AS_EXIT;
+			usleep(self->speed * 1000);
 			break;
 		case AS_EXIT:
 		default:
 			break;
 		}
 	}
-	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c left the park", self->name, self->rides[self->currRide]);
+	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c left the park", self->name);
 	writeToLog(buff);
 	pthread_exit(NULL);
 }

@@ -75,421 +75,11 @@ Attendee r entered the park
 Attendee t entered the park
 Attendee l entered the park
 Attendee v entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee x entered the park
-Attendee z entered the park
-Attendee n entered the park
-Attendee h entered the park
-Attendee j entered the park
-Attendee q entered the park
-Attendee a entered ride 1
-Attendee s entered the park
-Attendee F entered the park
-Attendee H entered the park
-Attendee I entered the park
-Attendee J entered the park
-Attendee K entered the park
-Attendee G entered the park
-Attendee L entered the park
-Attendee z entered ride 5
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee R entered the park
-Attendee w entered ride 5
-Attendee T entered the park
-Attendee V entered the park
-Attendee W entered the park
-Attendee Y entered the park
-Attendee O entered the park
-Attendee x entered ride 5
-Attendee Q entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee S entered the park
-Attendee U entered the park
-Attendee y entered ride 2
-Attendee j entered ride 1
-Attendee c entered ride 1
-Attendee a entered ride 2
-Attendee q entered ride 0
-Attendee z entered ride 6
-Attendee w entered ride 6
-Attendee x entered ride 6
-Attendee U entered ride 9
-Attendee L entered ride 0
-Attendee v entered ride 0
-Attendee j entered ride 2
-Attendee u entered ride 0
-Attendee t entered ride 0
-Attendee w entered ride 7
-Attendee x entered ride 7
-Attendee a entered ride 3
-Attendee e entered ride 1
-Attendee z entered ride 4
-Attendee y entered ride 6
-Attendee F entered ride 6
-Attendee j entered ride 3
-Attendee k entered ride 5
-Attendee H entered ride 5
-Attendee f entered ride 1
-Attendee l entered ride 1
-Attendee a entered ride 4
-Attendee M entered ride 0
-Attendee j entered ride 4
-Attendee y entered ride 4
-Attendee z entered ride 7
-Attendee W entered ride 0
-Attendee N entered ride 9
-Attendee J entered ride 5
-Attendee V entered ride 2
-Attendee w entered ride 2
-Attendee c entered ride 3
-Attendee a entered ride 5
-Attendee q entered ride 1
-Attendee k entered ride 6
-Attendee U entered ride 1
-Attendee v entered ride 1
-Attendee K entered ride 5
-Attendee h entered ride 1
-Attendee t entered ride 1
-Attendee L entered ride 1
-Attendee y entered ride 7
-Attendee Y entered ride 0
-Attendee a entered ride 6
-Attendee V entered ride 1
-Attendee w entered ride 8
-Attendee a entered ride 7
-Attendee b entered ride 0
-Attendee Z entered ride 0
-Attendee x entered ride 2
-Attendee u entered ride 2
-Attendee q entered ride 2
-Attendee j entered ride 0
-Attendee y entered ride 3
-Attendee O entered ride 0
-Attendee s entered ride 2
-Attendee w entered ride 9
-Attendee a entered ride 8
-Attendee R entered ride 9
-Attendee F entered ride 4
-Attendee k entered ride 4
-Attendee z entered ride 2
-Attendee U entered ride 2
-Attendee j entered ride 9
-Attendee G entered ride 2
-Attendee t entered ride 2
-Attendee P entered ride 0
-Attendee v entered ride 2
-Attendee c entered ride 4
-Attendee q entered ride 9
-Attendee g entered ride 5
-Attendee w entered ride 0
-Attendee Q entered ride 0
-Attendee q entered ride 8
-Attendee A starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee A entered the park
-Attendee H entered ride 6
-Attendee L entered ride 2
-Attendee e entered ride 2
-Attendee x entered ride 8
-Attendee y entered ride 9
-Attendee X entered ride 2
-Attendee u entered ride 9
-Attendee q entered ride 3
-Attendee j entered ride 5
-Attendee M entered ride 1
-Attendee q entered ride 5
-Attendee---------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 0: timeout 7000, duration 3000, 9 riders
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Started keyboard event thread
-Attendee a entered the park
-Attendee b entered the park
-Attendee c entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee o entered the park
-Attendee p entered the park
-Attendee r entered the park
-Attendee l entered the park
-Attendee t entered the park
-Attendee v entered the park
 Attendee u entered the park
 Attendee x entered the park
 Attendee w entered the park
 Attendee z entered the park
 Attendee y entered the park
-Attendee n entered the park
-Attendee h entered the park
-Attendee j entered the park
-Attendee q entered the park
-Attendee a entered ride 1
-Attendee s entered the park
-Attendee F entered the park
-Attendee H entered the park
-Attendee G entered the park
-Attendee J entered the park
-Attendee I entered the park
-Attendee K entered the park
-Attendee L entered the park
-Attendee z entered ride 5
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee x entered ride 5
-Attendee R entered the park
-Attendee T entered the park
-Attendee V entered the park
-Attendee w entered ride 5
-Attendee W entered the park
-Attendee Y entered the park
-Attendee O entered the park
-Attendee Q entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee S entered the park
-Attendee U entered the park
-Attendee y entered ride 2
-Attendee j entered ride 1
-Attendee c entered ride 1
-Attendee a entered ride 2
-Attendee q entered ride 0
-Attendee z entered ride 6
-Attendee x entered ride 6
-Attendee w entered ride 6
-Attendee U entered ride 9
-Attendee L entered ride 0
-Attendee j entered ride 2
-Attendee v entered ride 0
-Attendee a entered ride 3
-Attendee u entered ride 0
-Attendee x entered ride 7
-Attendee w entered ride 7
-Attendee t entered ride 0
-Attendee z entered ride 4
-Attendee e entered ride 1
-Attendee y entered ride 6
-Attendee F entered ride 6
-Attendee j entered ride 3
-Attendee k entered ride 5
-Attendee a entered ride 4
-Attendee H entered ride 5
-Attendee f entered ride 1
-Attendee l entered ride 1
-Attendee M entered ride 0
-Attendee z entered ride 7
-Attendee y entered ride 4
-Attendee W entered ride 0
-Attendee J entered ride 5
-Attendee V entered ride 2
-Attendee x entered ride 2
-Attendee w entered ride 2
-Attendee j entered ride 4
-Attendee N entered ride 9
-Attendee c entered ride 3
-Attendee a entered ride 5
-Attendee q entered ride 1
-Attendee k entered ride 6
-Attendee U entered ride 1
-Attendee v entered ride 1
-Attendee K entered ride 5
-Attendee h entered ride 1
-Attendee y entered ride 7
-Attendee L entered ride 1
-Attendee t entered ride 1
-Attendee Y entered ride 0
-Attendee a entered ride 6
-Attendee V entered ride 1
-Attendee x entered ride 8
-Attendee w entered ride 8
-Attendee b entered ride 0
-Attendee Z entered ride 0
-Attendee a entered ride 7
-Attendee u entered ride 2
-Attendee y entered ride 3
-Attendee O entered ride 0
-Attendee s entered ride 2
-Attendee q entered ride 2
-Attendee l entered ride 2
-Attendee z entered ride 2
-Attendee U entered ride 2
-Attendee v entered ride 2
-Attendee t entered ride 2
-Attendee L entered ride 2
-Attendee w entered ride 9
-Attendee R entered ride 9
-Attendee F entered ride 4
-Attendee k entered ride 4
-Attendee a entered ride 8
-Attendee j entered ride 0
-Attendee c entered ride 4
-Attendee P entered ride 0
-Attendee g entered ride 5
-Attendee x entered ride 3
-Attendee q entered ride 9
-Attendee H entered ride 6
-Attendee w entered ride 0
-Attendee a entered ride 9
-Attendee e entered ride 2
-Attendee Q entered ride 0
-Attendee j entered ride 9
-Attendee q entered ride 8
-Attendee G entered ride 2
-Attendee X entered ride 2
-Attendee y entered ride 9
-Attendee u entered ride 9
-Attendee z entered ride 8
-Attendee U entered ride 8
-Attendee q entered ride 3
-Attendee M entered ride 1
-Attendee t entered ride 9
-Attendee ---------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 0: timeout 7000, duration 3000, 9 riders
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Started keyboard event thread
-Attendee a entered the park
-Attendee b entered the park
-Attendee c entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee o entered the park
-Attendee p entered the park
-Attendee r entered the park
-Attendee l entered the park
-Attendee t entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee x entered the park
-Attendee z entered the park
 Attendee n entered the park
 Attendee h entered the park
 Attendee j entered the park
@@ -499,26 +89,26 @@ Attendee a left ride 1
 Attendee s entered the park
 Attendee F entered the park
 Attendee H entered the park
-Attendee I entered the park
-Attendee J entered the park
-Attendee K entered the park
 Attendee G entered the park
+Attendee J entered the park
+Attendee I entered the park
+Attendee K entered the park
 Attendee L entered the park
 Attendee z entered ride 5
 Attendee z left ride 5
 Attendee N entered the park
 Attendee M entered the park
 Attendee P entered the park
+Attendee x entered ride 5
+Attendee x left ride 5
 Attendee R entered the park
-Attendee w entered ride 5
-Attendee w left ride 5
 Attendee T entered the park
 Attendee V entered the park
+Attendee w entered ride 5
+Attendee w left ride 5
 Attendee W entered the park
 Attendee Y entered the park
 Attendee O entered the park
-Attendee x entered ride 5
-Attendee x left ride 5
 Attendee Q entered the park
 Attendee X entered the park
 Attendee Z entered the park
@@ -532,14 +122,14 @@ Attendee c entered ride 1
 Attendee c left ride 1
 Attendee a entered ride 2
 Attendee a left ride 2
-Attendee z entered ride 6
-Attendee z left ride 6
 Attendee q entered ride 0
 Attendee q left ride 0
-Attendee w entered ride 6
-Attendee w left ride 6
+Attendee z entered ride 6
+Attendee z left ride 6
 Attendee x entered ride 6
 Attendee x left ride 6
+Attendee w entered ride 6
+Attendee w left ride 6
 Attendee U entered ride 9
 Attendee U left ride 9
 Attendee L entered ride 0
@@ -550,18 +140,18 @@ Attendee j entered ride 2
 Attendee j left ride 2
 Attendee u entered ride 0
 Attendee u left ride 0
-Attendee t entered ride 0
-Attendee t left ride 0
-Attendee w entered ride 7
-Attendee w left ride 7
 Attendee a entered ride 3
 Attendee a left ride 3
 Attendee x entered ride 7
 Attendee x left ride 7
-Attendee e entered ride 1
-Attendee e left ride 1
+Attendee w entered ride 7
+Attendee w left ride 7
+Attendee t entered ride 0
+Attendee t left ride 0
 Attendee z entered ride 4
 Attendee z left ride 4
+Attendee e entered ride 1
+Attendee e left ride 1
 Attendee y entered ride 6
 Attendee y left ride 6
 Attendee F entered ride 6
@@ -570,266 +160,54 @@ Attendee j entered ride 3
 Attendee j left ride 3
 Attendee k entered ride 5
 Attendee k left ride 5
+Attendee a entered ride 4
+Attendee a left ride 4
 Attendee H entered ride 5
 Attendee H left ride 5
 Attendee f entered ride 1
 Attendee f left ride 1
 Attendee l entered ride 1
 Attendee l left ride 1
-Attendee a entered ride 4
-Attendee a left ride 4
 Attendee M entered ride 0
 Attendee M left ride 0
 Attendee j entered ride 4
 Attendee j left ride 4
-Attendee y entered ride 4
-Attendee y left ride 4
 Attendee z entered ride 7
 Attendee z left ride 7
-Attendee W entered ride 0
-Attendee W left ride 0
-Attendee J entered ride 5
-Attendee J left ride 5
+Attendee y entered ride 4
+Attendee y left ride 4
 Attendee V entered ride 2
 Attendee V left ride 2
-Attendee w entered ride 2
-Attendee w left ride 2
-Attendee N entered ride 9
-Attendee N left ride 9
-Attendee c entered ride 3
-Attendee c left ride 3
-Attendee a entered ride 5
-Attendee a left ride 5
-Attendee q entered ride 1
-Attendee q left ride 1
-Attendee k entered ride 6
-Attendee k left ride 6
-Attendee U entered ride 1
-Attendee U left ride 1
-Attendee v entered ride 1
-Attendee v left ride 1
-Attendee K entered ride 5
-Attendee K left ride 5
-Attendee h entered ride 1
-Attendee h left ride 1
-Attendee L entered ride 1
-Attendee L left ride 1
-Attendee y entered ride 7
-Attendee y left ride 7
-Attendee t entered ride 1
-Attendee t left ride 1
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee ---------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 0: timeout 7000, duration 3000, 9 riders
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Started keyboard event thread
-Attendee a entered the park
-Attendee b entered the park
-Attendee c entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee o entered the park
-Attendee p entered the park
-Attendee r entered the park
-Attendee t entered the park
-Attendee l entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee x entered the park
-Attendee z entered the park
-Attendee n entered the park
-Attendee h entered the park
-Attendee j entered the park
-Attendee q entered the park
-Attendee a entered ride 1
-Attendee a left ride 1
-Attendee s entered the park
-Attendee F entered the park
-Attendee H entered the park
-Attendee I entered the park
-Attendee J entered the park
-Attendee K entered the park
-Attendee G entered the park
-Attendee L entered the park
-Attendee z entered ride 5
-Attendee z left ride 5
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee R entered the park
-Attendee x entered ride 5
-Attendee x left ride 5
-Attendee T entered the park
-Attendee V entered the park
-Attendee W entered the park
-Attendee Y entered the park
-Attendee O entered the park
-Attendee w entered ride 5
-Attendee w left ride 5
-Attendee Q entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee S entered the park
-Attendee U entered the park
-Attendee y entered ride 2
-Attendee y left ride 2
-Attendee j entered ride 1
-Attendee j left ride 1
-Attendee c entered ride 1
-Attendee c left ride 1
-Attendee a entered ride 2
-Attendee a left ride 2
-Attendee z entered ride 6
-Attendee z left ride 6
-Attendee q entered ride 0
-Attendee q left ride 0
-Attendee x entered ride 6
-Attendee x left ride 6
-Attendee w entered ride 6
-Attendee w left ride 6
-Attendee U entered ride 9
-Attendee U left ride 9
-Attendee k entered ride 5
-Attendee k left ride 5
-Attendee L entered ride 0
-Attendee L left ride 0
-Attendee v entered ride 0
-Attendee v left ride 0
-Attendee j entered ride 2
-Attendee j left ride 2
-Attendee u entered ride 0
-Attendee u left ride 0
-Attendee t entered ride 0
-Attendee t left ride 0
-Attendee x entered ride 7
-Attendee x left ride 7
-Attendee w entered ride 7
-Attendee w left ride 7
-Attendee a entered ride 3
-Attendee a left ride 3
-Attendee e entered ride 1
-Attendee e left ride 1
-Attendee z entered ride 4
-Attendee z left ride 4
-Attendee y entered ride 6
-Attendee y left ride 6
-Attendee F entered ride 6
-Attendee F left ride 6
-Attendee j entered ride 3
-Attendee j left ride 3
-Attendee f entered ride 1
-Attendee f left ride 1
-Attendee l entered ride 1
-Attendee l left ride 1
-Attendee a entered ride 4
-Attendee a left ride 4
-Attendee H entered ride 5
-Attendee H left ride 5
-Attendee M entered ride 0
-Attendee M left ride 0
-Attendee k entered ride 6
-Attendee k left ride 6
-Attendee y entered ride 4
-Attendee y left ride 4
-Attendee z entered ride 7
-Attendee z left ride 7
 Attendee W entered ride 0
 Attendee W left ride 0
-Attendee j entered ride 4
-Attendee j left ride 4
-Attendee N entered ride 9
-Attendee N left ride 9
 Attendee J entered ride 5
 Attendee J left ride 5
+Attendee N entered ride 9
+Attendee N left ride 9
 Attendee c entered ride 3
 Attendee c left ride 3
+Attendee a entered ride 5
+Attendee a left ride 5
 Attendee q entered ride 1
 Attendee q left ride 1
+Attendee k entered ride 6
+Attendee k left ride 6
 Attendee U entered ride 1
 Attendee U left ride 1
 Attendee v entered ride 1
 Attendee v left ride 1
-Attendee h entered ride 1
-Attendee h left ride 1
-Attendee t entered ride 1
-Attendee t left ride 1
-Attendee a entered ride 5
-Attendee a left ride 5
-Attendee y entered ride 7
-Attendee y left ride 7
-Attendee L entered ride 1
-Attendee L left ride 1
 Attendee K entered ride 5
 Attendee K left ride 5
+Attendee h entered ride 1
+Attendee h left ride 1
+Attendee L entered ride 1
+Attendee L left ride 1
+Attendee y entered ride 7
+Attendee t entered ride 1
+Attendee y left ride 7
+Attendee t left ride 1
 Attendee Y entered ride 0
 Attendee Y left ride 0
-Attendee k entered ride 4
-Attendee k left ride 4
 Attendee a entered ride 6
 Attendee a left ride 6
 Attendee ---------------- Log Opened ----------------
@@ -906,36 +284,40 @@ Attendee m entered the park
 Attendee o entered the park
 Attendee p entered the park
 Attendee r entered the park
-Attendee t entered the park
 Attendee l entered the park
+Attendee t entered the park
 Attendee v entered the park
-Attendee u entered the park
-Attendee x entered the park
 Attendee w entered the park
-Attendee z entered the park
+Attendee u entered the park
 Attendee y entered the park
+Attendee x entered the park
+Attendee z entered the park
 Attendee n entered the park
 Attendee h entered the park
 Attendee j entered the park
 Attendee q entered the park
 Attendee a entered ride 1
+Attendee a left ride 1
 Attendee s entered the park
 Attendee F entered the park
 Attendee H entered the park
+Attendee I entered the park
 Attendee G entered the park
 Attendee J entered the park
-Attendee I entered the park
 Attendee K entered the park
 Attendee L entered the park
 Attendee z entered ride 5
+Attendee z left ride 5
 Attendee N entered the park
 Attendee M entered the park
 Attendee P entered the park
-Attendee x entered ride 5
 Attendee R entered the park
+Attendee x entered ride 5
+Attendee x left ride 5
 Attendee T entered the park
 Attendee V entered the park
 Attendee w entered ride 5
+Attendee w left ride 5
 Attendee W entered the park
 Attendee Y entered the park
 Attendee O entered the park
@@ -945,32 +327,314 @@ Attendee Z entered the park
 Attendee S entered the park
 Attendee U entered the park
 Attendee y entered ride 2
+Attendee y left ride 2
+Attendee j entered ride 1
+Attendee j left ride 1
+Attendee c entered ride 1
+Attendee c left ride 1
+Attendee a entered ride 2
+Attendee a left ride 2
 Attendee z entered ride 6
-Attendee q entered ride 0
+Attendee z left ride 6
 Attendee x entered ride 6
+Attendee x left ride 6
 Attendee w entered ride 6
+Attendee w left ride 6
+Attendee q entered ride 0
+Attendee q left ride 0
 Attendee U entered ride 9
+Attendee U left ride 9
 Attendee L entered ride 0
-Attendee v entered ride 0
+Attendee L left ride 0
+Attendee u entered ride 0
+Attendee u left ride 0
+Attendee j entered ride 2
+Attendee j left ride 2
+Attendee t entered ride 0
+Attendee t left ride 0
 Attendee x entered ride 7
+Attendee x left ride 7
+Attendee v entered ride 0
 Attendee w entered ride 7
+Attendee v left ride 0
+Attendee w left ride 7
+Attendee a entered ride 3
+Attendee a left ride 3
 Attendee z entered ride 4
+Attendee z left ride 4
+Attendee e entered ride 1
+Attendee e left ride 1
 Attendee y entered ride 6
+Attendee y left ride 6
 Attendee F entered ride 6
+Attendee F left ride 6
+Attendee j entered ride 3
+Attendee j left ride 3
 Attendee k entered ride 5
+Attendee k left ride 5
 Attendee H entered ride 5
+Attendee H left ride 5
+Attendee f entered ride 1
+Attendee f left ride 1
+Attendee l entered ride 1
+Attendee l left ride 1
+Attendee a entered ride 4
+Attendee a left ride 4
+Attendee M entered ride 0
+Attendee M left ride 0
 Attendee z entered ride 7
+Attendee z left ride 7
+Attendee j entered ride 4
+Attendee j left ride 4
 Attendee y entered ride 4
+Attendee y left ride 4
+Attendee W entered ride 0
+Attendee W left ride 0
 Attendee V entered ride 2
-Attendee w entered ride 2
+Attendee V left ride 2
+Attendee J entered ride 5
+Attendee J left ride 5
 Attendee N entered ride 9
+Attendee N left ride 9
+Attendee c entered ride 3
+Attendee c left ride 3
+Attendee a entered ride 5
+Attendee a left ride 5
+Attendee q entered ride 1
+Attendee q left ride 1
+Attendee k entered ride 6
+Attendee k left ride 6
+Attendee U entered ride 1
+Attendee U left ride 1
+Attendee K entered ride 5
+Attendee K left ride 5
+Attendee h entered ride 1
+Attendee h left ride 1
+Attendee t entered ride 1
+Attendee t left ride 1
+Attendee L entered ride 1
+Attendee L left ride 1
+Attendee v entered ride 1
+Attendee v left ride 1
 Attendee y entered ride 7
-Attendee y entered ride 3
-Attendee F entered ride 4
-Attendee R entered ride 9
-Attendee F entered ride 7
-Attendee F entered ride 8
----------------- Log Opened ----------------
+Attendee y left ride 7
+Attendee Y entered ride 0
+Attendee Y left ride 0
+Attendee a entered ride 6
+Attendee a left ride 6
+Attendee ---------------- Log Opened ----------------
+Park file loaded
+Event file loaded
+Ride 0: timeout 7000, duration 3000, 9 riders
+Ride 1: timeout 5000, duration 2000, 9 riders
+Ride 2: timeout 4000, duration 20000, 9 riders
+Ride 3: timeout 3000, duration 12000, 9 riders
+Ride 4: timeout 2000, duration 99000, 9 riders
+Ride 5: timeout 1000, duration 16000, 9 riders
+Ride 6: timeout 1000, duration 5000, 9 riders
+Ride 7: timeout 1000, duration 9000, 9 riders
+Ride 8: timeout 1000, duration 18000, 9 riders
+Ride 9: timeout 1000, duration 21000, 9 riders
+Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
+Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
+Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
+Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
+Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
+Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
+Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
+Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
+Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
+Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
+Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
+Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
+Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
+Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
+Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
+Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
+Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
+Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
+Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
+Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
+Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
+Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
+Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
+Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
+Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
+Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
+Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
+Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
+Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
+Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
+Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
+Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
+Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
+Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
+Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
+Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
+Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
+Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
+Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
+Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
+Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
+Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
+Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
+Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
+Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
+Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
+Started keyboard event thread
+Attendee a entered the park
+Attendee b entered the park
+Attendee c entered the park
+Attendee d entered the park
+Attendee e entered the park
+Attendee f entered the park
+Attendee g entered the park
+Attendee i entered the park
+Attendee k entered the park
+Attendee m entered the park
+Attendee o entered the park
+Attendee q entered the park
+Attendee s entered the park
+Attendee t entered the park
+Attendee l entered the park
+Attendee r entered the park
+Attendee v entered the park
+Attendee u entered the park
+Attendee x entered the park
+Attendee w entered the park
+Attendee z entered the park
+Attendee y entered the park
+Attendee n entered the park
+Attendee h entered the park
+Attendee p entered the park
+Attendee j entered the park
+Attendee a entered ride 1
+Attendee a left ride 1
+Attendee F entered the park
+Attendee H entered the park
+Attendee G entered the park
+Attendee J entered the park
+Attendee I entered the park
+Attendee K entered the park
+Attendee L entered the park
+Attendee z entered ride 5
+Attendee z left ride 5
+Attendee N entered the park
+Attendee M entered the park
+Attendee P entered the park
+Attendee x entered ride 5
+Attendee x left ride 5
+Attendee R entered the park
+Attendee T entered the park
+Attendee V entered the park
+Attendee w entered ride 5
+Attendee w left ride 5
+Attendee W entered the park
+Attendee Y entered the park
+Attendee O entered the park
+Attendee Q entered the park
+Attendee X entered the park
+Attendee Z entered the park
+Attendee S entered the park
+Attendee U entered the park
+Attendee y entered ride 2
+Attendee y left ride 2
+Attendee q entered ride 0
+Attendee q left ride 0
+Attendee j entered ride 1
+Attendee j left ride 1
+Attendee c entered ride 1
+Attendee c left ride 1
+Attendee a entered ride 2
+Attendee a left ride 2
+Attendee z entered ride 6
+Attendee z left ride 6
+Attendee x entered ride 6
+Attendee x left ride 6
+Attendee w entered ride 6
+Attendee w left ride 6
+Attendee U entered ride 9
+Attendee U left ride 9
+Attendee L entered ride 0
+Attendee L left ride 0
+Attendee j entered ride 2
+Attendee j left ride 2
+Attendee v entered ride 0
+Attendee v left ride 0
+Attendee a entered ride 3
+Attendee a left ride 3
+Attendee u entered ride 0
+Attendee u left ride 0
+Attendee x entered ride 7
+Attendee x left ride 7
+Attendee w entered ride 7
+Attendee w left ride 7
+Attendee t entered ride 0
+Attendee t left ride 0
+Attendee e entered ride 1
+Attendee e left ride 1
+Attendee z entered ride 4
+Attendee z left ride 4
+Attendee y entered ride 6
+Attendee y left ride 6
+Attendee F entered ride 6
+Attendee F left ride 6
+Attendee j entered ride 3
+Attendee j left ride 3
+Attendee k entered ride 5
+Attendee k left ride 5
+Attendee a entered ride 4
+Attendee a left ride 4
+Attendee H entered ride 5
+Attendee H left ride 5
+Attendee f entered ride 1
+Attendee f left ride 1
+Attendee l entered ride 1
+Attendee l left ride 1
+Attendee M entered ride 0
+Attendee M left ride 0
+Attendee j entered ride 4
+Attendee j left ride 4
+Attendee y entered ride 4
+Attendee y left ride 4
+Attendee z entered ride 7
+Attendee z left ride 7
+Attendee W entered ride 0
+Attendee W left ride 0
+Attendee J entered ride 5
+Attendee J left ride 5
+Attendee V entered ride 2
+Attendee V left ride 2
+Attendee x entered ride 2
+Attendee x left ride 2
+Attendee w entered ride 2
+Attendee w left ride 2
+Attendee N entered ride 9
+Attendee N left ride 9
+Attendee c entered ride 3
+Attendee c left ride 3
+Attendee a entered ride 5
+Attendee a left ride 5
+Attendee q entered ride 1
+Attendee q left ride 1
+Attendee k entered ride 6
+Attendee k left ride 6
+Attendee U entered ride 1
+Attendee U left ride 1
+Attendee v entered ride 1
+Attendee v left ride 1
+Attendee K entered ride 5
+Attendee K left ride 5
+Attendee h entered ride 1
+Attendee h left ride 1
+Attendee y entered ride 7
+Attendee y left ride 7
+Attendee L entered ride 1
+Attendee L left ride 1
+Attendee t entered ride 1
+Attendee t left ride 1
+Attendee ---------------- Log Opened ----------------
 Park file loaded
 Event file loaded
 Ride 0: timeout 7000, duration 3000, 9 riders
@@ -1047,32 +711,37 @@ Attendee r entered the park
 Attendee l entered the park
 Attendee t entered the park
 Attendee v entered the park
-Attendee w entered the park
 Attendee u entered the park
-Attendee y entered the park
 Attendee x entered the park
+Attendee w entered the park
 Attendee z entered the park
+Attendee y entered the park
 Attendee n entered the park
 Attendee h entered the park
 Attendee p entered the park
 Attendee j entered the park
 Attendee a entered ride 1
+Attendee a left ride 1
 Attendee s entered the park
 Attendee F entered the park
 Attendee H entered the park
-Attendee I entered the park
+Attendee G entered the park
 Attendee J entered the park
+Attendee I entered the park
 Attendee K entered the park
 Attendee L entered the park
 Attendee z entered ride 5
+Attendee z left ride 5
 Attendee N entered the park
 Attendee M entered the park
 Attendee P entered the park
-Attendee G entered the park
+Attendee x entered ride 5
+Attendee x left ride 5
 Attendee R entered the park
-Attendee w entered ride 5
 Attendee T entered the park
 Attendee V entered the park
+Attendee w entered ride 5
+Attendee w left ride 5
 Attendee W entered the park
 Attendee Y entered the park
 Attendee O entered the park
@@ -1082,15 +751,23 @@ Attendee Z entered the park
 Attendee S entered the park
 Attendee U entered the park
 Attendee y entered ride 2
+Attendee y left ride 2
 Attendee q entered ride 0
+Attendee q left ride 0
+Attendee j entered ride 1
+Attendee j left ride 1
+Attendee c entered ride 1
+Attendee c left ride 1
+Attendee a entered ride 2
+Attendee a left ride 2
 Exiting keyboard event thread
 ---------------- Log Closed ----------------
 ---------------- Log Opened ----------------
 Park file loaded
 Event file loaded
-Ride 2: timeout 4000, duration 20000, 9 riders
 Ride 0: timeout 7000, duration 3000, 9 riders
 Ride 1: timeout 5000, duration 2000, 9 riders
+Ride 2: timeout 4000, duration 20000, 9 riders
 Ride 3: timeout 3000, duration 12000, 9 riders
 Ride 4: timeout 2000, duration 99000, 9 riders
 Ride 5: timeout 1000, duration 16000, 9 riders
@@ -1117,8 +794,8 @@ Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
 Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
 Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
 Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
 Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
 Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
 Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
 Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
@@ -1157,10 +834,10 @@ Attendee i entered the park
 Attendee k entered the park
 Attendee m entered the park
 Attendee o entered the park
-Attendee p entered the park
+Attendee q entered the park
 Attendee r entered the park
-Attendee l entered the park
 Attendee t entered the park
+Attendee l entered the park
 Attendee v entered the park
 Attendee u entered the park
 Attendee x entered the park
@@ -1169,8 +846,8 @@ Attendee z entered the park
 Attendee y entered the park
 Attendee n entered the park
 Attendee h entered the park
+Attendee p entered the park
 Attendee j entered the park
-Attendee q entered the park
 Attendee a entered ride 1
 Attendee a left ride 1
 Attendee s entered the park
@@ -1203,6 +880,8 @@ Attendee S entered the park
 Attendee U entered the park
 Attendee y entered ride 2
 Attendee y left ride 2
+Attendee q entered ride 0
+Attendee q left ride 0
 Attendee j entered ride 1
 Attendee j left ride 1
 Attendee c entered ride 1
@@ -1211,8 +890,6 @@ Attendee a entered ride 2
 Attendee a left ride 2
 Attendee z entered ride 6
 Attendee z left ride 6
-Attendee q entered ride 0
-Attendee q left ride 0
 Attendee x entered ride 6
 Attendee x left ride 6
 Attendee w entered ride 6
@@ -1225,29 +902,29 @@ Attendee v entered ride 0
 Attendee v left ride 0
 Attendee j entered ride 2
 Attendee j left ride 2
-Attendee a entered ride 3
-Attendee a left ride 3
 Attendee u entered ride 0
 Attendee u left ride 0
+Attendee a entered ride 3
+Attendee a left ride 3
 Attendee x entered ride 7
 Attendee x left ride 7
 Attendee w entered ride 7
 Attendee w left ride 7
 Attendee t entered ride 0
 Attendee t left ride 0
-Attendee z entered ride 4
-Attendee z left ride 4
 Attendee e entered ride 1
 Attendee e left ride 1
-Attendee y entered ride 6
-Attendee y left ride 6
+Attendee z entered ride 4
+Attendee z left ride 4
 Attendee F entered ride 6
 Attendee F left ride 6
+Attendee y entered ride 6
+Attendee y left ride 6
 Attendee j entered ride 3
 Attendee j left ride 3
 Attendee k entered ride 5
-Attendee k left ride 5
 Attendee a entered ride 4
+Attendee k left ride 5
 Attendee a left ride 4
 Attendee H entered ride 5
 Attendee H left ride 5
@@ -1257,3300 +934,825 @@ Attendee l entered ride 1
 Attendee l left ride 1
 Attendee M entered ride 0
 Attendee M left ride 0
+Attendee y entered ride 4
+Attendee y left ride 4
 Attendee j entered ride 4
 Attendee j left ride 4
 Attendee z entered ride 7
 Attendee z left ride 7
-Attendee y entered ride 4
-Attendee y left ride 4
+Attendee W entered ride 0
+Attendee W left ride 0
+Attendee J entered ride 5
+Attendee J left ride 5
 Attendee V entered ride 2
 Attendee V left ride 2
-Attendee W entered ride 0
-Attendee W left ride 0
-Attendee J entered ride 5
-Attendee J left ride 5
-Attendee N entered ride 9
-Attendee N left ride 9
-Attendee c entered ride 3
-Attendee c left ride 3
-Attendee a entered ride 5
-Attendee a left ride 5
-Attendee q entered ride 1
-Attendee q left ride 1
-Attendee k entered ride 6
-Attendee k left ride 6
-Attendee U entered ride 1
-Attendee U left ride 1
-Attendee v entered ride 1
-Attendee v left ride 1
-Attendee K entered ride 5
-Attendee K left ride 5
-Attendee h entered ride 1
-Attendee h left ride 1
-Attendee y entered ride 7
-Attendee y left ride 7
-Attendee L entered ride 1
-Attendee L left ride 1
-Attendee t entered ride 1
-Attendee t left ride 1
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee a entered ride 6
-Attendee a left ride 6
-Attendee ---------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 0: timeout 7000, duration 3000, 9 riders
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Started keyboard event thread
-Attendee a entered the park
-Attendee b entered the park
-Attendee c entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee o entered the park
-Attendee q entered the park
-Attendee s entered the park
-Attendee t entered the park
-Attendee l entered the park
-Attendee r entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee x entered the park
-Attendee z entered the park
-Attendee n entered the park
-Attendee h entered the park
-Attendee p entered the park
-Attendee j entered the park
-Attendee a entered ride 1
-Attendee a left ride 1
-Attendee F entered the park
-Attendee H entered the park
-Attendee I entered the park
-Attendee J entered the park
-Attendee K entered the park
-Attendee G entered the park
-Attendee L entered the park
-Attendee z entered ride 5
-Attendee z left ride 5
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee R entered the park
-Attendee T entered the park
-Attendee V entered the park
-Attendee W entered the park
-Attendee Y entered the park
-Attendee O entered the park
-Attendee x entered ride 5
-Attendee x left ride 5
-Attendee w entered ride 5
-Attendee w left ride 5
-Attendee Q entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee S entered the park
-Attendee U entered the park
-Attendee y entered ride 2
-Attendee y left ride 2
-Attendee q entered ride 0
-Attendee q left ride 0
-Attendee j entered ride 1
-Attendee j left ride 1
-Attendee c entered ride 1
-Attendee c left ride 1
-Attendee a entered ride 2
-Attendee a left ride 2
-Attendee z entered ride 6
-Attendee z left ride 6
-Attendee x entered ride 6
-Attendee x left ride 6
-Attendee w entered ride 6
-Attendee w left ride 6
-Attendee U entered ride 9
-Attendee U left ride 9
-Attendee L entered ride 0
-Attendee L left ride 0
-Attendee v entered ride 0
-Attendee v left ride 0
-Attendee j entered ride 2
-Attendee j left ride 2
-Attendee u entered ride 0
-Attendee u left ride 0
-Attendee a entered ride 3
-Attendee a left ride 3
-Attendee t entered ride 0
-Attendee t left ride 0
-Attendee x entered ride 7
-Attendee x left ride 7
-Attendee w entered ride 7
-Attendee w left ride 7
-Attendee e entered ride 1
-Attendee e left ride 1
-Attendee z entered ride 4
-Attendee z left ride 4
-Attendee y entered ride 6
-Attendee y left ride 6
-Attendee F entered ride 6
-Attendee F left ride 6
-Attendee j entered ride 3
-Attendee j left ride 3
-Attendee k entered ride 5
-Attendee k left ride 5
-Attendee a entered ride 4
-Attendee a left ride 4
-Attendee H entered ride 5
-Attendee H left ride 5
-Attendee f entered ride 1
-Attendee f left ride 1
-Attendee l entered ride 1
-Attendee l left ride 1
-Attendee M entered ride 0
-Attendee M left ride 0
-Attendee j entered ride 4
-Attendee j left ride 4
-Attendee y entered ride 4
-Attendee y left ride 4
-Attendee z entered ride 7
-Attendee z left ride 7
-Attendee W entered ride 0
-Attendee W left ride 0
-Attendee J entered ride 5
-Attendee J left ride 5
-Attendee N entered ride 9
-Attendee N left ride 9
-Attendee c entered ride 3
-Attendee c left ride 3
-Attendee a entered ride 5
-Attendee a left ride 5
-Attendee q entered ride 1
-Attendee q left ride 1
-Attendee k entered ride 6
-Attendee k left ride 6
-Attendee U entered ride 1
-Attendee U left ride 1
-Attendee v entered ride 1
-Attendee v left ride 1
-Attendee K entered ride 5
-Attendee K left ride 5
-Attendee h entered ride 1
-Attendee h left ride 1
-Attendee t entered ride 1
-Attendee t left ride 1
-Attendee L entered ride 1
-Attendee L left ride 1
-Attendee y entered ride 7
-Attendee y left ride 7
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee a entered ride 6
-Attendee a left ride 6
 Attendee x entered ride 2
 Attendee x left ride 2
-Attendee ---------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Started keyboard event thread
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Ride 6: timeout 1000, duration 5000, 9 riders
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Ride 2: timeout 4000, duration 20000, 9 riders
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Ride 5: timeout 1000, duration 16000, 9 riders
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee c entered the park
-Attendee i entered the park
-Attendee e entered the park
-Attendee h entered the park
-Attendee l entered the park
-Attendee v entered the park
-Attendee a entered the park
-Attendee b entered the park
-Attendee f entered the park
-Attendee j entered the park
-Attendee o entered the park
-Attendee q entered the park
-Attendee d entered the park
-Attendee r entered the park
-Attendee g entered the park
-Attendee t entered the park
-Attendee w entered the park
-Attendee y entered the park
-Attendee k entered the park
-Attendee n entered the park
-Attendee x entered the park
-Attendee m entered the park
-Attendee p entered the park
-Attendee s entered the park
-Attendee F entered the park
-Attendee u entered the park
-Attendee H entered the park
-Attendee z entered the park
-Attendee K entered the park
-Attendee L entered the park
-Attendee N entered the park
-Attendee O entered the park
-Attendee I entered the park
-Attendee G entered the park
-Attendee S entered the park
-Attendee M entered the park
-Attendee U entered the park
-Attendee W entered the park
-Attendee Z entered the park
-Attendee J entered the park
-Attendee R entered the park
-Attendee Q entered the park
-Attendee P entered the park
-Attendee T entered the park
-Attendee V entered the park
-Attendee X entered the park
-Attendee Y entered the park
-Attendee a entered ride 1
-Attendee c entered ride 1
-Attendee w entered ride 5
-Attendee x entered ride 5
-Attendee y entered ride 2
-Attendee j entered ride 1
-Attendee e entered ride 1
-Attendee z entered ride 5
-Attendee v entered ride 0
-Attendee q entered ride 0
-Attendee f entered ride 1
-Attendee l entered ride 1
-Attendee F entered ride 6
-Attendee t entered ride 0
-Attendee k entered ride 5
-Attendee H entered ride 5
-Attendee a left ride 1
-Attendee c left ride 1
-Attendee w left ride 5
-Attendee x left ride 5
-Attendee y left ride 2
-Attendee j left ride 1
-Attendee z left ride 5
-Attendee U entered ride 9
-Attendee L entered ride 0
-Attendee v left ride 0
-Attendee q left ride 0
-Attendee F left ride 6
-Attendee t left ride 0
-Attendee e left ride 1
-Attendee f left ride 1
-Attendee h entered ride 1
-Attendee k left ride 5
-Attendee H left ride 5
-Attendee l left ride 1
-Attendee u entered ride 0
-Attendee U left ride 9
-Attendee L left ride 0
-Attendee h left ride 1
-Attendee N entered ride 9
-Attendee u left ride 0
-Attendee K entered ride 5
-Attendee x entered ride 6
-Attendee N left ride 9
-Attendee w entered ride 6
-Attendee W entered ride 0
-Attendee K left ride 5
-Attendee M entered ride 0
-Attendee J entered ride 5
-Attendee z entered ride 6
-Attendee x left ride 6
-Attendee w left ride 6
-Attendee W left ride 0
-Attendee a entered ride 2
-Attendee s entered ride 2
-Attendee j entered ride 2
-Attendee M left ride 0
-Attendee b entered ride 0
-Attendee J left ride 5
-Attendee z left ride 6
-Attendee a left ride 2
-Attendee O entered ride 0
-Attendee s left ride 2
-Attendee j left ride 2
-Attendee g entered ride 5
-Attendee y entered ride 6
-Attendee c entered ride 3
-Attendee G entered ride 2
-Attendee b left ride 0
-Attendee V entered ride 2
-Attendee k entered ride 6
-Attendee O left ride 0
-Attendee Z entered ride 0
-Attendee Y entered ride 0
-Attendee g left ride 5
-Attendee y left ride 6
-Attendee l entered ride 2
-Attendee c left ride 3
-Attendee R entered ride 9
-Attendee G left ride 2
-Attendee w entered ride 7
-Attendee V left ride 2
-Attendee x entered ride 7
-Attendee k left ride 6
-Attendee P entered ride 0
-Attendee Z left ride 0
-Attendee Y left ride 0
-Attendee F entered ride 4
-Attendee l left ride 2
-Attendee a entered ride 3
-Attendee R left ride 9
-Attendee I entered ride 2
-Attendee H entered ride 6
-Attendee e entered ride 2
-Attendee w left ride 7
-Attendee z entered ride 4
-Attendee j entered ride 3
-Attendee q entered ride 1
-Attendee x left ride 7
-Attendee P left ride 0
-Attendee S entered ride 0
-Attendee X entered ride 2
-Attendee Q entered ride 0
-Attendee F left ride 4
-Attendee v entered ride 1
-Attendee m entered ride 0
-Attendee a left ride 3
-Attendee t entered ride 1
-Attendee I left ride 2
-Attendee H left ride 6
-Attendee U entered ride 1
-Attendee e left ride 2
-Attendee y entered ride 4
-Attendee z left ride 4
-Attendee q left ride 1
-Attendee j left ride 3
-Attendee L entered ride 1
-Attendee u entered ride 2
-Attendee T entered ride 0
-Attendee S left ride 0
-Attendee X left ride 2
-Attendee Q left ride 0
-Attendee h entered ride 2
-Attendee d entered ride 0
-Attendee v left ride 1
-Attendee m left ride 0
-Attendee t left ride 1
-Attendee V entered ride 1
-Attendee o entered ride 0
-Attendee c entered ride 4
-Attendee y left ride 4
-Attendee n entered ride 0
-Attendee U left ride 1
-Attendee u left ride 2
-Attendee T left ride 0
-Attendee K entered ride 6
-Attendee h left ride 2
-Attendee d left ride 0
-Attendee L left ride 1
-Attendee k entered ride 4
-Attendee V left ride 1
-Attendee J entered ride 4
-Attendee a entered ride 4
-Attendee o left ride 0
-Attendee q entered ride 2
-Attendee c left ride 4
-Attendee j entered ride 4
 Attendee w entered ride 2
-Attendee g entered ride 6
-Attendee n left ride 0
-Attendee K left ride 6
-Attendee r entered ride 0
-Attendee z entered ride 7
-Attendee v entered ride 2
-Attendee x entered ride 2
-Attendee p entered ride 0
-Attendee k left ride 4
-Attendee t entered ride 2
-Attendee J left ride 4
-Attendee N entered ride 1
-Attendee M entered ride 1
-Attendee q left ride 2
-Attendee a left ride 4
 Attendee w left ride 2
-Attendee U entered ride 2
-Attendee g left ride 6
-Attendee e entered ride 3
-Attendee L entered ride 2
-Attendee r left ride 0
-Attendee z left ride 7
-Attendee v left ride 2
-Attendee p left ride 0
+Attendee N entered ride 9
+Attendee N left ride 9
+Attendee a entered ride 5
+Attendee a left ride 5
+Attendee q entered ride 1
+Attendee q left ride 1
+Attendee k entered ride 6
+Attendee k left ride 6
+Attendee c entered ride 3
+Attendee c left ride 3
+Attendee U entered ride 1
+Attendee U left ride 1
+Attendee v entered ride 1
+Attendee v left ride 1
+Attendee K entered ride 5
+Attendee K left ride 5
+Attendee h entered ride 1
+Attendee h left ride 1
+Attendee y entered ride 7
+Attendee y left ride 7
+Attendee L entered ride 1
+Attendee L left ride 1
+Attendee t entered ride 1
+Attendee t left ride 1
+Attendee ---------------- Log Opened ----------------
+Park file loaded
+Event file loaded
+Ride 1: timeout 5000, duration 2000, 9 riders
+Ride 2: timeout 4000, duration 20000, 9 riders
+Ride 0: timeout 7000, duration 3000, 9 riders
+Ride 3: timeout 3000, duration 12000, 9 riders
+Ride 4: timeout 2000, duration 99000, 9 riders
+Ride 5: timeout 1000, duration 16000, 9 riders
+Ride 6: timeout 1000, duration 5000, 9 riders
+Ride 7: timeout 1000, duration 9000, 9 riders
+Ride 8: timeout 1000, duration 18000, 9 riders
+Ride 9: timeout 1000, duration 21000, 9 riders
+Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
+Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
+Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
+Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
+Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
+Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
+Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
+Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
+Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
+Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
+Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
+Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
+Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
+Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
+Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
+Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
+Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
+Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
+Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
+Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
+Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
+Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
+Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
+Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
+Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
+Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
+Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
+Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
+Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
+Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
+Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
+Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
+Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
+Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
+Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
+Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
+Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
+Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
+Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
+Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
+Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
+Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
+Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
+Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
+Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
+Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
+Started keyboard event thread
+Attendee a entered the park
+Attendee b entered the park
+Attendee c entered the park
+Attendee d entered the park
+Attendee e entered the park
+Attendee f entered the park
+Attendee g entered the park
+Attendee i entered the park
+Attendee k entered the park
+Attendee m entered the park
+Attendee o entered the park
+Attendee p entered the park
+Attendee r entered the park
+Attendee l entered the park
+Attendee t entered the park
+Attendee v entered the park
+Attendee u entered the park
+Attendee x entered the park
+Attendee w entered the park
+Attendee z entered the park
+Attendee y entered the park
+Attendee n entered the park
+Attendee h entered the park
+Attendee j entered the park
+Attendee q entered the park
+Attendee a entered ride 1
+Attendee a left ride 1
+Attendee s entered the park
+Attendee F entered the park
+Attendee H entered the park
+Attendee G entered the park
+Attendee J entered the park
+Attendee I entered the park
+Attendee K entered the park
+Attendee L entered the park
+Attendee z entered ride 5
+Attendee z left ride 5
+Attendee N entered the park
+Attendee M entered the park
+Attendee P entered the park
+Attendee x entered ride 5
+Attendee x left ride 5
+Attendee R entered the park
+Attendee T entered the park
+Attendee V entered the park
+Attendee w entered ride 5
+Attendee w left ride 5
+Attendee W entered the park
+Attendee Y entered the park
+Attendee O entered the park
+Attendee Q entered the park
+Attendee X entered the park
+Attendee Z entered the park
+Attendee S entered the park
+Attendee U entered the park
+Attendee y entered ride 2
+Attendee y left ride 2
+Attendee j entered ride 1
+Attendee j left ride 1
+Attendee c entered ride 1
+Attendee c left ride 1
+Attendee a entered ride 2
+Attendee a left ride 2
+Attendee q entered ride 0
+Attendee q left ride 0
+Attendee z entered ride 6
+Attendee z left ride 6
+Attendee x entered ride 6
+Attendee x left ride 6
+Attendee w entered ride 6
+Attendee w left ride 6
+Attendee U entered ride 9
+Attendee U left ride 9
+Attendee L entered ride 0
+Attendee L left ride 0
+Attendee v entered ride 0
+Attendee v left ride 0
+Attendee j entered ride 2
+Attendee j left ride 2
+Attendee a entered ride 3
+Attendee a left ride 3
+Attendee u entered ride 0
+Attendee u left ride 0
+Attendee x entered ride 7
+Attendee x left ride 7
+Attendee w entered ride 7
+Attendee w left ride 7
+Attendee t entered ride 0
+Attendee t left ride 0
+Attendee z entered ride 4
+Attendee z left ride 4
+Attendee e entered ride 1
+Attendee e left ride 1
+Attendee F entered ride 6
+Attendee F left ride 6
+Attendee y entered ride 6
+Attendee y left ride 6
+Attendee j entered ride 3
+Attendee j left ride 3
+Attendee k entered ride 5
+Attendee k left ride 5
+Attendee a entered ride 4
+Attendee a left ride 4
+Attendee H entered ride 5
+Attendee H left ride 5
+Attendee f entered ride 1
+Attendee f left ride 1
+Attendee l entered ride 1
+Attendee l left ride 1
+Attendee M entered ride 0
+Attendee M left ride 0
+Attendee y entered ride 4
+Attendee y left ride 4
+Attendee j entered ride 4
 Attendee j left ride 4
-Attendee N left ride 1
-Attendee M left ride 1
+Attendee z entered ride 7
+Attendee z left ride 7
+Attendee V entered ride 2
+Attendee V left ride 2
+Attendee x entered ride 2
 Attendee x left ride 2
-Attendee X entered ride 1
+Attendee W entered ride 0
+Attendee W left ride 0
+Attendee J entered ride 5
+Attendee J left ride 5
+Attendee w entered ride 2
+Attendee w left ride 2
+Attendee N entered ride 9
+Attendee N left ride 9
+Attendee c entered ride 3
+Attendee c left ride 3
+Attendee a entered ride 5
+Attendee a left ride 5
+Attendee q entered ride 1
+Attendee q left ride 1
+Attendee k entered ride 6
+Attendee k left ride 6
+Attendee U entered ride 1
+Attendee U left ride 1
+Attendee v entered ride 1
+Attendee v left ride 1
+Attendee K entered ride 5
+Attendee K left ride 5
+Attendee h entered ride 1
+Attendee h left ride 1
+Attendee y entered ride 7
+Attendee y left ride 7
+Attendee t entered ride 1
+Attendee t left ride 1
+Attendee L entered ride 1
+Attendee L left ride 1
+Attendee Y entered ride 0
+Attendee Y left ride 0
+Attendee a entered ride 6
+Attendee a left ride 6
+Attendee V entered ride 1
+Attendee V left ride 1
+Attendee x entered ride 8
+Attendee x left ride 8
+Attendee w entered ride 8
+Attendee w left ride 8
+Attendee b entered ride 0
+Attendee b left ride 0
+Attendee a entered ride 7
+Attendee a left ride 7
+Attendee Z entered ride 0
+Attendee Z left ride 0
+Attendee y entered ride 3
+Attendee y left ride 3
+Attendee u entered ride 2
+Attendee u left ride 2
+Attendee j entered ride 0
+Attendee j left ride 0
+Attendee O entered ride 0
+Attendee O left ride 0
+Attendee s entered ride 2
+Attendee s left ride 2
+Attendee q entered ride 2
+Attendee q left ride 2
+Attendee l entered ride 2
+Attendee l left ride 2
+Attendee z entered ride 2
+Attendee z left ride 2
+Attendee w entered ride 9
+Attendee w left ride 9
+Attendee U entered ride 2
+Attendee U left ride 2
+Attendee v entered ride 2
+Attendee v left ride 2
+Attendee F entered ride 4
+Attendee F left ride 4
+Attendee t entered ride 2
 Attendee t left ride 2
+Attendee R entered ride 9
+Attendee R left ride 9
+Attendee L entered ride 2
+Attendee L left ride 2
+Attendee c entered ride 4
+Attendee c left ride 4
+Attendee k entered ride 4
+Attendee k left ride 4
+Attendee a entered ride 8
+Attendee a left ride 8
+Attendee j entered ride 9
+Attendee j left ride 9
+Attendee x entered ride 3
+Attendee x left ride 3
+Attendee g entered ride 5
+Attendee g left ride 5
+Attendee q entered ride 9
+Attendee q left ride 9
+Attendee Q entered ride 0
+Attendee Q left ride 0
+Attendee w entered ride 0
+Attendee w left ride 0
+Attendee a entered ride 9
+Attendee a left ride 9
+Attendee P entered ride 0
+Attendee P left ride 0
+Attendee H entered ride 6
+Attendee H left ride 6
+Attendee e entered ride 2
+Attendee e left ride 2
+Attendee q entered ride 8
+Attendee q left ride 8
+Attendee G entered ride 2
+Attendee G left ride 2
+Attendee y entered ride 9
+Attendee y left ride 9
+Attendee X entered ride 2
+Attendee X left ride 2
+Attendee u entered ride 9
+Attendee u left ride 9
+Attendee z entered ride 8
+Attendee z left ride 8
+Attendee U entered ride 8
+Attendee U left ride 8
+Attendee j entered ride 5
+Attendee j left ride 5
+Attendee q entered ride 3
+Attendee q left ride 3
+Attendee v entered ride 9
+Attendee v left ride 9
+Attendee t entered ride 9
+Attendee t left ride 9
+Attendee M entered ride 1
+Attendee M left ride 1
+Attendee L entered ride 9
+Attendee L left ride 9
+Attendee u entered ride 8
+Attendee u left ride 8
+Attendee q entered ride 5
+Attendee q left ride 5
+Attendee I entered ride 2
+Attendee I left ride 2
+Attendee k entered ride 7
+Attendee k left ride 7
+Attendee S entered ride 0
+Attendee S left ride 0
+Attendee m entered ride 0
+Attendee m left ride 0
+Attendee L entered ride 8
+Attendee L left ride 8
+Attendee z entered ride 3
+Attendee z left ride 3
+Attendee J entered ride 4
+Attendee J left ride 4
+Attendee a entered ride 0
+Attendee a left ride 0
+Attendee a left the park
+Attendee y entered ride 0
+Attendee y left ride 0
+Attendee U entered ride 3
+Attendee U left ride 3
+Attendee v entered ride 3
+Attendee v left ride 3
+Attendee T entered ride 0
+Attendee T left ride 0
+Attendee V entered ride 9
+Attendee V left ride 9
+Attendee u entered ride 3
+Attendee u left ride 3
+Attendee d entered ride 0
+Attendee d left ride 0
+Attendee h entered ride 2
+Attendee h left ride 2
+Attendee c entered ride 2
+Attendee c left ride 2
+Attendee M entered ride 2
+Attendee M left ride 2
+Attendee w entered ride 1
+Attendee w left ride 1
+Attendee w left the park
+Attendee x entered ride 0
+Attendee x left ride 0
+Attendee X entered ride 1
+Attendee X left ride 1
+Attendee n entered ride 0
+Attendee n left ride 0
+Attendee j entered ride 6
+Attendee j left ride 6
+Attendee q entered ride 6
+Attendee q left ride 6
+Attendee q left the park
+Attendee K entered ride 6
+Attendee K left ride 6
+Attendee U entered ride 5
+Attendee U left ride 5
+Attendee v entered ride 5
+Attendee v left ride 5
+Attendee N entered ride 1
+Attendee N left ride 1
 Attendee b entered ride 1
-Attendee H entered ride 7
+Attendee b left ride 1
+Attendee t entered ride 3
+Attendee t left ride 3
+Attendee L entered ride 3
+Attendee L left ride 3
+Attendee e entered ride 3
 Attendee e left ride 3
 Attendee W entered ride 1
-Attendee L left ride 2
-Attendee y entered ride 7
-Attendee F entered ride 7
-Attendee U left ride 2
-Attendee X left ride 1
-Attendee G entered ride 6
-Attendee a entered ride 5
-Attendee b left ride 1
-Attendee H left ride 7
-Attendee i entered ride 0
 Attendee W left ride 1
-Attendee d entered ride 9
-Attendee u entered ride 9
-Attendee y left ride 7
-Attendee F left ride 7
-Attendee G left ride 6
-Attendee a left ride 5
-Attendee l entered ride 9
-Attendee i left ride 0
-Attendee d left ride 9
-Attendee u left ride 9
-Attendee c entered ride 2
-Attendee l left ride 9
-Attendee k entered ride 7
-Attendee M entered ride 2
-Attendee c left ride 2
-Attendee h entered ride 3
-Attendee k left ride 7
-Attendee N entered ride 2
-Attendee M left ride 2
-Attendee q entered ride 9
-Attendee h left ride 3
-Attendee N left ride 2
-Attendee q left ride 9
-Attendee w entered ride 8
-Attendee z entered ride 2
-Attendee w left ride 8
-Attendee O entered ride 1
-Attendee z left ride 2
-Attendee f entered ride 0
-Attendee O left ride 1
-Attendee f left ride 0
-Attendee a entered ride 6
-Attendee I entered ride 6
-Attendee W entered ride 2
-Attendee a left ride 6
-Attendee u entered ride 8
-Attendee I left ride 6
-Attendee j entered ride 0
-Attendee W left ride 2
-Attendee V entered ride 9
-Attendee u left ride 8
-Attendee j left ride 0
-Attendee V left ride 9
-Attendee F entered ride 8
-Attendee v entered ride 9
-Attendee x entered ride 8
-Attendee l entered ride 8
-Attendee F left ride 8
-Attendee q entered ride 8
-Attendee v left ride 9
-Attendee y entered ride 3
-Attendee x left ride 8
-Attendee t entered ride 9
-Attendee l left ride 8
-Attendee w entered ride 9
-Attendee q left ride 8
-Attendee g entered ride 4
-Attendee y left ride 3
-Attendee U entered ride 8
-Attendee t left ride 9
-Attendee w left ride 9
-Attendee L entered ride 9
-Attendee K entered ride 4
-Attendee g left ride 4
-Attendee d entered ride 7
-Attendee U left ride 8
-Attendee e entered ride 6
-Attendee Y entered ride 1
-Attendee L left ride 9
-Attendee G entered ride 4
-Attendee K left ride 4
-Attendee d left ride 7
-Attendee e left ride 6
-Attendee O entered ride 2
-Attendee Y left ride 1
-Attendee m entered ride 1
 Attendee V entered ride 8
-Attendee a entered ride 7
-Attendee G left ride 4
-Attendee J entered ride 7
-Attendee O left ride 2
-Attendee m left ride 1
-Attendee j entered ride 9
-Attendee i entered ride 9
+Attendee H entered ride 7
 Attendee V left ride 8
-Attendee a left ride 7
-Attendee h entered ride 4
-Attendee w entered ride 0
-Attendee J left ride 7
-Attendee z entered ride 8
-Attendee k entered ride 2
-Attendee j left ride 9
-Attendee Z entered ride 1
-Attendee i left ride 9
-Attendee s entered ride 9
-Attendee P entered ride 1
-Attendee b entered ride 9
-Attendee h left ride 4
-Attendee u entered ride 3
-Attendee L entered ride 8
-Attendee w left ride 0
-Attendee c entered ride 7
-Attendee z left ride 8
-Attendee k left ride 2
-Attendee R entered ride 1
-Attendee Z left ride 1
-Attendee M entered ride 9
-Attendee q entered ride 3
-Attendee x entered ride 3
-Attendee s left ride 9
-Attendee P left ride 1
-Attendee b left ride 9
-Attendee v entered ride 3
-Attendee u left ride 3
-Attendee L left ride 8
-Attendee c left ride 7
-Attendee y entered ride 9
-Attendee U entered ride 3
-Attendee d entered ride 8
-Attendee t entered ride 3
-Attendee R left ride 1
-Attendee I entered ride 4
-Attendee n entered ride 2
-Attendee N entered ride 8
-Attendee a entered ride 8
-Attendee M left ride 9
-Attendee q left ride 3
-Attendee x left ride 3
-Attendee Q entered ride 1
-Attendee v left ride 3
-Attendee H entered ride 2
-Attendee e entered ride 5
-Attendee y left ride 9
-Attendee Y entered ride 2
-Attendee A starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee d left ride 8
-Attendee m entered ride 2
-Attendee X entered ride 9
-Attendee j entered ride 5
-Attendee l entered ride 3
-Attendee I left ride 4
-Attendee n left ride 2
-Attendee N left ride 8
-Attendee t left ride 3
-Attendee a left ride 8
-Attendee U left ride 3
-Attendee Q left ride 1
-Attendee W entered ride 9
-Attendee H left ride 2
-Attendee e left ride 5
-Attendee Y left ride 2
-Attendee F entered ride 3
-Attendee B starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee A entered the park
-Attendee o entered ride 1
-Attendee V entered ride 3
-Attendee X left ride 9
-Attendee u entered ride 6
-Attendee j left ride 5
-Attendee l left ride 3
-Attendee m left ride 2
-Attendee z entered ride 3
-Attendee q entered ride 5
-Attendee W left ride 9
-Attendee y entered ride 0
-Attendee F left ride 3
-Attendee M entered ride 8
-Attendee J entered ride 8
-Attendee L entered ride 3
-Attendee P entered ride 2
-Attendee g entered ride 7
-Attendee B entered the park
-Attendee o left ride 1
-Attendee G entered ride 7
-Attendee V left ride 3
-Attendee u left ride 6
-Attendee w entered ride 1
-Attendee a entered ride 9
-Attendee S entered ride 1
-Attendee z left ride 3
-Attendee q left ride 5
-Attendee v entered ride 5
-Attendee k entered ride 8
-Attendee h entered ride 5
-Attendee y left ride 0
-Attendee K entered ride 2
-Attendee c entered ride 5
-Attendee t entered ride 5
-Attendee M left ride 8
-Attendee J left ride 8
-Attendee L left ride 3
-Attendee P left ride 2
-Attendee g left ride 7
-Attendee U entered ride 5
-Attendee x entered ride 0
-Attendee Z entered ride 2
-Attendee G left ride 7
-Attendee w left ride 1
-Attendee a left ride 9
-Attendee S left ride 1
-Attendee j entered ride 6
-Attendee v left ride 5
-Attendee k left ride 8
-Attendee h left ride 5
-Attendee K left ride 2
-Attendee c left ride 5
-Attendee p entered ride 1
-Attendee R entered ride 2
-Attendee b entered ride 2
-Attendee q entered ride 6
-Attendee d entered ride 6
-Attendee s entered ride 8
-Attendee O entered ride 9
-Attendee x left ride 0
-Attendee Z left ride 2
-Attendee e entered ride 4
-Attendee j left ride 6
-Attendee u entered ride 4
-Attendee t left ride 5
-Attendee X entered ride 8
-Attendee f entered ride 2
-Attendee U left ride 5
-Attendee W entered ride 8
-Attendee Q entered ride 2
-Attendee T entered ride 1
-Attendee l entered ride 5
-Attendee p left ride 1
-Attendee R left ride 2
-Attendee b left ride 2
-Attendee r entered ride 1
-Attendee q left ride 6
-Attendee d left ride 6
-Attendee V entered ride 5
-Attendee L entered ride 5
-Attendee s left ride 8
-Attendee a entered ride 0
-Attendee O left ride 9
-Attendee N entered ride 3
-Attendee v entered ride 6
-Attendee e left ride 4
-Attendee u left ride 4
-Attendee X left ride 8
+Attendee H left ride 7
 Attendee z entered ride 0
-Attendee f left ride 2
-Attendee W left ride 8
-Attendee T left ride 1
-Attendee l left ride 5
-Attendee Q left ride 2
-Attendee r left ride 1
-Attendee A entered ride 5
-Attendee c entered ride 6
-Attendee t entered ride 6
-Attendee y entered ride 1
-Attendee V left ride 5
-Attendee L left ride 5
+Attendee z left ride 0
+Attendee z left the park
+Attendee F entered ride 7
+Attendee F left ride 7
+Attendee o entered ride 0
+Attendee o left ride 0
 Attendee j entered ride 8
-Attendee M entered ride 3
-Attendee C starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee a left ride 0
-Attendee U entered ride 6
-Attendee N left ride 3
-Attendee v left ride 6
-Attendee z left ride 0
-Attendee I entered ride 7
-Attendee w entered ride 0
-Attendee k entered ride 3
-Attendee A left ride 5
-Attendee c left ride 6
-Attendee t left ride 6
-Attendee y left ride 1
-Attendee q entered ride 0
 Attendee j left ride 8
-Attendee M left ride 3
-Attendee C entered the park
-Attendee u entered ride 7
-Attendee S entered ride 2
+Attendee u entered ride 6
+Attendee u left ride 6
+Attendee t entered ride 5
+Attendee t left ride 5
+Attendee U entered ride 6
 Attendee U left ride 6
-Attendee x entered ride 1
-Attendee I left ride 7
-Attendee w left ride 0
-Attendee k left ride 3
-Attendee F entered ride 9
-Attendee d entered ride 5
-Attendee h entered ride 6
-Attendee q left ride 0
-Attendee O entered ride 8
-Attendee u left ride 7
-Attendee l entered ride 6
-Attendee n entered ride 9
-Attendee L entered ride 6
-Attendee S left ride 2
-Attendee a entered ride 0
-Attendee V entered ride 6
-Attendee x left ride 1
-Attendee m entered ride 9
-Attendee z entered ride 0
-Attendee v entered ride 7
-Attendee F left ride 9
-Attendee H entered ride 8
-Attendee d left ride 5
-Attendee h left ride 6
-Attendee Y entered ride 9
-Attendee O left ride 8
+Attendee v entered ride 6
+Attendee v left ride 6
+Attendee g entered ride 6
+Attendee g left ride 6
+Attendee L entered ride 5
+Attendee L left ride 5
+Attendee y entered ride 1
+Attendee y left ride 1
+Attendee y left the park
+Attendee k entered ride 2
+Attendee k left ride 2
 Attendee j entered ride 7
-Attendee b entered ride 8
-Attendee t entered ride 4
-Attendee l left ride 6
-Attendee n left ride 9
-Attendee L left ride 6
-Attendee a left ride 0
-Attendee m left ride 9
-Attendee z left ride 0
-Attendee v left ride 7
-Attendee U entered ride 4
-Attendee H left ride 8
-Attendee N entered ride 5
-Attendee V left ride 6
-Attendee G entered ride 2
-Attendee M entered ride 5
-Attendee Y left ride 9
 Attendee j left ride 7
-Attendee b left ride 8
-Attendee t left ride 4
-Attendee c entered ride 8
-Attendee A entered ride 6
-Attendee u entered ride 0
-Attendee g entered ride 3
-Attendee W entered ride 3
+Attendee j left the park
+Attendee l entered ride 9
+Attendee l left ride 9
+Attendee t entered ride 6
+Attendee t left ride 6
+Attendee v entered ride 7
+Attendee v left ride 7
+Attendee v left the park
+Attendee L entered ride 6
+Attendee L left ride 6
+Attendee x entered ride 1
+Attendee x left ride 1
+Attendee x left the park
+Attendee U entered ride 4
 Attendee U left ride 4
-Attendee e entered ride 7
-Attendee N left ride 5
-Attendee G left ride 2
-Attendee M left ride 5
-Attendee T entered ride 2
-Attendee c left ride 8
-Attendee P entered ride 9
-Attendee r entered ride 2
-Attendee A left ride 6
-Attendee u left ride 0
-Attendee g left ride 3
-Attendee W left ride 3
+Attendee u entered ride 4
+Attendee u left ride 4
+Attendee N entered ride 2
+Attendee N left ride 2
+Attendee p entered ride 0
+Attendee p left ride 0
+Attendee d entered ride 9
+Attendee d left ride 9
+Attendee t entered ride 4
+Attendee t left ride 4
+Attendee t left the park
+Attendee W entered ride 2
+Attendee W left ride 2
 Attendee L entered ride 4
-Attendee X entered ride 3
-Attendee e left ride 7
-Attendee l entered ride 7
-Attendee T left ride 2
-Attendee F entered ride 0
-Attendee y entered ride 0
-Attendee P left ride 9
-Attendee v entered ride 0
-Attendee r left ride 2
-Attendee j entered ride 0
 Attendee L left ride 4
-Attendee V entered ride 4
-Attendee i entered ride 1
-Attendee X left ride 3
-Attendee k entered ride 9
-Attendee o entered ride 9
-Attendee J entered ride 3
-Attendee l left ride 7
-Attendee F left ride 0
-Attendee y left ride 0
-Attendee m entered ride 8
-Attendee v left ride 0
-Attendee d entered ride 3
-Attendee x entered ride 0
 Attendee U entered ride 7
-Attendee V left ride 4
-Attendee i left ride 1
-Attendee k left ride 9
-Attendee o left ride 9
-Attendee J left ride 3
-Attendee n entered ride 8
-Attendee M entered ride 6
-Attendee j left ride 0
-Attendee m left ride 8
-Attendee d left ride 3
-Attendee t entered ride 0
-Attendee N entered ride 6
-Attendee x left ride 0
 Attendee U left ride 7
-Attendee n left ride 8
-Attendee M left ride 6
-Attendee Y entered ride 8
-Attendee t left ride 0
-Attendee N left ride 6
-Attendee Y left ride 8
-Attendee Z entered ride 9
-Attendee c entered ride 9
-Attendee b entered ride 3
-Attendee C entered ride 7
-Attendee Z left ride 9
-Attendee c left ride 9
-Attendee b left ride 3
-Attendee C left ride 7
-Attendee A entered ride 7
+Attendee U left the park
+Attendee u entered ride 7
+Attendee u left ride 7
+Attendee u left the park
+Attendee F entered ride 8
+Attendee F left ride 8
+Attendee r entered ride 0
+Attendee r left ride 0
+Attendee G entered ride 6
+Attendee G left ride 6
+Attendee l entered ride 8
+Attendee l left ride 8
+Attendee M entered ride 9
+Attendee M left ride 9
 Attendee L entered ride 7
-Attendee W entered ride 5
-Attendee k entered ride 0
-Attendee R entered ride 8
-Attendee A left ride 7
 Attendee L left ride 7
-Attendee W left ride 5
-Attendee k left ride 0
-Attendee R left ride 8
-Attendee U entered ride 0
-Attendee U left ride 0
+Attendee L left the park
+Attendee c entered ride 7
+Attendee c left ride 7
+Attendee b entered ride 9
+Attendee b left ride 9
+Attendee V entered ride 3
+Attendee V left ride 3
+Attendee h entered ride 3
+Attendee h left ride 3
+Attendee k entered ride 8
+Attendee k left ride 8
+Attendee O entered ride 1
+Attendee O left ride 1
+Attendee M entered ride 8
+Attendee M left ride 8
+Attendee d entered ride 7
+Attendee d left ride 7
+Attendee e entered ride 6
+Attendee e left ride 6
+Attendee Y entered ride 1
+Attendee Y left ride 1
+Attendee c entered ride 5
+Attendee c left ride 5
+Attendee V entered ride 5
+Attendee V left ride 5
+Attendee i entered ride 0
+Attendee i left ride 0
+Attendee I entered ride 6
+Attendee I left ride 6
+Attendee f entered ride 0
+Attendee f left ride 0
+Attendee g entered ride 4
+Attendee g left ride 4
+Attendee N entered ride 8
+Attendee N left ride 8
+Attendee O entered ride 2
+Attendee O left ride 2
+Attendee J entered ride 7
+Attendee J left ride 7
+Attendee m entered ride 1
+Attendee m left ride 1
+Attendee l entered ride 3
+Attendee l left ride 3
+Attendee k entered ride 3
+Attendee k left ride 3
+Attendee K entered ride 4
+Attendee K left ride 4
+Attendee G entered ride 4
+Attendee G left ride 4
+Attendee M entered ride 3
+Attendee M left ride 3
+Attendee V entered ride 6
+Attendee V left ride 6
+Attendee X entered ride 9
+Attendee X left ride 9
+Attendee W entered ride 9
+Attendee W left ride 9
+Attendee d entered ride 8
+Attendee d left ride 8
+Attendee P entered ride 1
+Attendee P left ride 1
+Attendee c entered ride 6
+Attendee c left ride 6
+Attendee e entered ride 5
+Attendee e left ride 5
+Attendee F entered ride 3
+Attendee F left ride 3
+Attendee Z entered ride 1
+Attendee Z left ride 1
+Attendee b entered ride 2
+Attendee b left ride 2
+Attendee H entered ride 2
+Attendee H left ride 2
+Attendee Y entered ride 2
+Attendee Y left ride 2
+Attendee h entered ride 4
+Attendee h left ride 4
+Attendee V entered ride 4
+Attendee V left ride 4
+Attendee M entered ride 5
+Attendee M left ride 5
+Attendee n entered ride 2
+Attendee n left ride 2
+Attendee W entered ride 8
+Attendee W left ride 8
+Attendee m entered ride 2
+Attendee m left ride 2
+Attendee l entered ride 5
+Attendee l left ride 5
+Attendee R entered ride 1
+Attendee R left ride 1
+Attendee X entered ride 8
+Attendee X left ride 8
+Attendee Q entered ride 1
+Attendee Q left ride 1
+Attendee M entered ride 6
+Attendee M left ride 6
+Attendee P entered ride 2
+Attendee P left ride 2
+Attendee d entered ride 6
+Attendee d left ride 6
+Attendee N entered ride 3
+Attendee N left ride 3
 Attendee V entered ride 7
-Attendee d entered ride 4
 Attendee V left ride 7
+Attendee V left the park
+Attendee e entered ride 4
+Attendee e left ride 4
+Attendee l entered ride 6
+Attendee l left ride 6
+Attendee i entered ride 9
+Attendee i left ride 9
+Attendee J entered ride 8
+Attendee J left ride 8
+Attendee c entered ride 8
+Attendee c left ride 8
+Attendee b entered ride 8
+Attendee b left ride 8
+Attendee k entered ride 9
+Attendee k left ride 9
+Attendee s entered ride 9
+Attendee s left ride 9
 Attendee M entered ride 4
-Attendee f entered ride 9
-Attendee d left ride 4
 Attendee M left ride 4
-Attendee f left ride 9
-Attendee K entered ride 8
-Attendee P entered ride 8
-Attendee Q entered ride 9
-Attendee l entered ride 0
-Attendee X entered ride 5
-Attendee K left ride 8
-Attendee P left ride 8
-Attendee e entered ride 8
-Attendee Q left ride 9
-Attendee l left ride 0
-Attendee X left ride 5
-Attendee e left ride 8
-Attendee s entered ride 3
-Attendee c entered ride 0
-Attendee O entered ride 3
-Attendee L entered ride 0
-Attendee s left ride 3
-Attendee c left ride 0
-Attendee O left ride 3
-Attendee L left ride 0
-Attendee p entered ride 8
-Attendee N entered ride 4
-Attendee m entered ride 6
-Attendee p left ride 8
-Attendee N left ride 4
-Attendee m left ride 6
-Attendee o entered ride 8
-Attendee W entered ride 6
-Attendee o left ride 8
-Attendee W left ride 6
-Attendee I entered ride 2
-Attendee I left ride 2
-Attendee b entered ride 7
-Attendee C entered ride 8
-Attendee b left ride 7
-Attendee C left ride 8
-Attendee A entered ride 8
-Attendee A left ride 8
-Attendee Z entered ride 8
-Attendee Z left ride 8
-Attendee V entered ride 0
-Attendee V left ride 0
-Attendee h entered ride 0
-Attendee i entered ride 2
-Attendee h left ride 0
-Attendee i left ride 2
+Attendee I entered ride 4
+Attendee I left ride 4
+Attendee Z entered ride 2
+Attendee Z left ride 2
+Attendee G entered ride 7
+Attendee G left ride 7
+Attendee k entered ride 0
+Attendee k left ride 0
+Attendee c entered ride 9
+Attendee c left ride 9
+Attendee o entered ride 1
+Attendee o left ride 1
+Attendee Q entered ride 2
+Attendee Q left ride 2
+Attendee W entered ride 3
+Attendee W left ride 3
+Attendee g entered ride 7
+Attendee g left ride 7
+Attendee l entered ride 7
+Attendee l left ride 7
+Attendee l left the park
+Attendee O entered ride 9
+Attendee O left ride 9
+Attendee h entered ride 5
+Attendee h left ride 5
+Attendee d entered ride 5
+Attendee d left ride 5
+Attendee N entered ride 5
+Attendee N left ride 5
+Attendee R entered ride 2
+Attendee R left ride 2
 Attendee M entered ride 7
 Attendee M left ride 7
-Attendee H entered ride 3
-Attendee H left ride 3
-Attendee c entered ride 0
-Attendee c left ride 0
-Attendee X entered ride 6
-Attendee d entered ride 2
-Attendee X left ride 6
-Attendee d left ride 2
-Attendee G entered ride 8
-Attendee G left ride 8
-Attendee e entered ride 9
-Attendee e left ride 9
-Attendee W entered ride 4
-Attendee W left ride 4
-Attendee b entered ride 4
-Attendee b left ride 4
-Attendee Q entered ride 8
-Attendee Q left ride 8
-Attendee k entered ride 1
-Attendee N entered ride 7
-Attendee k left ride 1
-Attendee N left ride 7
-Attendee O entered ride 5
-Attendee O left ride 5
-Attendee C entered ride 9
-Attendee C left ride 9
-Attendee m entered ride 4
-Attendee m left ride 4
-Attendee M entered ride 0
-Attendee M left ride 0
-Attendee n entered ride 3
-Attendee A entered ride 9
-Attendee n left ride 3
-Attendee A left ride 9
-Attendee Y entered ride 3
-Attendee Y left ride 3
-Attendee g entered ride 8
-Attendee g left ride 8
-Attendee d entered ride 1
-Attendee d left ride 1
-Attendee b entered ride 6
-Attendee b left ride 6
-Attendee F entered ride 1
-Attendee F left ride 1
-Attendee S entered ride 9
-Attendee S left ride 9
-Attendee G entered ride 9
-Attendee G left ride 9
-Attendee X entered ride 4
-Attendee X left ride 4
-Attendee e entered ride 0
-Attendee e left ride 0
-Attendee O entered ride 6
-Attendee O left ride 6
-Attendee W entered ride 7
-Attendee W left ride 7
-Attendee C entered ride 0
-Attendee C left ride 0
-Attendee h entered ride 9
-Attendee b entered ride 5
-Attendee h left ride 9
-Attendee b left ride 5
-Attendee s entered ride 5
-Attendee s left ride 5
-Attendee P entered ride 3
-Attendee P left ride 3
-Attendee A entered ride 0
-Attendee A left ride 0
-Attendee N entered ride 0
-Attendee N left ride 0
-Attendee m entered ride 7
-Attendee m left ride 7
-Attendee R entered ride 3
-Attendee R left ride 3
-Attendee n entered ride 5
-Attendee n left ride 5
-Attendee Y entered ride 5
-Attendee Y left ride 5
-Attendee o entered ride 3
-Attendee o left ride 3
-Attendee G entered ride 0
-Attendee G left ride 0
-Attendee J entered ride 9
-Attendee J left ride 9
-Attendee e entered ride 0
-Attendee e left ride 0
-Attendee k entered ride 0
-Attendee k left ride 0
-Attendee O entered ride 4
-Attendee O left ride 4
-Attendee f entered ride 3
-Attendee f left ride 3
-Attendee r entered ride 9
-Attendee r left ride 9
-Attendee W entered ride 0
-Attendee W left ride 0
-Attendee b entered ride 0
-Attendee b left ride 0
-Attendee p entered ride 3
-Attendee p left ride 3
-Attendee Z entered ride 3
-Attendee Z left ride 3
-Attendee X entered ride 7
-Attendee X left ride 7
-Attendee S entered ride 8
-Attendee S left ride 8
-Attendee P entered ride 5
-Attendee P left ride 5
-Attendee T entered ride 9
-Attendee T left ride 9
-Attendee H entered ride 9
-Attendee H left ride 9
-Attendee G entered ride 0
-Attendee G left ride 0
-Attendee K entered ride 3
-Attendee K left ride 3
-Attendee m entered ride 0
-Attendee m left ride 0
-Attendee Q entered ride 3
-Attendee Q left ride 3
-Attendee s entered ride 6
-Attendee s left ride 6
-Attendee n entered ride 6
-Attendee n left ride 6
-Attendee Y entered ride 6
-Attendee Y left ride 6
-Attendee I entered ride 9
-Attendee I left ride 9
-Attendee h entered ride 7
-Attendee h left ride 7
-Attendee O entered ride 7
-Attendee O left ride 7
-Attendee R entered ride 5
-Attendee R left ride 5
-Attendee J entered ride 0
-Attendee J left ride 0
-Attendee o entered ride 5
-Attendee o left ride 5
-Attendee P entered ride 6
-Attendee P left ride 6
-Attendee d entered ride 0
-Attendee d left ride 0
-Attendee X entered ride 0
-Attendee X left ride 0
-Attendee r entered ride 8
-Attendee r left ride 8
-Attendee F entered ride 0
-Attendee F left ride 0
-Attendee Z entered ride 5
-Attendee Z left ride 5
-Attendee H entered ride 0
-Attendee H left ride 0
-Attendee p entered ride 5
-Attendee p left ride 5
-Attendee g entered ride 2
-Attendee g left ride 2
-Attendee i entered ride 8
-Attendee i left ride 8
-Attendee C entered ride 1
-Attendee C left ride 1
-Attendee n entered ride 4
-Attendee n left ride 4
-Attendee T entered ride 8
-Attendee T left ride 8
-Attendee A entered ride 1
-Attendee A left ride 1
-Attendee Y entered ride 4
-Attendee Y left ride 4
-Attendee Q entered ride 5
-Attendee Q left ride 5
-Attendee I entered ride 0
-Attendee I left ride 0
-Attendee O entered ride 0
-Attendee O left ride 0
-Attendee o entered ride 4
-Attendee o left ride 4
-Attendee R entered ride 6
-Attendee R left ride 6
-Attendee h entered ride 8
-Attendee h left ride 8
-Attendee f entered ride 8
-Attendee f left ride 8
-Attendee P entered ride 4
-Attendee P left ride 4
-Attendee Z entered ride 6
-Attendee Z left ride 6
-Attendee H entered ride 0
-Attendee H left ride 0
-Attendee C entered ride 2
-Attendee C left ride 2
-Attendee s entered ride 4
-Attendee s left ride 4
-Attendee A entered ride 2
-Attendee A left ride 2
-Attendee p entered ride 6
-Attendee p left ride 6
-Attendee Q entered ride 6
-Attendee Q left ride 6
-Attendee i entered ride 7
-Attendee i left ride 7
-Attendee S entered ride 3
-Attendee S left ride 3
-Attendee C entered ride 3
-Attendee C left ride 3
-Attendee Y entered ride 7
-Attendee Y left ride 7
-Attendee A entered ride 3
-Attendee A left ride 3
-Attendee P entered ride 7
-Attendee P left ride 7
-Attendee R entered ride 4
-Attendee R left ride 4
-Attendee Z entered ride 4
-Attendee Z left ride 4
-Attendee o entered ride 7
-Attendee o left ride 7
-Attendee h entered ride 0
-Attendee h left ride 0
-Attendee n entered ride 0
-Attendee n left ride 0
-Attendee C entered ride 4
-Attendee C left ride 4
-Attendee f entered ride 4
-Attendee f left ride 4
-Attendee r entered ride 3
-Attendee r left ride 3
-Attendee A entered ride 4
-Attendee A left ride 4
-Attendee Q entered ride 4
-Attendee Q left ride 4
-Attendee K entered ride 9
-Attendee K left ride 9
-Attendee p entered ride 4
-Attendee p left ride 4
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee S entered ride 5
-Attendee S left ride 5
-Attendee C entered ride 5
-Attendee C left ride 5
-Attendee g entered ride 9
-Attendee g left ride 9
-Attendee P entered ride 0
-Attendee P left ride 0
-Attendee s entered ride 7
-Attendee s left ride 7
-Attendee T entered ride 3
-Attendee T left ride 3
-Attendee o entered ride 0
-Attendee o left ride 0
-Attendee R entered ride 7
-Attendee R left ride 7
-Attendee Z entered ride 7
-Attendee Z left ride 7
-Attendee C entered ride 6
-Attendee C left ride 6
-Attendee J entered ride 1
-Attendee J left ride 1
-Attendee f entered ride 7
-Attendee f left ride 7
-Attendee r entered ride 5
-Attendee r left ride 5
-Attendee Q entered ride 7
-Attendee Q left ride 7
-Attendee K entered ride 0
-Attendee K left ride 0
-Attendee i entered ride 3
-Attendee i left ride 3
-Attendee I entered ride 1
-Attendee I left ride 1
-Attendee A entered ride 0
-Attendee A left ride 0
-Attendee S entered ride 6
-Attendee S left ride 6
-Attendee p entered ride 7
-Attendee p left ride 7
-Attendee T entered ride 5
-Attendee T left ride 5
-Attendee f entered ride 5
-Attendee f left ride 5
-Attendee r entered ride 6
-Attendee r left ride 6
-Attendee K entered ride 0
-Attendee K left ride 0
-Attendee C entered ride 0
-Attendee C left ride 0
-Attendee i entered ride 4
-Attendee i left ride 4
-Attendee Z entered ride 0
-Attendee Z left ride 0
-Exiting keyboard event thread
----------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 3: timeout 3000, duration 12000, 9 riders
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Started keyboard event thread
-Ride 5: timeout 1000, duration 16000, 9 riders
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Ride 2: timeout 4000, duration 20000, 9 riders
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Ride 1: timeout 5000, duration 2000, 9 riders
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Ride 6: timeout 1000, duration 5000, 9 riders
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee c entered the park
-Attendee e entered the park
-Attendee o entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee h entered the park
-Attendee a entered the park
-Attendee r entered the park
-Attendee f entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee p entered the park
-Attendee v entered the park
-Attendee y entered the park
-Attendee l entered the park
-Attendee x entered the park
-Attendee q entered the park
-Attendee n entered the park
-Attendee t entered the park
-Attendee s entered the park
-Attendee d entered the park
-Attendee G entered the park
-Attendee H entered the park
-Attendee K entered the park
-Attendee j entered the park
-Attendee w entered the park
-Attendee z entered the park
-Attendee u entered the park
-Attendee F entered the park
-Attendee O entered the park
-Attendee I entered the park
-Attendee U entered the park
-Attendee J entered the park
-Attendee Y entered the park
-Attendee M entered the park
-Attendee W entered the park
-Attendee P entered the park
-Attendee V entered the park
-Attendee N entered the park
-Attendee b entered the park
-Attendee Q entered the park
-Attendee R entered the park
-Attendee T entered the park
-Attendee Z entered the park
-Attendee X entered the park
-Attendee L entered the park
-Attendee S entered the park
-Attendee c entered ride 1
-Attendee a entered ride 1
-Attendee x entered ride 5
-Attendee y entered ride 2
-Attendee e entered ride 1
-Attendee H entered ride 5
-Attendee z entered ride 5
-Attendee j entered ride 1
-Attendee f entered ride 1
-Attendee k entered ride 5
-Attendee w entered ride 5
-Attendee c left ride 1
-Attendee U entered ride 9
-Attendee q entered ride 0
-Attendee l entered ride 1
-Attendee a left ride 1
-Attendee x left ride 5
-Attendee v entered ride 0
-Attendee F entered ride 6
-Attendee y left ride 2
-Attendee e left ride 1
-Attendee H left ride 5
-Attendee z left ride 5
-Attendee j left ride 1
-Attendee U left ride 9
-Attendee q left ride 0
-Attendee t entered ride 0
-Attendee l left ride 1
-Attendee w left ride 5
-Attendee v left ride 0
-Attendee F left ride 6
-Attendee f left ride 1
-Attendee k left ride 5
-Attendee h entered ride 1
-Attendee K entered ride 5
-Attendee u entered ride 0
-Attendee t left ride 0
-Exiting keyboard event thread
-At---------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Ride 6: timeout 1000, duration 5000, 9 riders
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Started keyboard event thread
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Ride 5: timeout 1000, duration 16000, 9 riders
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Ride 3: timeout 3000, duration 12000, 9 riders
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Ride 2: timeout 4000, duration 20000, 9 riders
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Ride 4: timeout 2000, duration 99000, 9 riders
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee b entered the park
-Attendee e entered the park
-Attendee d entered the park
-Attendee f entered the park
-Attendee o entered the park
-Attendee c entered the park
-Attendee j entered the park
-Attendee a entered the park
-Attendee p entered the park
-Attendee q entered the park
-Attendee m entered the park
-Attendee s entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee t entered the park
-Attendee k entered the park
-Attendee z entered the park
-Attendee l entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee g entered the park
-Attendee h entered the park
-Attendee i entered the park
-Attendee K entered the park
-Attendee r entered the park
-Attendee n entered the park
-Attendee x entered the park
-Attendee J entered the park
-Attendee L entered the park
-Attendee F entered the park
-Attendee N entered the park
-Attendee O entered the park
-Attendee H entered the park
-Attendee P entered the park
-Attendee U entered the park
-Attendee S entered the park
-Attendee M entered the park
-Attendee Y entered the park
-Attendee Q entered the park
-Attendee Z entered the park
-Attendee G entered the park
-Attendee I entered the park
-Attendee R entered the park
-Attendee T entered the park
-Attendee V entered the park
-Attendee X entered the park
-Attendee W entered the park
-Attendee c entered ride 1
-Attendee a entered ride 1
-Attendee w entered ride 5
-Attendee z entered ride 5
-Attendee j entered ride 1
-Attendee e entered ride 1
-Attendee x entered ride 5
-Attendee y entered ride 2
-Attendee f entered ride 1
-Attendee k entered ride 5
-Attendee q entered ride 0
-Attendee l entered ride 1
-Attendee v entered ride 0
-Attendee t entered ride 0
-Attendee U entered ride 9
-Attendee c left ride 1
-Attendee a left ride 1
-Attendee w left ride 5
-Attendee z left ride 5
-Attendee j left ride 1
-Attendee x left ride 5
-Attendee y left ride 2
-Attendee u entered ride 0
-Attendee q left ride 0
-Attendee v left ride 0
-Attendee t left ride 0
-Attendee U left ride 9
-Attendee l left ride 1
-Attendee f left ride 1
-Attendee k left ride 5
-Attendee e left ride 1
-Attendee F entered ride 6
-Attendee L entered ride 0
-Attendee u left ride 0
-Attendee H entered ride 5
-Attendee F left ride 6
-Attendee L left ride 0
-Attendee H left ride 5
-Attendee J entered ride 5
-Attendee h entered ride 1
-Attendee J left ride 5
-Attendee h left ride 1
-Attendee N entered ride 9
-Attendee z entered ride 6
-Attendee K entered ride 5
-Attendee w entered ride 6
-Attendee N left ride 9
-Attendee z left ride 6
-Attendee x entered ride 6
-Attendee a entered ride 2
-Attendee K left ride 5
-Attendee s entered ride 2
-Attendee w left ride 6
-Attendee j entered ride 2
-Attendee x left ride 6
-Attendee M entered ride 0
-Attendee a left ride 2
-Attendee s left ride 2
-Attendee b entered ride 0
-Attendee j left ride 2
-Attendee M left ride 0
-Attendee b left ride 0
-Attendee k entered ride 6
-Attendee k left ride 6
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee W entered ride 0
-Attendee l entered ride 2
-Attendee y entered ride 6
-Attendee W left ride 0
-Attendee c entered ride 3
-Attendee l left ride 2
-Attendee O entered ride 0
-Attendee y left ride 6
-Attendee g entered ride 5
-Attendee c left ride 3
-Attendee O left ride 0
-Attendee g left ride 5
-Attendee G entered ride 2
-Attendee Z entered ride 0
-Attendee w entered ride 7
-Attendee V entered ride 2
-Attendee G left ride 2
-Attendee x entered ride 7
-Attendee z entered ride 4
-Attendee P entered ride 0
-Attendee Z left ride 0
-Attendee R entered ride 9
-Attendee w left ride 7
-Attendee a entered ride 3
-Attendee V left ride 2
-Attendee x left ride 7
-Attendee j entered ride 3
-Attendee e entered ride 2
-Attendee z left ride 4
-Attendee P left ride 0
-Attendee R left ride 9
-Attendee a left ride 3
-Attendee Q entered ride 0
-Attendee j left ride 3
-Attendee F entered ride 4
-Attendee e left ride 2
-Attendee H entered ride 6
-Attendee q entered ride 1
-Attendee Q left ride 0
-Attendee S entered ride 0
-Attendee I entered ride 2
-Attendee F left ride 4
-Attendee m entered ride 0
-Attendee U entered ride 1
-Attendee H left ride 6
-Attendee d entered ride 0
-Attendee q left ride 1
-Attendee t entered ride 1
-Attendee S left ride 0
-Attendee v entered ride 1
-Attendee I left ride 2
-Attendee m left ride 0
-Attendee U left ride 1
-Attendee k entered ride 4
-Attendee J entered ride 4
-Attendee y entered ride 4
-Attendee h entered ride 2
-Attendee d left ride 0
-Attendee X entered ride 2
-Attendee u entered ride 2
-Attendee t left ride 1
-Attendee c entered ride 4
-Attendee V entered ride 1
-Attendee v left ride 1
-Attendee T entered ride 0
-Attendee L entered ride 1
-Attendee j entered ride 4
-Attendee a entered ride 4
-Attendee o entered ride 0
-Attendee k left ride 4
-Attendee J left ride 4
-Attendee n entered ride 0
-Attendee y left ride 4
-Attendee z entered ride 7
-Attendee h left ride 2
-Attendee q entered ride 2
-Attendee K entered ride 6
-Attendee X left ride 2
-Attendee u left ride 2
-Attendee w entered ride 2
-Attendee V left ride 1
-Attendee T left ride 0
-Attendee L left ride 1
-Attendee x entered ride 2
-Attendee o left ride 0
-Attendee c left ride 4
-Attendee U entered ride 2
-Attendee a left ride 4
-Attendee n left ride 0
-Attendee j left ride 4
-Attendee z left ride 7
-Attendee q left ride 2
-Attendee K left ride 6
-Attendee w left ride 2
-Attendee p entered ride 0
-Attendee t entered ride 2
-Attendee g entered ride 6
-Attendee v entered ride 2
-Attendee x left ride 2
-Attendee e entered ride 3
-Attendee U left ride 2
-Attendee p left ride 0
-Attendee t left ride 2
-Attendee N entered ride 1
-Attendee g left ride 6
-Attendee M entered ride 1
-Attendee v left ride 2
-Attendee b entered ride 1
-Attendee e left ride 3
-Attendee L entered ride 2
-Attendee N left ride 1
-Attendee d entered ride 9
-Attendee M left ride 1
-Attendee H entered ride 7
-Attendee r entered ride 0
-Attendee b left ride 1
-Attendee a entered ride 5
-Attendee L left ride 2
-Attendee l entered ride 9
-Attendee d left ride 9
-Attendee F entered ride 7
-Attendee y entered ride 7
-Attendee H left ride 7
-Attendee r left ride 0
-Attendee G entered ride 6
-Attendee a left ride 5
-Attendee k entered ride 7
-Attendee l left ride 9
-Attendee X entered ride 1
-Attendee F left ride 7
-Attendee y left ride 7
-Attendee G left ride 6
-Attendee k left ride 7
-Attendee X left ride 1
-Attendee W entered ride 1
-Attendee c entered ride 2
-Attendee W left ride 1
-Attendee c left ride 2
-Attendee u entered ride 9
-Attendee u left ride 9
-Attendee M entered ride 2
-Attendee i entered ride 0
-Attendee M left ride 2
-Attendee h entered ride 3
-Attendee i left ride 0
-Attendee h left ride 3
-Attendee N entered ride 2
-Attendee q entered ride 9
-Attendee z entered ride 2
-Attendee N left ride 2
-Attendee j entered ride 0
-Attendee q left ride 9
-Attendee z left ride 2
-Attendee j left ride 0
-Attendee a entered ride 6
-Attendee w entered ride 8
-Attendee a left ride 6
-Attendee w left ride 8
-Attendee l entered ride 8
-Attendee O entered ride 1
-Attendee U entered ride 8
-Attendee l left ride 8
-Attendee f entered ride 0
-Attendee O left ride 1
-Attendee x entered ride 8
-Attendee U left ride 8
-Attendee u entered ride 8
-Attendee f left ride 0
-Attendee t entered ride 9
-Attendee W entered ride 2
-Attendee x left ride 8
-Attendee q entered ride 8
-Attendee F entered ride 8
-Attendee u left ride 8
-Attendee V entered ride 9
-Attendee v entered ride 9
-Attendee t left ride 9
-Attendee W left ride 2
-Attendee j entered ride 9
-Attendee y entered ride 3
-Attendee q left ride 8
-Attendee w entered ride 9
-Attendee Y entered ride 1
-Attendee F left ride 8
-Attendee I entered ride 6
-Attendee V left ride 9
-Attendee J entered ride 7
-Attendee v left ride 9
-Attendee e entered ride 6
-Attendee L entered ride 9
-Attendee d entered ride 7
-Attendee a entered ride 7
-Attendee j left ride 9
-Attendee y left ride 3
-Attendee Y left ride 1
-Attendee K entered ride 4
-Attendee I left ride 6
-Attendee w left ride 9
-Attendee k entered ride 2
-Attendee J left ride 7
-Attendee g entered ride 4
-Attendee e left ride 6
-Attendee G entered ride 4
-Attendee L left ride 9
-Attendee d left ride 7
-Attendee a left ride 7
-Attendee z entered ride 8
-Attendee K left ride 4
-Attendee P entered ride 1
-Attendee m entered ride 1
-Attendee k left ride 2
-Attendee g left ride 4
-Attendee O entered ride 2
-Attendee G left ride 4
-Attendee h entered ride 4
-Attendee s entered ride 9
-Attendee c entered ride 7
-Attendee z left ride 8
-Attendee U entered ride 3
-Attendee P left ride 1
-Attendee m left ride 1
-Attendee b entered ride 9
-Attendee x entered ride 3
-Attendee i entered ride 9
-Attendee O left ride 2
-Attendee V entered ride 8
-Attendee h left ride 4
-Attendee s left ride 9
-Attendee w entered ride 0
-Attendee M entered ride 9
-Attendee c left ride 7
-Attendee u entered ride 3
-Attendee q entered ride 3
-Attendee U left ride 3
-Attendee Z entered ride 1
-Attendee b left ride 9
-Attendee L entered ride 8
-Attendee x left ride 3
-Attendee i left ride 9
-Attendee t entered ride 3
-Attendee V left ride 8
-Attendee R entered ride 1
-Attendee w left ride 0
-Attendee M left ride 9
-Attendee N entered ride 8
-Attendee j entered ride 5
-Attendee a entered ride 8
-Attendee u left ride 3
-Attendee q left ride 3
-Attendee Z left ride 1
-Attendee Q entered ride 1
-Attendee L left ride 8
-Attendee t left ride 3
-Attendee R left ride 1
-Attendee H entered ride 2
-Attendee y entered ride 9
-Attendee N left ride 8
-Attendee l entered ride 3
-Attendee v entered ride 3
-Attendee n entered ride 2
-Attendee j left ride 5
-Attendee a left ride 8
-Attendee Y entered ride 2
-Attendee d entered ride 8
-Exiting keyboard event thread
-At---------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Ride 4: timeout 2000, duration 99000, 9 riders
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Ride 6: timeout 1000, duration 5000, 9 riders
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Ride 3: timeout 3000, duration 12000, 9 riders
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Ride 5: timeout 1000, duration 16000, 9 riders
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Ride 1: timeout 5000, duration 2000, 9 riders
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Started keyboard event thread
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee a entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee d entered the park
-Attendee h entered the park
-Attendee k entered the park
-Attendee l entered the park
-Attendee s entered the park
-Attendee r entered the park
-Attendee t entered the park
-Attendee z entered the park
-Attendee c entered the park
-Attendee e entered the park
-Attendee b entered the park
-Attendee i entered the park
-Attendee j entered the park
-Attendee x entered the park
-Attendee n entered the park
-Attendee y entered the park
-Attendee m entered the park
-Attendee p entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee v entered the park
-Attendee o entered the park
-Attendee q entered the park
-Attendee K entered the park
-Attendee P entered the park
-Attendee O entered the park
-Attendee N entered the park
-Attendee X entered the park
-Attendee W entered the park
-Attendee H entered the park
-Attendee J entered the park
-Attendee I entered the park
-Attendee F entered the park
-Attendee M entered the park
-Attendee G entered the park
-Attendee T entered the park
-Attendee L entered the park
-Attendee Q entered the park
-Attendee R entered the park
-Attendee U entered the park
-Attendee V entered the park
-Attendee S entered the park
-Attendee Y entered the park
-Attendee Z entered the park
-Attendee a entered ride 1
-Attendee z entered ride 5
-Attendee x entered ride 5
-Attendee w entered ride 5
-Exiting keyboard event thread
-A---------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Ride 4: timeout 2000, duration 99000, 9 riders
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Started keyboard event thread
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Ride 2: timeout 4000, duration 20000, 9 riders
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Ride 3: timeout 3000, duration 12000, 9 riders
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Ride 8: timeout 1000, duration 18000, 9 riders
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Ride 6: timeout 1000, duration 5000, 9 riders
-Attendee c entered the park
-Attendee g entered the park
-Attendee h entered the park
-Attendee m entered the park
-Attendee r entered the park
-Attendee t entered the park
-Attendee o entered the park
-Attendee s entered the park
-Attendee x entered the park
-Attendee a entered the park
-Attendee p entered the park
-Attendee f entered the park
-Attendee e entered the park
-Attendee k entered the park
-Attendee j entered the park
-Attendee d entered the park
-Attendee n entered the park
-Attendee l entered the park
-Attendee i entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee q entered the park
-Attendee y entered the park
-Attendee b entered the park
-Attendee u entered the park
-Attendee J entered the park
-Attendee z entered the park
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee H entered the park
-Attendee T entered the park
-Attendee F entered the park
-Attendee Y entered the park
-Attendee L entered the park
-Attendee G entered the park
-Attendee I entered the park
-Attendee S entered the park
-Attendee V entered the park
-Attendee O entered the park
-Attendee R entered the park
-Attendee U entered the park
-Attendee Q entered the park
-Attendee K entered the park
-Attendee W entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee c entered ride 1
-Attendee a entered ride 1
-Attendee x entered ride 5
-Attendee w entered ride 5
-Attendee j entered ride 1
-Attendee z entered ride 5
-Attendee y entered ride 2
-Exiting keyboard event thread
-A---------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Ride 2: timeout 4000, duration 20000, 9 riders
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Ride 8: timeout 1000, duration 18000, 9 riders
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Ride 5: timeout 1000, duration 16000, 9 riders
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Ride 0: timeout 7000, duration 3000, 9 riders
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Started keyboard event thread
-Ride 3: timeout 3000, duration 12000, 9 riders
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Ride 7: timeout 1000, duration 9000, 9 riders
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee a entered the park
-Attendee f entered the park
-Attendee h entered the park
-Attendee j entered the park
-Attendee m entered the park
-Attendee s entered the park
-Attendee b entered the park
-Attendee g entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee c entered the park
-Attendee k entered the park
-Attendee n entered the park
-Attendee u entered the park
-Attendee p entered the park
-Attendee x entered the park
-Attendee z entered the park
-Attendee i entered the park
-Attendee t entered the park
-Attendee v entered the park
-Attendee y entered the park
-Attendee r entered the park
-Attendee w entered the park
-Attendee J entered the park
-Attendee L entered the park
-Attendee N entered the park
-Attendee O entered the park
-Attendee P entered the park
-Attendee R entered the park
-Attendee l entered the park
-Attendee q entered the park
-Attendee T entered the park
-Attendee o entered the park
-Attendee W entered the park
-Attendee F entered the park
-Attendee I entered the park
-Attendee G entered the park
-Attendee Y entered the park
-Attendee M entered the park
-Attendee K entered the park
-Attendee Z entered the park
-Attendee Q entered the park
-Attendee S entered the park
-Attendee H entered the park
-Attendee V entered the park
-Attendee U entered the park
-Attendee X entered the park
-Attendee a entered ride 1
-Attendee j entered ride 1
-Attendee z entered ride 5
-Attendee x entered ride 5
-Attendee c entered ride 1
-Attendee w entered ride 5
-Attendee y entered ride 2
-Attendee k entered ride 5
-Attendee f entered ride 1
-Attendee e entered ride 1
-Attendee L entered ride 0
-Attendee u entered ride 0
-Attendee v entered ride 0
-Attendee a left ride 1
-Attendee j left ride 1
-Attendee z left ride 5
-Attendee x left ride 5
-Attendee c left ride 1
-Attendee w left ride 5
-Attendee y left ride 2
-Attendee t entered ride 0
-Attendee L left ride 0
-Attendee u left ride 0
-Attendee v left ride 0
-Attendee e left ride 1
-Attendee f left ride 1
-Attendee h entered ride 1
-Attendee k left ride 5
-Attendee F entered ride 6
-Attendee q entered ride 0
-Attendee l entered ride 1
-Attendee J entered ride 5
-Attendee N entered ride 9
-Attendee t left ride 0
-Attendee U entered ride 9
-Attendee h left ride 1
-Attendee W entered ride 0
-Attendee F left ride 6
-Attendee q left ride 0
-Attendee H entered ride 5
-Attendee l left ride 1
-Attendee J left ride 5
-Attendee a entered ride 2
-Attendee s entered ride 2
-Attendee N left ride 9
-Attendee j entered ride 2
-Attendee z entered ride 6
-Attendee U left ride 9
-Attendee x entered ride 6
-Attendee M entered ride 0
-Attendee W left ride 0
-Attendee w entered ride 6
-Attendee H left ride 5
-Attendee K entered ride 5
-Attendee O entered ride 0
-Attendee a left ride 2
-Attendee s left ride 2
-Attendee j left ride 2
-Attendee Y entered ride 0
-Attendee z left ride 6
-Attendee b entered ride 0
-Attendee k entered ride 6
-Attendee x left ride 6
-Attendee g entered ride 5
-Attendee M left ride 0
-Attendee w left ride 6
-Attendee R entered ride 9
-Attendee y entered ride 6
-Attendee K left ride 5
-Attendee G entered ride 2
-Attendee V entered ride 2
-Attendee O left ride 0
-Attendee Z entered ride 0
-Attendee c entered ride 3
-Attendee P entered ride 0
-Attendee Y left ride 0
-Attendee k left ride 6
-Attendee g left ride 5
-Attendee m entered ride 0
-Attendee b left ride 0
-Attendee e entered ride 2
-Attendee R left ride 9
-Attendee l entered ride 2
-Attendee y left ride 6
-Attendee G left ride 2
-Attendee V left ride 2
-Attendee a entered ride 3
-Attendee Z left ride 0
-Attendee c left ride 3
-Attendee j entered ride 3
-Attendee P left ride 0
-Attendee L entered ride 1
-Attendee x entered ride 7
-Attendee u entered ride 2
-Attendee v entered ride 1
-Attendee I entered ride 2
-Attendee m left ride 0
-Attendee e left ride 2
-Attendee w entered ride 7
-Attendee T entered ride 0
-Attendee F entered ride 4
-Attendee X entered ride 2
-Attendee Q entered ride 0
-Attendee l left ride 2
-Attendee q entered ride 1
-Attendee a left ride 3
-Attendee t entered ride 1
-Attendee j left ride 3
-Attendee S entered ride 0
-Attendee L left ride 1
-Attendee x left ride 7
-Attendee u left ride 2
-Attendee v left ride 1
-Attendee n entered ride 0
-Attendee I left ride 2
-Attendee d entered ride 0
-Attendee w left ride 7
-Attendee T left ride 0
-Attendee F left ride 4
-Attendee Q left ride 0
-Attendee X left ride 2
-Attendee U entered ride 1
-Attendee q left ride 1
-Attendee h entered ride 2
-Attendee S left ride 0
-Attendee H entered ride 6
-Attendee t left ride 1
-Attendee z entered ride 4
-Attendee J entered ride 4
-Attendee k entered ride 4
-Attendee V entered ride 1
-Attendee y entered ride 4
-Attendee d left ride 0
-Attendee n left ride 0
-Attendee U left ride 1
-Attendee h left ride 2
-Attendee L entered ride 2
-Attendee c entered ride 4
-Attendee a entered ride 4
-Attendee o entered ride 0
-Attendee j entered ride 4
-Attendee v entered ride 2
-Attendee H left ride 6
-Attendee z left ride 4
-Attendee J left ride 4
-Attendee p entered ride 0
-Attendee k left ride 4
-Attendee V left ride 1
-Attendee q entered ride 2
-Attendee L left ride 2
-Attendee e entered ride 3
-Attendee t entered ride 2
-Attendee o left ride 0
-Attendee x entered ride 2
-Attendee r entered ride 0
-Attendee v left ride 2
-Attendee y left ride 4
-Attendee c left ride 4
-Attendee N entered ride 1
-Attendee p left ride 0
-Attendee j left ride 4
-Attendee K entered ride 6
-Attendee q left ride 2
-Attendee w entered ride 2
-Attendee U entered ride 2
-Attendee e left ride 3
-Attendee g entered ride 6
-Attendee t left ride 2
-Attendee u entered ride 9
-Attendee r left ride 0
-Attendee x left ride 2
-Attendee X entered ride 1
-Attendee a left ride 4
-Attendee M entered ride 1
-Attendee N left ride 1
-Attendee W entered ride 1
-Attendee K left ride 6
-Attendee w left ride 2
-Attendee b entered ride 1
-Attendee g left ride 6
-Attendee U left ride 2
-Attendee z entered ride 7
-Attendee u left ride 9
-Attendee d entered ride 9
-Attendee X left ride 1
-Attendee M left ride 1
-Attendee W left ride 1
-Attendee G entered ride 6
-Attendee F entered ride 7
-Attendee z left ride 7
-Attendee y entered ride 7
-Attendee i entered ride 0
-Attendee d left ride 9
-Attendee b left ride 1
-Attendee k entered ride 7
-Attendee G left ride 6
-Attendee F left ride 7
-Attendee a entered ride 5
-Attendee l entered ride 9
-Attendee y left ride 7
-Attendee i left ride 0
-Attendee k left ride 7
-Attendee c entered ride 2
-Attendee a left ride 5
-Attendee H entered ride 7
-Attendee l left ride 9
-Attendee L entered ride 9
-Attendee h entered ride 3
-Attendee u entered ride 8
-Attendee c left ride 2
-Attendee v entered ride 9
-Attendee H left ride 7
-Attendee f entered ride 0
-Attendee N entered ride 2
-Attendee L left ride 9
-Attendee h left ride 3
-Attendee u left ride 8
-Attendee q entered ride 9
-Attendee O entered ride 1
-Attendee j entered ride 0
-Attendee v left ride 9
-Attendee M entered ride 2
-Attendee f left ride 0
-Attendee N left ride 2
-Attendee q left ride 9
-Attendee W entered ride 2
-Attendee x entered ride 8
-Attendee O left ride 1
-Attendee j left ride 0
-Attendee t entered ride 9
-Attendee M left ride 2
-Attendee I entered ride 6
-Attendee W left ride 2
-Attendee V entered ride 9
-Attendee x left ride 8
-Attendee m entered ride 1
-Attendee t left ride 9
-Attendee I left ride 6
-Attendee z entered ride 2
-Attendee F entered ride 8
-Attendee w entered ride 8
-Attendee V left ride 9
-Attendee U entered ride 8
-Attendee e entered ride 6
-Attendee a entered ride 6
-Attendee L entered ride 8
-Attendee m left ride 1
-Attendee Y entered ride 1
-Attendee y entered ride 3
-Attendee z left ride 2
-Attendee q entered ride 8
-Attendee F left ride 8
-Attendee l entered ride 8
-Attendee w left ride 8
-Attendee U left ride 8
-Attendee e left ride 6
-Attendee a left ride 6
-Attendee J entered ride 7
-Attendee d entered ride 7
-Attendee Y left ride 1
-Attendee y left ride 3
-Attendee P entered ride 1
-Attendee L left ride 8
-Attendee q left ride 8
-Attendee l left ride 8
-Attendee u entered ride 3
-Attendee J left ride 7
-Attendee g entered ride 4
-Attendee d left ride 7
-Attendee G entered ride 4
-Attendee P left ride 1
-Attendee s entered ride 9
-Attendee O entered ride 2
-Attendee k entered ride 2
-Attendee V entered ride 8
-Attendee u left ride 3
-Attendee v entered ride 3
-Attendee j entered ride 9
-Attendee g left ride 4
-Attendee i entered ride 9
-Attendee b entered ride 9
-Attendee G left ride 4
-Attendee K entered ride 4
-Attendee s left ride 9
-Attendee w entered ride 9
-Attendee O left ride 2
-Attendee x entered ride 3
-Attendee k left ride 2
-Attendee n entered ride 2
-Attendee V left ride 8
-Attendee R entered ride 1
-Attendee h entered ride 4
-Attendee v left ride 3
-Attendee Z entered ride 1
-Attendee c entered ride 7
-Attendee a entered ride 7
-Attendee j left ride 9
-Attendee i left ride 9
-Attendee t entered ride 3
-Attendee m entered ride 2
-Attendee K left ride 4
-Attendee b left ride 9
-Attendee x left ride 3
-Attendee n left ride 2
-Attendee z entered ride 8
-Attendee R left ride 1
-Attendee U entered ride 3
-Attendee h left ride 4
-Attendee q entered ride 3
-Attendee Z left ride 1
-Attendee Q entered ride 1
-Attendee e entered ride 5
-Attendee c left ride 7
-Attendee a left ride 7
-Attendee X entered ride 9
-Attendee L entered ride 3
-Attendee w left ride 9
-Attendee M entered ride 9
-Attendee u entered ride 6
-Attendee y entered ride 9
-Attendee t left ride 3
-Attendee m left ride 2
-Attendee z left ride 8
-Attendee Y entered ride 2
-Attendee d entered ride 8
-Attendee U left ride 3
-Attendee N entered ride 8
-Attendee q left ride 3
-Attendee Q left ride 1
-Attendee e left ride 5
-Attendee X left ride 9
-Attendee I entered ride 4
-Attendee v entered ride 5
-Attendee M left ride 9
-Attendee P entered ride 2
-Attendee u left ride 6
-Attendee y left ride 9
-Attendee L left ride 3
-Attendee W entered ride 9
-Attendee Y left ride 2
-Attendee d left ride 8
-Attendee N left ride 8
-Attendee H entered ride 2
-Attendee w entered ride 0
-Attendee j entered ride 5
-Attendee I left ride 4
-Attendee o entered ride 1
-Attendee v left ride 5
-Attendee P left ride 2
-Attendee a entered ride 8
-Attendee F entered ride 3
-Attendee J entered ride 8
-Attendee t entered ride 5
-Attendee W left ride 9
-Attendee l entered ride 3
-Attendee H left ride 2
-Attendee V entered ride 3
-Attendee w left ride 0
-Attendee U entered ride 5
-Attendee q entered ride 5
-Attendee j left ride 5
-Attendee x entered ride 0
-Attendee o left ride 1
-Attendee a left ride 8
-Attendee S entered ride 1
-Attendee c entered ride 5
-Attendee F left ride 3
-Attendee y entered ride 0
-Attendee J left ride 8
-Attendee t left ride 5
-Attendee l left ride 3
-Attendee z entered ride 3
-Attendee G entered ride 7
-Attendee u entered ride 4
-Attendee V left ride 3
-Attendee U left ride 5
-Attendee q left ride 5
-Attendee x left ride 0
-Attendee Z entered ride 2
-Attendee k entered ride 8
-Attendee v entered ride 6
-Attendee s entered ride 8
-Attendee S left ride 1
-Attendee y left ride 0
-Attendee M entered ride 8
-Attendee c left ride 5
-Attendee z left ride 3
-Attendee X entered ride 8
-Attendee R entered ride 2
-Attendee G left ride 7
-Attendee b entered ride 2
-Attendee u left ride 4
-Attendee T entered ride 1
-Attendee j entered ride 6
-Attendee Z left ride 2
-Attendee p entered ride 1
-Attendee e entered ride 4
-Attendee k left ride 8
-Attendee v left ride 6
-Attendee s left ride 8
-Attendee a entered ride 9
-Attendee t entered ride 6
-Attendee L entered ride 5
-Attendee h entered ride 5
-Attendee M left ride 8
-Attendee g entered ride 7
-Attendee Q entered ride 2
-Attendee q entered ride 6
-Attendee W entered ride 8
-Attendee R left ride 2
-Attendee b left ride 2
-Attendee T left ride 1
-Attendee f entered ride 2
-Attendee j left ride 6
-Attendee p left ride 1
-Attendee U entered ride 6
-Attendee d entered ride 6
-Attendee e left ride 4
-Attendee X left ride 8
-Attendee a left ride 9
-Attendee V entered ride 5
-Attendee t left ride 6
-Attendee r entered ride 1
-Attendee L left ride 5
-Attendee O entered ride 9
-Attendee h left ride 5
-Attendee g left ride 7
-Attendee l entered ride 5
-Attendee Q left ride 2
-Attendee q left ride 6
-Attendee K entered ride 2
-Attendee W left ride 8
-Attendee w entered ride 1
-Attendee N entered ride 3
-Attendee v entered ride 7
-Attendee c entered ride 6
-Attendee u entered ride 7
-Attendee f left ride 2
-Attendee U left ride 6
-Attendee V left ride 5
-Attendee d left ride 6
-Attendee r left ride 1
-Attendee O left ride 9
-Attendee l left ride 5
-Attendee x entered ride 1
-Attendee z entered ride 0
-Attendee K left ride 2
-Attendee a entered ride 0
-Attendee m entered ride 9
-Attendee w left ride 1
-Attendee j entered ride 8
-Attendee y entered ride 1
-Attendee N left ride 3
-Attendee v left ride 7
-Attendee c left ride 6
-Attendee u left ride 7
-Attendee L entered ride 6
-Attendee t entered ride 4
-Attendee x left ride 1
-Attendee n entered ride 9
-Attendee z left ride 0
-Attendee a left ride 0
-Attendee m left ride 9
-Attendee k entered ride 3
-Attendee q entered ride 0
-Attendee j left ride 8
-Attendee S entered ride 2
-Attendee y left ride 1
-Attendee I entered ride 7
-Attendee M entered ride 3
-Attendee U entered ride 4
-Attendee L left ride 6
-Attendee V entered ride 6
-Attendee t left ride 4
-Attendee n left ride 9
-Attendee F entered ride 9
-Attendee k left ride 3
-Attendee q left ride 0
-Attendee S left ride 2
-Attendee l entered ride 6
-Attendee I left ride 7
-Attendee M left ride 3
-Attendee U left ride 4
-Attendee V left ride 6
-Attendee Y entered ride 9
-Attendee O entered ride 8
-Attendee d entered ride 5
-Attendee b entered ride 8
-Attendee F left ride 9
-Attendee z entered ride 0
-Attendee A starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee a entered ride 0
-Attendee v entered ride 0
-Attendee B starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee l left ride 6
-Attendee u entered ride 0
-Attendee C starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee P entered ride 9
-Attendee D starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee E starting: delay 0, speed 500, start position 0, 10 rides assigned
-Attendee Y left ride 9
-Attendee T entered ride 2
-Attendee O left ride 8
-Attendee j entered ride 7
-Attendee e entered ride 7
-Attendee d left ride 5
-Attendee h entered ride 6
-Attendee b left ride 8
-Attendee z left ride 0
-Attendee N entered ride 5
-Attendee G entered ride 2
-Attendee L entered ride 4
-Attendee H entered ride 8
-Attendee c entered ride 8
-Attendee A entered the park
-Attendee a left ride 0
-Attendee X entered ride 3
-Attendee v left ride 0
-Attendee m entered ride 8
-Attendee W entered ride 3
-Attendee r entered ride 2
-Attendee w entered ride 0
-Attendee P left ride 9
-Attendee M entered ride 5
-Attendee T left ride 2
-Attendee j left ride 7
-Attendee U entered ride 7
-Attendee x entered ride 0
-Attendee e left ride 7
-Attendee h left ride 6
-Attendee V entered ride 4
-Attendee u left ride 0
-Attendee t entered ride 0
-Attendee N left ride 5
-Attendee G left ride 2
-Attendee L left ride 4
-Attendee H left ride 8
-Attendee c left ride 8
-Attendee D entered the park
-Attendee C entered the park
-Attendee E entered the park
-Attendee B entered the park
-Attendee X left ride 3
-Attendee m left ride 8
-Attendee W left ride 3
-Attendee r left ride 2
-Attendee w left ride 0
-Attendee M left ride 5
-Attendee U left ride 7
-Attendee x left ride 0
-Attendee V left ride 4
-Attendee n entered ride 8
-Attendee t left ride 0
-Attendee J entered ride 3
-Attendee F entered ride 0
-Attendee y entered ride 0
-Attendee l entered ride 7
-Attendee o entered ride 9
-Attendee n left ride 8
-Attendee j entered ride 0
-Attendee g entered ride 3
-Attendee J left ride 3
-Attendee F left ride 0
-Attendee i entered ride 1
-Attendee Z entered ride 9
-Attendee y left ride 0
-Attendee k entered ride 9
-Attendee l left ride 7
-Attendee L entered ride 7
-Attendee o left ride 9
-Attendee N entered ride 6
-Attendee j left ride 0
-Attendee g left ride 3
-Attendee i left ride 1
-Attendee c entered ride 9
-Attendee Z left ride 9
-Attendee k left ride 9
-Attendee L left ride 7
-Attendee N left ride 6
-Attendee M entered ride 6
-Attendee c left ride 9
-Attendee R entered ride 8
-Attendee U entered ride 0
-Attendee Y entered ride 8
-Attendee M left ride 6
-Attendee P entered ride 8
-Attendee R left ride 8
-Attendee W entered ride 5
-Attendee s entered ride 3
-Attendee d entered ride 3
-Attendee U left ride 0
-Attendee e entered ride 8
+Attendee M left the park
 Attendee b entered ride 3
-Attendee Y left ride 8
-Attendee P left ride 8
-Attendee W left ride 5
-Attendee s left ride 3
-Attendee d left ride 3
-Attendee V entered ride 7
-Attendee e left ride 8
 Attendee b left ride 3
-Attendee Q entered ride 9
-Attendee m entered ride 6
-Attendee X entered ride 5
-Attendee V left ride 7
-Attendee f entered ride 9
-Attendee Q left ride 9
-Attendee m left ride 6
-Attendee X left ride 5
-Attendee A entered ride 5
-Attendee k entered ride 0
-Attendee f left ride 9
-Attendee L entered ride 0
-Attendee A left ride 5
-Attendee k left ride 0
-Attendee L left ride 0
-Attendee p entered ride 8
-Attendee p left ride 8
+Attendee K entered ride 2
+Attendee K left ride 2
+Attendee F entered ride 9
+Attendee F left ride 9
 Attendee c entered ride 0
-Attendee O entered ride 3
 Attendee c left ride 0
-Attendee O left ride 3
+Attendee c left the park
+Attendee S entered ride 1
+Attendee S left ride 1
+Attendee X entered ride 3
+Attendee X left ride 3
+Attendee N entered ride 6
+Attendee N left ride 6
+Attendee W entered ride 5
+Attendee W left ride 5
+Attendee e entered ride 7
+Attendee e left ride 7
+Attendee m entered ride 9
+Attendee m left ride 9
+Attendee b entered ride 7
+Attendee b left ride 7
+Attendee p entered ride 1
+Attendee p left ride 1
+Attendee d entered ride 3
+Attendee d left ride 3
+Attendee s entered ride 8
+Attendee s left ride 8
+Attendee F entered ride 0
+Attendee F left ride 0
+Attendee O entered ride 8
+Attendee O left ride 8
+Attendee Y entered ride 9
+Attendee Y left ride 9
+Attendee H entered ride 8
+Attendee H left ride 8
+Attendee F left the park
+Attendee f entered ride 2
+Attendee f left ride 2
+Attendee n entered ride 9
+Attendee n left ride 9
 Attendee N entered ride 4
-Attendee l entered ride 0
-Attendee M entered ride 4
 Attendee N left ride 4
-Attendee l left ride 0
-Attendee M left ride 4
+Attendee k entered ride 1
+Attendee k left ride 1
+Attendee k left the park
+Attendee T entered ride 1
+Attendee T left ride 1
+Attendee X entered ride 5
+Attendee X left ride 5
 Attendee W entered ride 6
 Attendee W left ride 6
-Attendee o entered ride 8
-Attendee o left ride 8
-Attendee B entered ride 6
+Attendee h entered ride 6
+Attendee h left ride 6
+Attendee m entered ride 8
+Attendee m left ride 8
+Attendee b entered ride 4
+Attendee b left ride 4
+Attendee I entered ride 7
+Attendee I left ride 7
+Attendee G entered ride 2
+Attendee G left ride 2
+Attendee i left the park
+Attendee e entered ride 8
+Attendee e left ride 8
+Attendee P entered ride 9
+Attendee P left ride 9
 Attendee d entered ride 4
-Attendee B left ride 6
-Attendee I entered ride 2
 Attendee d left ride 4
-Attendee Z entered ride 8
-Attendee V entered ride 0
-Attendee I left ride 2
-Attendee Z left ride 8
-Attendee V left ride 0
-Attendee C entered ride 7
-Attendee e entered ride 9
-Attendee C left ride 7
-Attendee b entered ride 7
+Attendee r entered ride 1
+Attendee r left ride 1
+Attendee S entered ride 2
+Attendee S left ride 2
+Attendee Y entered ride 8
+Attendee Y left ride 8
 Attendee X entered ride 6
-Attendee e left ride 9
-Attendee b left ride 7
 Attendee X left ride 6
-Attendee c entered ride 0
-Attendee c left ride 0
-Attendee A entered ride 6
-Attendee A left ride 6
-Attendee i entered ride 2
-Attendee m entered ride 4
-Attendee i left ride 2
-Attendee m left ride 4
-Attendee K entered ride 8
-Attendee H entered ride 3
-Attendee K left ride 8
-Attendee H left ride 3
-Attendee G entered ride 8
-Attendee G left ride 8
-Attendee M entered ride 7
-Attendee M left ride 7
+Attendee b entered ride 6
+Attendee b left ride 6
+Attendee n entered ride 8
+Attendee n left ride 8
+Attendee N entered ride 7
+Attendee N left ride 7
+Attendee N left the park
+Attendee I left the park
 Attendee W entered ride 4
 Attendee W left ride 4
-Attendee Q entered ride 8
-Attendee E entered ride 9
-Attendee Q left ride 8
-Attendee E left ride 9
-Attendee D entered ride 8
-Attendee D left ride 8
-Attendee O entered ride 5
-Attendee O left ride 5
-Attendee n entered ride 3
-Attendee n left ride 3
-Attendee h entered ride 0
-Attendee N entered ride 7
-Attendee h left ride 0
-Attendee N left ride 7
-Attendee B entered ride 7
-Attendee b entered ride 4
-Attendee B left ride 7
-Attendee b left ride 4
-Attendee C entered ride 8
-Attendee C left ride 8
-Attendee k entered ride 1
-Attendee k left ride 1
-Attendee d entered ride 2
-Attendee e entered ride 0
-Attendee d left ride 2
-Attendee e left ride 0
-Attendee S entered ride 9
-Attendee X entered ride 4
-Attendee Y entered ride 3
-Attendee A entered ride 7
-Attendee S left ride 9
-Attendee X left ride 4
-Attendee Y left ride 3
-Attendee A left ride 7
-Attendee M entered ride 0
-Attendee M left ride 0
-Attendee s entered ride 5
-Attendee s left ride 5
-Attendee P entered ride 3
-Attendee P left ride 3
-Attendee F entered ride 1
-Attendee F left ride 1
-Attendee O entered ride 6
-Attendee O left ride 6
-Attendee G entered ride 9
-Attendee G left ride 9
-Attendee E entered ride 0
-Attendee b entered ride 6
-Attendee E left ride 0
-Attendee b left ride 6
-Attendee D entered ride 9
-Attendee D left ride 9
-Attendee W entered ride 7
-Attendee W left ride 7
-Attendee m entered ride 7
-Attendee m left ride 7
-Attendee N entered ride 0
-Attendee N left ride 0
-Attendee g entered ride 8
-Attendee g left ride 8
-Attendee B entered ride 8
-Attendee B left ride 8
-Attendee C entered ride 9
-Attendee C left ride 9
-Attendee d entered ride 1
-Attendee d left ride 1
-Attendee R entered ride 3
-Attendee R left ride 3
-Attendee n entered ride 5
-Attendee n left ride 5
+Attendee m entered ride 6
+Attendee m left ride 6
 Attendee b entered ride 5
 Attendee b left ride 5
+Attendee b left the park
+Attendee e entered ride 9
+Attendee e left ride 9
+Attendee J entered ride 3
+Attendee J left ride 3
+Attendee P entered ride 8
+Attendee P left ride 8
+Attendee d entered ride 2
+Attendee d left ride 2
+Attendee g entered ride 3
+Attendee g left ride 3
+Attendee O entered ride 3
+Attendee O left ride 3
+Attendee Z entered ride 9
+Attendee Z left ride 9
+Attendee Q entered ride 9
+Attendee Q left ride 9
+Attendee T entered ride 2
+Attendee T left ride 2
+Attendee X entered ride 4
+Attendee X left ride 4
+Attendee W entered ride 7
+Attendee W left ride 7
+Attendee W left the park
+Attendee r entered ride 2
+Attendee r left ride 2
+Attendee R entered ride 8
+Attendee R left ride 8
+Attendee o entered ride 9
+Attendee o left ride 9
+Attendee d entered ride 1
+Attendee d left ride 1
+Attendee d left the park
+Attendee m entered ride 4
+Attendee m left ride 4
 Attendee e entered ride 0
 Attendee e left ride 0
-Attendee A entered ride 8
-Attendee A left ride 8
-Attendee h entered ride 9
-Attendee h left ride 9
-Attendee J entered ride 9
-Attendee J left ride 9
-Attendee f entered ride 3
-Attendee f left ride 3
-Attendee G entered ride 0
-Attendee G left ride 0
+Attendee e left the park
+Attendee O entered ride 5
+Attendee O left ride 5
+Attendee H entered ride 3
+Attendee H left ride 3
+Attendee Z entered ride 8
+Attendee Z left ride 8
+Attendee J left the park
+Attendee G entered ride 8
+Attendee G left ride 8
+Attendee Y entered ride 3
+Attendee Y left ride 3
+Attendee Q entered ride 8
+Attendee Q left ride 8
+Attendee n entered ride 3
+Attendee n left ride 3
 Attendee X entered ride 7
 Attendee X left ride 7
-Attendee D entered ride 0
-Attendee D left ride 0
-Attendee O entered ride 4
-Attendee O left ride 4
-Attendee Y entered ride 5
-Attendee Y left ride 5
-Attendee P entered ride 5
-Attendee T entered ride 9
-Attendee P left ride 5
-Attendee T left ride 9
-Attendee W entered ride 0
-Attendee W left ride 0
-Attendee r entered ride 9
-Attendee r left ride 9
-Attendee p entered ride 3
-Attendee p left ride 3
-Attendee S entered ride 8
-Attendee S left ride 8
-Attendee o entered ride 3
-Attendee o left ride 3
-Attendee B entered ride 9
-Attendee B left ride 9
-Attendee C entered ride 0
-Attendee C left ride 0
-Attendee Z entered ride 3
-Attendee Z left ride 3
-Attendee k entered ride 0
-Attendee k left ride 0
-Attendee s entered ride 6
-Attendee s left ride 6
-Attendee A entered ride 9
-Attendee A left ride 9
-Attendee n entered ride 6
-Attendee n left ride 6
-Attendee m entered ride 0
-Attendee m left ride 0
-Attendee b entered ride 0
-Attendee b left ride 0
-Attendee Q entered ride 3
-Attendee Q left ride 3
-Attendee G entered ride 0
-Attendee G left ride 0
-Attendee H entered ride 9
-Attendee H left ride 9
-Attendee Y entered ride 6
-Attendee Y left ride 6
-Attendee P entered ride 6
-Attendee P left ride 6
-Attendee R entered ride 5
-Attendee R left ride 5
-Attendee O entered ride 7
-Attendee O left ride 7
-Attendee J entered ride 0
-Attendee J left ride 0
-Attendee B entered ride 0
-Attendee B left ride 0
-Attendee X entered ride 0
-Attendee X left ride 0
-Attendee I entered ride 9
-Attendee I left ride 9
-Attendee A entered ride 0
-Attendee A left ride 0
-Attendee F entered ride 0
-Attendee F left ride 0
-Attendee h entered ride 7
-Attendee h left ride 7
-Attendee o entered ride 5
-Attendee o left ride 5
-Attendee T entered ride 8
-Attendee T left ride 8
-Attendee r entered ride 8
-Attendee r left ride 8
-Attendee n entered ride 4
-Attendee n left ride 4
-Attendee K entered ride 3
-Attendee K left ride 3
-Attendee p entered ride 5
-Attendee p left ride 5
-Attendee Z entered ride 5
-Attendee Z left ride 5
-Attendee H entered ride 0
-Attendee H left ride 0
-Attendee E entered ride 1
-Attendee E left ride 1
-Attendee d entered ride 0
-Attendee d left ride 0
-Attendee Q entered ride 5
-Attendee Q left ride 5
-Attendee Y entered ride 4
-Attendee Y left ride 4
-Attendee i entered ride 8
-Attendee i left ride 8
-Attendee P entered ride 4
-Attendee P left ride 4
-Attendee f entered ride 8
-Attendee f left ride 8
-Attendee R entered ride 6
-Attendee R left ride 6
-Attendee I entered ride 0
-Attendee I left ride 0
-Attendee O entered ride 0
-Attendee O left ride 0
-Attendee g entered ride 2
-Attendee g left ride 2
-Attendee s entered ride 4
-Attendee s left ride 4
-Attendee o entered ride 4
-Attendee o left ride 4
-Attendee E entered ride 2
-Attendee E left ride 2
-Attendee D entered ride 1
-Attendee D left ride 1
-Attendee h entered ride 8
-Attendee h left ride 8
-Attendee H entered ride 0
-Attendee H left ride 0
-Attendee p entered ride 6
-Attendee p left ride 6
-Attendee Z entered ride 6
-Attendee Z left ride 6
-Attendee C entered ride 1
-Attendee C left ride 1
-Attendee Q entered ride 6
-Attendee Q left ride 6
-Attendee S entered ride 3
-Attendee S left ride 3
-Attendee E entered ride 3
-Attendee E left ride 3
-Attendee D entered ride 2
-Attendee D left ride 2
-Attendee i entered ride 7
-Attendee i left ride 7
-Attendee Y entered ride 7
-Attendee Y left ride 7
-Attendee P entered ride 7
-Attendee P left ride 7
-Attendee C entered ride 2
-Attendee C left ride 2
-Attendee n entered ride 0
-Attendee n left ride 0
-Attendee R entered ride 4
-Attendee R left ride 4
-Attendee B entered ride 1
-Attendee B left ride 1
-Attendee A entered ride 1
-Attendee A left ride 1
-Attendee f entered ride 4
-Attendee f left ride 4
-Attendee o entered ride 7
-Attendee o left ride 7
-Attendee D entered ride 3
-Attendee D left ride 3
-Attendee E entered ride 4
-Attendee E left ride 4
-Attendee Q entered ride 4
-Attendee Q left ride 4
-Attendee Z entered ride 4
-Attendee Z left ride 4
+Attendee X left the park
 Attendee h entered ride 0
 Attendee h left ride 0
-Attendee p entered ride 4
-Attendee p left ride 4
-Attendee r entered ride 3
-Attendee r left ride 3
-Attendee B entered ride 2
-Attendee B left ride 2
-Attendee C entered ride 3
-Attendee C left ride 3
-Attendee A entered ride 2
-Attendee A left ride 2
-Attendee s entered ride 7
-Attendee s left ride 7
-Attendee Y entered ride 0
-Attendee Y left ride 0
-Attendee T entered ride 3
-Attendee T left ride 3
-Attendee D entered ride 4
-Attendee P entered ride 0
-Attendee D left ride 4
-Attendee P left ride 0
-Attendee S entered ride 5
-Attendee S left ride 5
-Attendee E entered ride 5
-Attendee E left ride 5
-Attendee B entered ride 3
-Attendee B left ride 3
-Attendee C entered ride 4
-Attendee C left ride 4
-Attendee K entered ride 9
-Attendee K left ride 9
-Attendee A entered ride 3
-Attendee A left ride 3
-Attendee R entered ride 7
-Attendee R left ride 7
-Attendee D entered ride 5
-Attendee D left ride 5
-Attendee g entered ride 9
-Attendee g left ride 9
-Attendee f entered ride 7
-Attendee f left ride 7
-Attendee o entered ride 0
-Attendee o left ride 0
-Attendee J entered ride 1
-Attendee J left ride 1
-Attendee E entered ride 6
-Attendee E left ride 6
-Attendee Q entered ride 7
-Attendee Q left ride 7
-Attendee Z entered ride 7
-Attendee Z left ride 7
-Attendee B entered ride 4
-Attendee B left ride 4
-Attendee A entered ride 4
-Attendee A left ride 4
-Attendee r entered ride 5
-Attendee r left ride 5
-Attendee S entered ride 6
-Attendee S left ride 6
-Attendee C entered ride 5
-Attendee C left ride 5
-Attendee i entered ride 3
-Attendee i left ride 3
-Attendee p entered ride 7
-Attendee p left ride 7
-Attendee D entered ride 6
-Attendee D left ride 6
-Attendee I entered ride 1
-Attendee I left ride 1
-Attendee E entered ride 7
-Attendee E left ride 7
-Attendee T entered ride 5
-Attendee T left ride 5
-Attendee B entered ride 5
-Attendee B left ride 5
-Attendee K entered ride 0
-Attendee K left ride 0
-Attendee f entered ride 5
-Attendee f left ride 5
-Attendee C entered ride 6
-Attendee C left ride 6
-Attendee D entered ride 7
-Attendee D left ride 7
-Attendee s entered ride 0
-Attendee s left ride 0
-Attendee E entered ride 8
-Attendee E left ride 8
-Attendee R entered ride 0
-Attendee R left ride 0
-Attendee r entered ride 6
-Attendee r left ride 6
-Attendee Q entered ride 0
-Attendee Q left ride 0
-Attendee Z entered ride 0
-Attendee Z left ride 0
-Attendee i entered ride 4
-Attendee i left ride 4
-Attendee S entered ride 4
-Attendee S left ride 4
-Attendee f entered ride 6
-Attendee f left ride 6
-Attendee K entered ride 0
-Attendee K left ride 0
-Attendee T entered ride 6
-Attendee T left ride 6
-Attendee p entered ride 0
-Attendee p left ride 0
-Attendee A entered ride 0
-Attendee A left ride 0
-Attendee E entered ride 0
-Attendee E left ride 0
-Attendee D entered ride 0
-Attendee D left ride 0
-Attendee C entered ride 0
-Attendee C left ride 0
-Attendee B entered ride 0
-Attendee B left ride 0
-Attendee g entered ride 1
-Attendee g left ride 1
-Attendee i entered ride 6
-Attendee i left ride 6
-Attendee r entered ride 0
-Attendee r left ride 0
-Attendee S entered ride 7
-Attendee S left ride 7
-Attendee f entered ride 0
-Attendee f left ride 0
-Attendee T entered ride 4
-Attendee T left ride 4
-Attendee J entered ride 0
-Attendee J left ride 0
-Attendee I entered ride 0
-Attendee I left ride 0
-Attendee i entered ride 5
-Attendee i left ride 5
-Attendee S entered ride 0
-Attendee S left ride 0
-Attendee T entered ride 7
-Attendee T left ride 7
-Attendee g entered ride 0
-Attendee g left ride 0
-Attendee i entered ride 0
-Attendee i left ride 0
-Attendee g entered ride 0
-Attendee g left ride 0
-Attendee T entered ride 0
-Attendee T left ride 0
+Attendee f entered ride 9
+Attendee f left ride 9
+Attendee O entered ride 6
+Attendee O left ride 6
+Attendee K entered ride 8
+Attendee K left ride 8
+Attendee o entered ride 8
+Attendee o left ride 8
 Exiting keyboard event thread
 ---------------- Log Closed ----------------
 ---------------- Log Opened ----------------
@@ -4625,11 +1827,10 @@ Attendee i entered the park
 Attendee k entered the park
 Attendee m entered the park
 Attendee o entered the park
-Attendee q entered the park
-Attendee s entered the park
+Attendee p entered the park
+Attendee r entered the park
 Attendee t entered the park
 Attendee l entered the park
-Attendee r entered the park
 Attendee v entered the park
 Attendee u entered the park
 Attendee x entered the park
@@ -4638,10 +1839,11 @@ Attendee z entered the park
 Attendee y entered the park
 Attendee n entered the park
 Attendee h entered the park
-Attendee p entered the park
 Attendee j entered the park
+Attendee q entered the park
 Attendee a entered ride 1
 Attendee a left ride 1
+Attendee s entered the park
 Attendee F entered the park
 Attendee H entered the park
 Attendee G entered the park
@@ -4671,190 +1873,40 @@ Attendee S entered the park
 Attendee U entered the park
 Attendee y entered ride 2
 Attendee y left ride 2
-Attendee q entered ride 0
-Attendee q left ride 0
 Attendee j entered ride 1
 Attendee j left ride 1
 Attendee c entered ride 1
 Attendee c left ride 1
-Attendee a entered ride 2
-Attendee a left ride 2
+Attendee q entered ride 0
 Attendee z entered ride 6
+Attendee q left ride 0
 Attendee z left ride 6
 Attendee x entered ride 6
 Attendee x left ride 6
 Attendee w entered ride 6
 Attendee w left ride 6
+Attendee a left the park
 Attendee U entered ride 9
 Attendee U left ride 9
 Attendee L entered ride 0
 Attendee L left ride 0
-Attendee j entered ride 2
-Attendee j left ride 2
 Attendee v entered ride 0
 Attendee v left ride 0
-Attendee a entered ride 3
-Attendee a left ride 3
+Attendee j entered ride 2
+Attendee j left ride 2
 Attendee u entered ride 0
 Attendee u left ride 0
 Attendee x entered ride 7
 Attendee x left ride 7
-Exiting keyboard event thread
----------------- Log Closed ----------------
----------------- Log Opened ----------------
-Park file loaded
-Event file loaded
-Ride 1: timeout 5000, duration 2000, 9 riders
-Ride 0: timeout 7000, duration 3000, 9 riders
-Ride 2: timeout 4000, duration 20000, 9 riders
-Ride 3: timeout 3000, duration 12000, 9 riders
-Ride 4: timeout 2000, duration 99000, 9 riders
-Ride 5: timeout 1000, duration 16000, 9 riders
-Ride 6: timeout 1000, duration 5000, 9 riders
-Ride 7: timeout 1000, duration 9000, 9 riders
-Ride 8: timeout 1000, duration 18000, 9 riders
-Ride 9: timeout 1000, duration 21000, 9 riders
-Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
-Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
-Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
-Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
-Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
-Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
-Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
-Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
-Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
-Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
-Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
-Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
-Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
-Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
-Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
-Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
-Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
-Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
-Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
-Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
-Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
-Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
-Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
-Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
-Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
-Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
-Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
-Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
-Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
-Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
-Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
-Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
-Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
-Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
-Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
-Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
-Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
-Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
-Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
-Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
-Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
-Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
-Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
-Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
-Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
-Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
-Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
-Started keyboard event thread
-Attendee a entered the park
-Attendee b entered the park
-Attendee c entered the park
-Attendee d entered the park
-Attendee e entered the park
-Attendee f entered the park
-Attendee g entered the park
-Attendee i entered the park
-Attendee k entered the park
-Attendee m entered the park
-Attendee o entered the park
-Attendee p entered the park
-Attendee r entered the park
-Attendee t entered the park
-Attendee l entered the park
-Attendee v entered the park
-Attendee w entered the park
-Attendee u entered the park
-Attendee y entered the park
-Attendee x entered the park
-Attendee z entered the park
-Attendee n entered the park
-Attendee h entered the park
-Attendee j entered the park
-Attendee q entered the park
-Attendee a entered ride 1
-Attendee a left ride 1
-Attendee s entered the park
-Attendee F entered the park
-Attendee H entered the park
-Attendee I entered the park
-Attendee J entered the park
-Attendee K entered the park
-Attendee G entered the park
-Attendee L entered the park
-Attendee z entered ride 5
-Attendee z left ride 5
-Attendee N entered the park
-Attendee M entered the park
-Attendee P entered the park
-Attendee R entered the park
-Attendee w entered ride 5
-Attendee w left ride 5
-Attendee T entered the park
-Attendee V entered the park
-Attendee W entered the park
-Attendee Y entered the park
-Attendee O entered the park
-Attendee x entered ride 5
-Attendee x left ride 5
-Attendee Q entered the park
-Attendee X entered the park
-Attendee Z entered the park
-Attendee S entered the park
-Attendee U entered the park
-Attendee y entered ride 2
-Attendee y left ride 2
-Attendee j entered ride 1
-Attendee j left ride 1
-Attendee c entered ride 1
-Attendee c left ride 1
-Attendee a entered ride 2
-Attendee a left ride 2
-Attendee z entered ride 6
-Attendee z left ride 6
-Attendee q entered ride 0
-Attendee q left ride 0
-Attendee w entered ride 6
-Attendee w left ride 6
-Attendee x entered ride 6
-Attendee x left ride 6
-Attendee U entered ride 9
-Attendee U left ride 9
-Attendee L entered ride 0
-Attendee L left ride 0
-Attendee u entered ride 0
-Attendee u left ride 0
-Attendee j entered ride 2
-Attendee j left ride 2
-Attendee v entered ride 0
-Attendee v left ride 0
 Attendee t entered ride 0
 Attendee t left ride 0
 Attendee w entered ride 7
 Attendee w left ride 7
-Attendee a entered ride 3
-Attendee a left ride 3
-Attendee x entered ride 7
-Attendee x left ride 7
-Attendee e entered ride 1
-Attendee e left ride 1
 Attendee z entered ride 4
 Attendee z left ride 4
+Attendee e entered ride 1
+Attendee e left ride 1
+Attendee c left the park
 Attendee y entered ride 6
 Attendee y left ride 6
 Attendee F entered ride 6
@@ -4869,48 +1921,228 @@ Attendee f entered ride 1
 Attendee f left ride 1
 Attendee l entered ride 1
 Attendee l left ride 1
-Attendee a entered ride 4
-Attendee a left ride 4
 Attendee M entered ride 0
 Attendee M left ride 0
 Attendee j entered ride 4
 Attendee j left ride 4
-Attendee y entered ride 4
-Attendee y left ride 4
-Attendee W entered ride 0
-Attendee W left ride 0
 Attendee z entered ride 7
 Attendee z left ride 7
-Attendee J entered ride 5
-Attendee J left ride 5
+Attendee y entered ride 4
+Attendee y left ride 4
 Attendee V entered ride 2
 Attendee V left ride 2
-Attendee w entered ride 2
-Attendee w left ride 2
+Attendee W entered ride 0
+Attendee W left ride 0
+Attendee J entered ride 5
+Attendee J left ride 5
 Attendee N entered ride 9
 Attendee N left ride 9
-Attendee c entered ride 3
-Attendee c left ride 3
-Attendee a entered ride 5
-Attendee a left ride 5
 Attendee q entered ride 1
 Attendee q left ride 1
 Attendee k entered ride 6
 Attendee k left ride 6
+Attendee u left the park
 Attendee U entered ride 1
 Attendee U left ride 1
+Attendee e left the park
+Attendee v entered ride 1
+Attendee v left ride 1
 Attendee K entered ride 5
 Attendee K left ride 5
 Attendee h entered ride 1
 Attendee h left ride 1
-Attendee v entered ride 1
-Attendee v left ride 1
-Attendee t entered ride 1
-Attendee t left ride 1
 Attendee y entered ride 7
 Attendee y left ride 7
 Attendee L entered ride 1
 Attendee L left ride 1
+Attendee t entered ride 1
+Attendee t left ride 1
 Attendee Y entered ride 0
 Attendee Y left ride 0
-Attendee 
+Attendee f left the park
+Attendee V entered ride 1
+Attendee V left ride 1
+Attendee x entered ride 2
+Attendee x left ride 2
+Attendee w entered ride 2
+Attendee w left ride 2
+Attendee s entered ride 2
+Attendee s left ride 2
+Attendee b entered ride 0
+Attendee b left ride 0
+Attendee y entered ride 3
+Attendee y left ride 3
+Attendee Z entered ride 0
+Attendee Z left ride 0
+Attendee q entered ride 2
+Attendee q left ride 2
+Attendee k left the park
+Attendee l entered ride 2
+Attendee l left ride 2
+Attendee z entered ride 2
+Attendee z left ride 2
+Attendee U entered ride 2
+Attendee U left ride 2
+Attendee j entered ride 0
+Attendee j left ride 0
+Attendee L entered ride 2
+Attendee L left ride 2
+Attendee O entered ride 0
+Attendee O left ride 0
+Attendee v entered ride 2
+Attendee v left ride 2
+Attendee t entered ride 2
+Attendee t left ride 2
+Attendee R entered ride 9
+Attendee R left ride 9
+Attendee F entered ride 4
+Attendee F left ride 4
+Attendee P entered ride 0
+Attendee P left ride 0
+Attendee j entered ride 9
+Attendee j left ride 9
+Attendee q entered ride 9
+Attendee q left ride 9
+Attendee g entered ride 5
+Attendee g left ride 5
+Attendee G entered ride 2
+Attendee G left ride 2
+Attendee H entered ride 6
+Attendee H left ride 6
+Attendee x entered ride 8
+Attendee x left ride 8
+Attendee q entered ride 8
+Attendee q left ride 8
+Attendee w entered ride 8
+Attendee w left ride 8
+Attendee X entered ride 2
+Attendee X left ride 2
+Attendee A starting: delay 0, speed 500, start position 0, 10 rides assigned
+Attendee A entered the park
+Attendee y entered ride 9
+Attendee y left ride 9
+Attendee z entered ride 8
+Attendee z left ride 8
+Attendee Q entered ride 0
+Attendee Q left ride 0
+Attendee K left the park
+Attendee U entered ride 8
+Attendee U left ride 8
+Attendee v entered ride 9
+Attendee v left ride 9
+Attendee w entered ride 9
+Attendee w left ride 9
+Attendee t entered ride 9
+Attendee t left ride 9
+Attendee q entered ride 3
+Attendee q left ride 3
+Attendee j entered ride 5
+Attendee j left ride 5
+Attendee I entered ride 2
+Attendee I left ride 2
+Attendee L entered ride 9
+Attendee L left ride 9
+Attendee M entered ride 1
+Attendee M left ride 1
+Attendee q entered ride 5
+Attendee q left ride 5
+Attendee x entered ride 3
+Attendee x left ride 3
+Attendee j entered ride 6
+Attendee j left ride 6
+Attendee q entered ride 6
+Attendee q left ride 6
+Attendee L entered ride 8
+Attendee L left ride 8
+Attendee q left the park
+Attendee z entered ride 3
+Attendee z left ride 3
+Attendee T entered ride 0
+Attendee T left ride 0
+Attendee m entered ride 0
+Attendee m left ride 0
+Attendee J entered ride 4
+Attendee J left ride 4
+Attendee U entered ride 3
+Attendee U left ride 3
+Attendee v entered ride 3
+Attendee v left ride 3
+Attendee y entered ride 0
+Attendee t entered ride 3
+Attendee y left ride 0
+Attendee t left ride 3
+Attendee j entered ride 8
+Attendee j left ride 8
+Attendee V entered ride 9
+Attendee V left ride 9
+Attendee S entered ride 0
+Attendee S left ride 0
+Attendee M entered ride 2
+Attendee M left ride 2
+Attendee h entered ride 2
+Attendee h left ride 2
+Attendee d entered ride 0
+Attendee d left ride 0
+Attendee X entered ride 1
+Attendee X left ride 1
+Attendee w entered ride 0
+Attendee w left ride 0
+Attendee n entered ride 0
+Attendee n left ride 0
+Attendee L entered ride 3
+Attendee L left ride 3
+Attendee U entered ride 5
+Attendee U left ride 5
+Attendee v entered ride 5
+Attendee v left ride 5
+Attendee t entered ride 5
+Attendee t left ride 5
+Attendee N entered ride 1
+Attendee N left ride 1
+Attendee b entered ride 1
+Attendee b left ride 1
+Attendee A left the park
+Attendee W entered ride 1
+Attendee W left ride 1
+Attendee V entered ride 8
+Attendee V left ride 8
+Attendee x entered ride 0
+Attendee x left ride 0
+Attendee z entered ride 0
+Attendee z left ride 0
+Attendee L entered ride 5
+Attendee L left ride 5
+Attendee o entered ride 0
+Attendee o left ride 0
+Attendee H entered ride 7
+Attendee H left ride 7
+Attendee j entered ride 7
+Attendee j left ride 7
+Attendee z left the park
+Attendee F entered ride 7
+Attendee F left ride 7
+Attendee t entered ride 6
+Attendee t left ride 6
+Attendee U entered ride 6
+Attendee U left ride 6
+Attendee j left the park
+Attendee v entered ride 6
+Attendee v left ride 6
+Attendee g entered ride 6
+Attendee g left ride 6
+Attendee y entered ride 1
+Attendee y left ride 1
+Attendee l entered ride 9
+Attendee l left ride 9
+Attendee L entered ride 6
+Attendee L left ride 6
+Attendee y left the park
+Attendee v entered ride 7
+Attendee v left ride 7
+Attendee t entered ride 4
+Attendee t left ride 4
+Attendee w entered ride 1
+Attendee w left ride 1
+Attendee v left the park
+Exiting keyboard event thread
+---------------- Log Closed ----------------
