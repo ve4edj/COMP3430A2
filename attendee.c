@@ -1,10 +1,13 @@
 #include "attendee.h"
+#include "ride.h"
 #include "log.h"
 #include "safeScreen.h"
 #include <stdio.h>
 #include <unistd.h>
 
 #define LOCAL_LOG_BUFF_SIZE 128
+
+extern ride_t * rides[10];
 
 void * attendeeThread(void * in) {
 	attendee_t * self = (attendee_t *)in;
@@ -44,7 +47,7 @@ void * attendeeThread(void * in) {
 				self->ypos = new_row;
 			}
 			safe_update_screen();
-			usleep(self->delay * 1000);
+			usleep(self->speed * 1000);
 		}
 	} while (self->currRide++ < self->numRides);
 

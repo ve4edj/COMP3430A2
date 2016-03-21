@@ -29,13 +29,16 @@ pthread_t attendeeThreads[MAX_ATTENDEES];
 
 pthread_t kbThread, screenThread, logThread;
 
+void die(char * msg) {
+	perror(msg);
+	finish_screen();
+	exit(EXIT_FAILURE);
+}
+
 void loadPark(char * parkFile) {
 	initialize_screen();
-	if (load_screen(parkFile) < 0) {
-		perror("Unable to load map file");
-		finish_screen();
-		exit(EXIT_FAILURE);
-	}
+	if (load_screen(parkFile) < 0)
+		die("Unable to load map file");
 }
 
 int attendeeNameToIdx(char atName) {
@@ -91,10 +94,8 @@ void loadEvents(char * eventFile) {
 					switch (rp) {
 					case RP_NUM:
 						rt = malloc(sizeof(ride_t));
-						if (NULL == rt) {
-							perror("Error in malloc");
-							exit(EXIT_FAILURE);
-						}
+						if (NULL == rt)
+							die("Error in malloc");
 						rt->number = atoi(toke);
 						rp = RP_TIMEOUT;
 						break;
@@ -114,10 +115,8 @@ void loadEvents(char * eventFile) {
 					switch (ap) {
 					case AP_DELAY:
 						at = malloc(sizeof(attendee_t));
-						if (NULL == at) {
-							perror("Error in malloc");
-							exit(EXIT_FAILURE);
-						}
+						if (NULL == at)
+							die("Error in malloc");
 						startupDelay += atoi(toke);
 						at->delay = startupDelay;
 						ap = AP_NAME;
@@ -142,10 +141,8 @@ void loadEvents(char * eventFile) {
 							numRides--;
 						at->numRides = numRides;
 						at->rides = malloc(sizeof(int) * numRides);
-						if (NULL == at->rides) {
-							perror("Error in malloc");
-							exit(EXIT_FAILURE);
-						}
+						if (NULL == at->rides)
+							die("Error in malloc");
 						for (int i = 0; i < numRides; i++) {
 							at->rides[i] = toke[i] - '0';
 						}
@@ -161,8 +158,7 @@ void loadEvents(char * eventFile) {
 			}
 		}
 	} else {
-		perror("Unable to load events file");
-		exit(EXIT_FAILURE);
+		die("Unable to load events file");
 	}
 }
 
@@ -175,15 +171,25 @@ void * keyboardInput(void * in) {
 		if (0 <= idx) {
 			if (NULL == attendees[idx]) {
 				attendee_t * at = malloc(sizeof(attendee_t));
-				if (NULL == at) {
-					perror("Fail in malloc");
-					finish_screen();
-					exit(EXIT_FAILURE);
-				}
+				if (NULL == at)
+					die("Fail in malloc");
+				at->delay = 0;
+				at->speed = 500;
 				at->name = ch;
-				at->xpos = random() % SCREEN_WIDTH;
+				at->xpos = 0;
 				at->ypos = 0;
 				at->state = AS_ENTER;
+				at->numRides = 10;
+				at->currRide = 0;
+				at->rides = malloc(sizeof(int) * at->numRides);
+				if (NULL == at->rides)
+					die("Fail in malloc");
+				for (int i = 0; i < at->numRides; i++) {
+					at->rides[i] = (at->name + i) % MAX_RIDES;
+				}
+				attendees[idx] = at;
+				pthread_create(&(attendeeThreads[idx]), NULL, attendeeThread, (void *)attendees[idx]);
+				attendees[idx]->threadID = attendeeThreads[idx];
 			} else {
 				// make attendee[idx] want to leave
 			}
@@ -203,10 +209,10 @@ int main(int argc, char *argv[]) {
 
 	pthread_create(&logThread, NULL, logOutput, (void *)argv[3]);
 
-	loadEvents(argv[2]);
-	writeToLog("Event file loaded");
 	loadPark(argv[1]);
 	writeToLog("Park file loaded");
+	loadEvents(argv[2]);
+	writeToLog("Event file loaded");
 
 	int rideLengths[MAX_RIDES] = {0};
 	for (int r = 0; r < SCREEN_HEIGHT; r++) {
@@ -224,6 +230,9 @@ int main(int argc, char *argv[]) {
 			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
 			rides[i]->threadID = rideThreads[i];
+		} else {
+			// if there is a nonzero length in rideLengths
+			// create a default ride with timeout = 5 and duration = 20
 		}
 	}
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
