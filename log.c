@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <pthread.h>
 
-#define BUFFER_SIZE 256
+#define LOG_BUFFER_SIZE 256
 
 static pthread_mutex_t logFileMutex = PTHREAD_MUTEX_INITIALIZER;
 static pthread_mutex_t logInUse = PTHREAD_MUTEX_INITIALIZER;
@@ -12,7 +12,7 @@ static pthread_cond_t emptyCond = PTHREAD_COND_INITIALIZER;
 static pthread_cond_t fullCond = PTHREAD_COND_INITIALIZER;
 static int bufferIsEmpty;
 static int bufferIsFull;
-static char buffer[BUFFER_SIZE];
+static char buffer[LOG_BUFFER_SIZE];
 static int in;
 static int out;
 static int count;
@@ -32,7 +32,7 @@ void * logOutput(void * in) {
 				pthread_cond_wait(&emptyCond, &logFileMutex);
 			while (!bufferIsEmpty) {
 				ch = buffer[out++];
-				out %= BUFFER_SIZE;
+				out %= LOG_BUFFER_SIZE;
 				if (--count == 0)
 					bufferIsEmpty = 1;
 				fputc(ch, f);
@@ -60,8 +60,8 @@ void writeToLog(char * str) {
 			buffer[in++] = '\n';
 		else
 			buffer[in++] = str[i];
-		in %= BUFFER_SIZE;
-		if (++count == (BUFFER_SIZE - 1))
+		in %= LOG_BUFFER_SIZE;
+		if (++count == (LOG_BUFFER_SIZE - 1))
 			bufferIsFull = 1;
 		bufferIsEmpty = 0;
 		usleep(10);

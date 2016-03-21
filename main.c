@@ -13,6 +13,13 @@
 #include "ride.h"
 #include "log.h"
 
+#ifndef TRUE
+#define TRUE 1
+#endif
+#ifndef FALSE
+#define FALSE 0
+#endif
+
 #define MAX_RIDES 10
 #define MAX_ATTENDEES 52
 ride_t * rides[MAX_RIDES];
@@ -121,6 +128,7 @@ void loadEvents(char * eventFile) {
 						break;
 					case AP_XPOS:
 						at->xpos = atoi(toke);
+						at->ypos = 0;
 						ap = AP_SPEED;
 						break;
 					case AP_SPEED:
@@ -141,6 +149,7 @@ void loadEvents(char * eventFile) {
 						for (int i = 0; i < numRides; i++) {
 							at->rides[i] = toke[i] - '0';
 						}
+						at->state = AS_ENTER;
 						attendees[attendeeNameToIdx(at->name)] = at;
 						at = NULL;
 						ap = AP_DELAY;
