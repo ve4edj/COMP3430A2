@@ -58,39 +58,23 @@ void * attendeeThread(void * in) {
 			// wait until the ride is over
 			self->state = AS_RIDEFINISHED;
 			break;
+		case AS_RIDEFINISHED:
+			// find the exit from the ride
+			if (self->wantsToLeave)
+				self->state = AS_FINDEXIT;
+			else if (self->currRide++ < self->numRides)
+				self->state = AS_FINDRIDE;
+			else
+				self->state = AS_FINDEXIT;
+			break;
+		case AS_FINDEXIT:
+			// navigate towards the nearest exit
+			self->state = AS_EXIT;
+			break;
+		case AS_EXIT:
+		default:
+			break;
 		}
 	}
-
-/*
-
-	do {
-		self->state = AS_FINDRIDE;
-		char target = '0' + self->rides[self->currRide];
-		new_col = self->xpos;
-		new_row = self->ypos;
-		while (TRUE) {
-			lockScreen();
-			safe_find_target(TRUE, target, &new_col, &new_row);
-			if (safe_move_to_target(TRUE, self->xpos, self->ypos, &new_col, &new_row)) {
-				safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
-				unlockScreen();
-				self->xpos = -1;
-				self->ypos = -1;
-				self->state = AS_ONRIDE;
-				snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
-				writeToLog(buff);
-				pthread_exit(NULL);		// found the target, now we should go to the exit and then next one, make the next target the exit?
-			} else {
-				safe_set_screen_char(TRUE, self->xpos, self->ypos, ' ');
-				safe_set_screen_char(TRUE, new_col, new_row, self->name);
-				unlockScreen();
-				self->xpos = new_col;
-				self->ypos = new_row;
-			}
-			safe_update_screen();
-			usleep(self->speed * 1000);
-		}
-	} while (self->currRide++ < self->numRides);
-*/
 	pthread_exit(NULL);
 }
