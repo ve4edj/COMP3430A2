@@ -169,11 +169,21 @@ void loadEvents(char * eventFile) {
 void * keyboardInput(void * in) {
 	writeToLog("Started keyboard event thread");
 	char ch;
+	noecho();
 	while ((ch = getch()) != '`') {
 		int idx = attendeeNameToIdx(ch);
 		if (0 <= idx) {
 			if (NULL == attendees[idx]) {
-				// make a new attendee and start its thread
+				attendee_t * at = malloc(sizeof(attendee_t));
+				if (NULL == at) {
+					perror("Fail in malloc");
+					finish_screen();
+					exit(EXIT_FAILURE);
+				}
+				at->name = ch;
+				at->xpos = random() % SCREEN_WIDTH;
+				at->ypos = 0;
+				at->state = AS_ENTER;
 			} else {
 				// make attendee[idx] want to leave
 			}
@@ -229,7 +239,7 @@ int main(int argc, char *argv[]) {
 
 
 
-
+/*
 	typedef struct {
 		int row, col;
 	} Pos;
@@ -280,7 +290,7 @@ int main(int argc, char *argv[]) {
 		safe_blink_screen(targets);
 		safe_update_screen();
 	}
-
+*/
 	stopLog();
 	pthread_join(logThread, NULL);
 	finish_screen();

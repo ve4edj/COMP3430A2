@@ -7,6 +7,8 @@ void safe_set_screen_char(int multipart, int col, int row, char ch);
 void safe_blink_screen(char *charset);
 int safe_find_target(int multipart, char ch, int *col, int *row);
 int safe_move_to_target(int multipart, int col, int row, int *to_col, int *to_row);
+void lockScreen();
+void unlockScreen();
 
 #endif
 
