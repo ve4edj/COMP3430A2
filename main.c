@@ -215,11 +215,17 @@ int main(int argc, char *argv[]) {
 	writeToLog("Event file loaded");
 
 	int rideLengths[MAX_RIDES] = {0};
+	int rideExitsX[MAX_RIDES] = {0};
+	int rideExitsY[MAX_RIDES] = {0};
 	for (int r = 0; r < SCREEN_HEIGHT; r++) {
 		for (int c = 0; c < SCREEN_WIDTH; c++) {
 			char ch = get_screen_char(c, r);
 			if (('0' <= ch) && ('9' >= ch)) {
 				rideLengths[ch - '0']++;
+			}
+			if (('!' <= ch) && ('*' >= ch)) {
+				rideExitsX[ch - '!'] = c;
+				rideExitsY[ch - '!'] = r;
 			}
 		}
 	}
@@ -228,6 +234,8 @@ int main(int argc, char *argv[]) {
 			rides[i]->numRiders = rideLengths[i];
 			rides[i]->currRider = 0;
 			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
+			rides[i]->exitX = rideExitsX[i];
+			rides[i]->exitY = rideExitsY[i];
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
 		} else {
 			// if there is a nonzero length in rideLengths
@@ -242,62 +250,6 @@ int main(int argc, char *argv[]) {
 
 	pthread_create(&kbThread, NULL, keyboardInput, (void *)NULL);
 	pthread_join(kbThread, NULL);
-
-
-
-
-/*
-	typedef struct {
-		int row, col;
-	} Pos;
-
-	char ch;
-	Pos letters[52];
-	Pos *current;
-	int new_col, new_row;
-	char targets[2*MAX_RIDES + 1] = "";
-	const int CHARDIFF = '0' - '!';
-
-	for (int i = 0; i < 52; i++) {
-		do {
-			letters[i].col = random() % SCREEN_WIDTH;
-			letters[i].row = 0;
-		} while (SPACE != safe_get_screen_char(FALSE, letters[i].col, letters[i].row));
-		safe_set_screen_char(FALSE, letters[i].col, letters[i].row, ((i < 26) ? 'a' : 'A' - 26) + i);
-	}
-	safe_update_screen();
-
-	while ((ch = getch()) != '`') {
-		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-			if (ch >= 'a' && ch <= 'z')
-				current = &letters[ch-'a'];
-			if (ch >= 'A' && ch <= 'Z')
-				current = &letters[(ch-'A')+26];
-			if (current->col >= 0) {
-				char target = '0' + ch % MAX_RIDES;
-				new_col = current->col;
-				new_row = current->row;
-				safe_find_target(TRUE, target, &new_col, &new_row);
-				if (safe_move_to_target(TRUE, current->col, current->row, &new_col, &new_row)) {
-					safe_set_screen_char(FALSE, current->col, current->row, ' ');
-					current->col = -1;
-					current->row = -1;
-					int oldlen = strlen(targets);
-					targets[oldlen] = target - CHARDIFF;
-					targets[oldlen+1] = target;
-					targets[oldlen+2] = '\0';
-				} else {
-					safe_set_screen_char(FALSE, current->col, current->row, ' ');
-					safe_set_screen_char(FALSE, new_col, new_row, ch);
-					current->col = new_col;
-					current->row = new_row;
-				}
-			}
-		}
-		safe_blink_screen(targets);
-		safe_update_screen();
-	}
-*/
 	stopLog();
 	pthread_join(logThread, NULL);
 	finish_screen();

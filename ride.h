@@ -10,6 +10,8 @@ typedef struct {
 	int numRiders;
 	int currRider;
 	attendee_t ** riders;
+	int exitX;
+	int exitY;
 } ride_t;
 
 void * rideThread(void *);

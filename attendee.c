@@ -67,22 +67,45 @@ void * attendeeThread(void * in) {
 			self->state = AS_RIDEFINISHED;
 			break;
 		case AS_RIDEFINISHED:
-			// find the exit from the ride
-			if (self->wantsToLeave)
-				self->state = AS_FINDEXIT;
-			else if (self->currRide++ < self->numRides)
+			self->xpos = rides[self->rides[self->currRide]]->exitX;
+			self->ypos = rides[self->rides[self->currRide]]->exitY;
+			int found = 0;
+			while (!found) {
+				found = 1;
+				lockScreen();
+				if (' ' == safe_get_screen_char(TRUE, self->xpos, self->ypos + 1)) { self->ypos++; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos + 1, self->ypos + 1)) { self->xpos++; self->ypos++; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos - 1, self->ypos + 1)) { self->xpos--; self->ypos++; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos + 1, self->ypos)) { self->xpos++; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos - 1, self->ypos)) { self->xpos--; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos, self->ypos - 1)) { self->ypos--; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos + 1, self->ypos - 1)) { self->xpos++; self->ypos--; }
+				else if (' ' == safe_get_screen_char(TRUE, self->xpos - 1, self->ypos - 1)) { self->xpos--; self->ypos--; }
+				else {
+					found = 0;
+					unlockScreen();
+					usleep(10);
+				}
+			}
+			safe_set_screen_char(TRUE, self->xpos, self->ypos, self->name);
+			unlockScreen();
+			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c left ride %d", self->name, self->rides[self->currRide]);
+			writeToLog(buff);
+			if (self->currRide++ < self->numRides)
 				self->state = AS_FINDRIDE;
 			else
 				self->state = AS_FINDEXIT;
 			break;
 		case AS_FINDEXIT:
-			// navigate towards the nearest exit
-			self->state = AS_EXIT;
+			if (moveTowardsTarget(self, '~'))
+				self->state = AS_EXIT;
 			break;
 		case AS_EXIT:
 		default:
 			break;
 		}
 	}
+	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c left the park", self->name, self->rides[self->currRide]);
+	writeToLog(buff);
 	pthread_exit(NULL);
 }

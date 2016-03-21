@@ -18,12 +18,12 @@ static int out;
 static int count;
 static int stop;
 
-void * logOutput(void * in) {
+void * logOutput(void * filename) {
 	stop = 0;
 	bufferIsEmpty = 1;
 	bufferIsFull = 0;
 	char ch;
-	FILE * f = fopen((char *)in, "a");
+	FILE * f = fopen((char *)filename, "a");
 	if (NULL != f) {
 		fprintf(f, "---------------- Log Opened ----------------\n");
 		while (!stop) {
@@ -45,7 +45,7 @@ void * logOutput(void * in) {
 		fflush(f);
 		fclose(f);
 	} else {
-		fprintf(stderr, "Error opening log file %s\n", (char *)in);
+		fprintf(stderr, "Error opening log file %s\n", (char *)filename);
 	}
 	pthread_exit(NULL);
 }
