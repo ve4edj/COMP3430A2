@@ -7,9 +7,9 @@
 		Student #:		7711697
 */
 
+#include "safeScreen.h"
 #include "ride.h"
 #include "log.h"
-#include "safeScreen.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/time.h>

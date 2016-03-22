@@ -1,0 +1,2 @@
+#define MAX_RIDES 10
+#define MAX_ATTENDEES 52

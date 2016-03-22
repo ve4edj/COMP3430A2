@@ -7,16 +7,17 @@
 		Student #:		7711697
 */
 
+#include "safeScreen.h"
 #include "attendee.h"
+#include "config.h"
 #include "ride.h"
 #include "log.h"
-#include "safeScreen.h"
 #include <stdio.h>
 #include <unistd.h>
 
 #define LOCAL_LOG_BUFF_SIZE 128
 
-extern ride_t * rides[10];
+extern ride_t * rides[MAX_RIDES];
 
 int moveTowardsTarget(attendee_t * self, char target) {
 	int result = 0;

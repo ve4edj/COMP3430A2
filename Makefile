@@ -1,7 +1,7 @@
 #!/usr/bin/make
 
 PRGM   = simulator
-HDRS   = screen.h ride.h attendee.h safeScreen.h log.h
+HDRS   = config.h screen.h ride.h attendee.h safeScreen.h log.h
 SRCS   = main.c screen.c ride.c attendee.c safeScreen.c log.c
 LIBS   = -lncurses -lpthread
 

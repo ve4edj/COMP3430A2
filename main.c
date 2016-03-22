@@ -19,6 +19,7 @@
 #include "safeScreen.h"
 #include "screen.h"
 #include "attendee.h"
+#include "config.h"
 #include "ride.h"
 #include "log.h"
 
@@ -29,8 +30,6 @@
 #define FALSE 0
 #endif
 
-#define MAX_RIDES 10
-#define MAX_ATTENDEES 52
 ride_t * rides[MAX_RIDES];
 pthread_t rideThreads[MAX_RIDES];
 attendee_t * attendees[MAX_ATTENDEES];
