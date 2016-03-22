@@ -32,7 +32,7 @@ int moveTowardsTarget(attendee_t * self, char target) {
 void * attendeeThread(void * in) {
 	attendee_t * self = (attendee_t *)in;
 	char buff[LOCAL_LOG_BUFF_SIZE];
-	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c starting: delay %d, speed %d, start position %d, %d rides assigned", self->name, self->delay, self->speed, self->xpos, self->numRides);
+	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c - thread loaded: delay %d, speed %d, start position %d, %d rides assigned", self->name, self->delay, self->speed, self->xpos, self->numRides);
 	writeToLog(buff);
 	usleep(self->delay * 1000);
 

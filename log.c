@@ -5,7 +5,7 @@
 #include <pthread.h>
 #include <sys/time.h>
 
-#define LOG_BUFFER_SIZE 256
+#define LOG_BUFFER_SIZE 512
 
 static pthread_mutex_t logFileMutex = PTHREAD_MUTEX_INITIALIZER;
 static pthread_mutex_t logInUse = PTHREAD_MUTEX_INITIALIZER;
