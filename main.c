@@ -235,23 +235,26 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	for (int i = 0; i < MAX_RIDES; i++) {
-		if (NULL != rides[i]) {
-			rides[i]->numRiders = rideLengths[i];
-			rides[i]->currRider = 0;
-			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
-			if (NULL == rides[i]->riders)
-				die("Fail in calloc");
-			rides[i]->exitX = rideExitsX[i];
-			rides[i]->exitY = rideExitsY[i];
-			rides[i]->triggered = 0;
-			rides[i]->running = 0;
-			pthread_mutex_init(&rides[i]->rideMutex, NULL);
-			pthread_cond_init(&rides[i]->riderAdded, NULL);
-			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
-		} else {
-			// if there is a nonzero length in rideLengths
-			// create a default ride with timeout = 5 and duration = 20
+		if (NULL == rides[i]) {
+			rides[i] = malloc(sizeof(ride_t));
+			if (NULL == rides[i])
+				die("Fail in malloc");
+			rides[i]->number = 20000;
+			rides[i]->timeout = 5000;
+			rides[i]->duration = '0' + i;
 		}
+		rides[i]->numRiders = rideLengths[i];
+		rides[i]->currRider = 0;
+		rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
+		if (NULL == rides[i]->riders)
+			die("Fail in calloc");
+		rides[i]->exitX = rideExitsX[i];
+		rides[i]->exitY = rideExitsY[i];
+		rides[i]->triggered = 0;
+		rides[i]->running = 0;
+		pthread_mutex_init(&rides[i]->rideMutex, NULL);
+		pthread_cond_init(&rides[i]->riderAdded, NULL);
+		pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
 	}
 	for (int i = 0; i < MAX_ATTENDEES; i++) {
 		if (NULL != attendees[i]) {
