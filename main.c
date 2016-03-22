@@ -239,9 +239,9 @@ int main(int argc, char *argv[]) {
 			rides[i] = malloc(sizeof(ride_t));
 			if (NULL == rides[i])
 				die("Fail in malloc");
-			rides[i]->number = 20000;
+			rides[i]->number = i;
 			rides[i]->timeout = 5000;
-			rides[i]->duration = '0' + i;
+			rides[i]->duration = 20000;
 		}
 		rides[i]->numRiders = rideLengths[i];
 		rides[i]->currRider = 0;
