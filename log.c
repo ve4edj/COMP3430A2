@@ -1,9 +1,9 @@
 #include "log.h"
-#include <sys/time.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <sys/time.h>
 
 #define LOG_BUFFER_SIZE 256
 

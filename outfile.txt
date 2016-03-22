@@ -1286,3 +1286,256 @@ Time 441548     - Attendee T left ride 7
 Time 448554     - Attendee T left the park
 Time 557296     - Exiting keyboard event thread
 ---------------- Log Closed ----------------
+---------------- Log Opened ----------------
+Time 1          - Park file loaded
+Time 1          - Event file loaded
+Time 2          - Ride 0 starting: timeout 7000, duration 3000, 9 riders
+Time 4          - Ride 1 starting: timeout 5000, duration 2000, 9 riders
+Time 6          - Ride 2 starting: timeout 4000, duration 20000, 9 riders
+Time 8          - Ride 3 starting: timeout 3000, duration 12000, 9 riders
+Time 9          - Ride 4 starting: timeout 2000, duration 99000, 9 riders
+Time 11         - Ride 5 starting: timeout 1000, duration 16000, 9 riders
+Time 12         - Ride 6 starting: timeout 1000, duration 5000, 9 riders
+Time 14         - Ride 7 starting: timeout 1000, duration 9000, 9 riders
+Time 15         - Ride 8 starting: timeout 1000, duration 18000, 9 riders
+Time 17         - Ride 9 starting: timeout 1000, duration 21000, 9 riders
+Time 18         - Attendee a starting: delay 20, speed 111, start position 5, 10 rides assigned
+Time 20         - Attendee b starting: delay 30, speed 222, start position 6, 10 rides assigned
+Time 22         - Attendee c starting: delay 30, speed 333, start position 7, 10 rides assigned
+Time 24         - Attendee d starting: delay 40, speed 444, start position 8, 10 rides assigned
+Time 26         - Attendee e starting: delay 60, speed 555, start position 9, 10 rides assigned
+Time 28         - Attendee f starting: delay 90, speed 666, start position 10, 10 rides assigned
+Time 30         - Attendee g starting: delay 130, speed 777, start position 11, 10 rides assigned
+Time 32         - Attendee h starting: delay 180, speed 888, start position 12, 10 rides assigned
+Time 34         - Attendee i starting: delay 180, speed 999, start position 13, 10 rides assigned
+Time 36         - Attendee j starting: delay 250, speed 111, start position 14, 10 rides assigned
+Time 38         - Attendee k starting: delay 330, speed 222, start position 15, 10 rides assigned
+Time 40         - Attendee l starting: delay 420, speed 333, start position 16, 8 rides assigned
+Time 42         - Attendee m starting: delay 440, speed 444, start position 17, 8 rides assigned
+Time 44         - Attendee n starting: delay 460, speed 555, start position 18, 8 rides assigned
+Time 46         - Attendee o starting: delay 480, speed 666, start position 19, 8 rides assigned
+Time 48         - Attendee p starting: delay 480, speed 777, start position 20, 8 rides assigned
+Time 50         - Attendee q starting: delay 500, speed 50, start position 21, 8 rides assigned
+Time 51         - Attendee r starting: delay 500, speed 888, start position 22, 8 rides assigned
+Time 53         - Attendee s starting: delay 520, speed 999, start position 23, 8 rides assigned
+Time 55         - Attendee t starting: delay 540, speed 100, start position 24, 8 rides assigned
+Time 57         - Attendee u starting: delay 560, speed 100, start position 25, 8 rides assigned
+Time 59         - Attendee v starting: delay 600, speed 100, start position 26, 8 rides assigned
+Time 61         - Attendee w starting: delay 600, speed 100, start position 27, 8 rides assigned
+Time 63         - Attendee x starting: delay 640, speed 100, start position 28, 8 rides assigned
+Time 65         - Attendee y starting: delay 680, speed 100, start position 29, 8 rides assigned
+Time 67         - Attendee z starting: delay 720, speed 100, start position 30, 8 rides assigned
+Time 69         - Attendee F starting: delay 1720, speed 444, start position 36, 8 rides assigned
+Time 70         - Attendee G starting: delay 1770, speed 555, start position 37, 8 rides assigned
+Time 72         - Attendee H starting: delay 1770, speed 666, start position 38, 8 rides assigned
+Time 74         - Attendee I starting: delay 1820, speed 777, start position 39, 8 rides assigned
+Time 76         - Attendee J starting: delay 1870, speed 888, start position 40, 8 rides assigned
+Time 78         - Attendee K starting: delay 1920, speed 999, start position 41, 8 rides assigned
+Time 80         - Attendee L starting: delay 1970, speed 111, start position 42, 10 rides assigned
+Time 82         - Attendee M starting: delay 2020, speed 222, start position 43, 10 rides assigned
+Time 85         - Attendee N starting: delay 2050, speed 333, start position 44, 9 rides assigned
+Time 87         - Attendee O starting: delay 2080, speed 444, start position 45, 10 rides assigned
+Time 89         - Attendee P starting: delay 2090, speed 555, start position 46, 10 rides assigned
+Time 91         - Attendee Q starting: delay 2120, speed 666, start position 47, 10 rides assigned
+Time 93         - Attendee R starting: delay 2150, speed 777, start position 48, 9 rides assigned
+Time 95         - Attendee S starting: delay 2210, speed 888, start position 49, 10 rides assigned
+Time 97         - Attendee T starting: delay 2240, speed 999, start position 50, 10 rides assigned
+Time 99         - Attendee U starting: delay 2250, speed 111, start position 51, 9 rides assigned
+Time 101        - Attendee V starting: delay 2280, speed 222, start position 52, 9 rides assigned
+Time 103        - Attendee W starting: delay 2310, speed 333, start position 53, 10 rides assigned
+Time 105        - Attendee X starting: delay 2340, speed 444, start position 54, 9 rides assigned
+Time 107        - Attendee Y starting: delay 2350, speed 555, start position 55, 10 rides assigned
+Time 109        - Attendee Z starting: delay 2380, speed 666, start position 56, 10 rides assigned
+Time 111        - Started keyboard event thread
+Time 112        - Attendee a entered the park
+Time 113        - Attendee b entered the park
+Time 114        - Attendee c entered the park
+Time 115        - Attendee d entered the park
+Time 116        - Attendee e entered the park
+Time 121        - Attendee f entered the park
+Time 162        - Attendee g entered the park
+Time 217        - Attendee i entered the park
+Time 371        - Attendee k entered the park
+Time 485        - Attendee m entered the park
+Time 529        - Attendee o entered the park
+Time 553        - Attendee q entered the park
+Time 576        - Attendee s entered the park
+Time 596        - Attendee l entered the park
+Time 599        - Attendee t entered the park
+Time 605        - Attendee r entered the park
+Time 663        - Attendee v entered the park
+Time 664        - Attendee w entered the park
+Time 702        - Attendee u entered the park
+Time 748        - Attendee y entered the park
+Time 766        - Attendee x entered the park
+Time 790        - Attendee z entered the park
+Time 932        - Attendee n entered the park
+Time 943        - Attendee h entered the park
+Time 1197       - Attendee p entered the park
+Time 1220       - Attendee j entered the park
+Time 1814       - Attendee F entered the park
+Time 1847       - Attendee H entered the park
+Time 1899       - Attendee I entered the park
+Time 1950       - Attendee J entered the park
+Time 2001       - Attendee K entered the park
+Time 2016       - Attendee G entered the park
+Time 2054       - Attendee L entered the park
+Time 2137       - Attendee N entered the park
+Time 2168       - Attendee M entered the park
+Time 2181       - Attendee P entered the park
+Time 2245       - Attendee R entered the park
+Time 2340       - Attendee T entered the park
+Time 2384       - Attendee V entered the park
+Time 2416       - Attendee W entered the park
+Time 2460       - Attendee Y entered the park
+Time 2473       - Attendee O entered the park
+Time 2739       - Attendee Q entered the park
+Time 2753       - Attendee X entered the park
+Time 3018       - Attendee Z entered the park
+Time 3024       - Attendee S entered the park
+Time 3342       - Attendee U entered the park
+Time 14424      - Attendee F entered ride 6
+Time 14426      - Attendee F left ride 6
+Time 18053      - Attendee a entered ride 1
+Time 18054      - Attendee j entered ride 1
+Time 18056      - Attendee e entered ride 1
+Time 18057      - Attendee c entered ride 1
+Time 18058      - Attendee f entered ride 1
+Time 18060      - Attendee h entered ride 1
+Time 18061      - Attendee l entered ride 1
+Time 18062      - Attendee a left ride 1
+Time 18063      - Attendee j left ride 1
+Time 18064      - Attendee e left ride 1
+Time 18065      - Attendee h left ride 1
+Time 18066      - Attendee l left ride 1
+Time 18067      - Attendee f left ride 1
+Time 18068      - Attendee c left ride 1
+Time 18164      - Attendee z entered ride 5
+Time 18167      - Attendee z left ride 5
+Time 23878      - Attendee q entered ride 0
+Time 23880      - Attendee L entered ride 0
+Time 23881      - Attendee v entered ride 0
+Time 23882      - Attendee M entered ride 0
+Time 23883      - Attendee t entered ride 0
+Time 23885      - Attendee u entered ride 0
+Time 23886      - Attendee W entered ride 0
+Time 23887      - Attendee Y entered ride 0
+Time 23888      - Attendee b entered ride 0
+Time 23889      - Attendee q left ride 0
+Time 23890      - Attendee L left ride 0
+Time 23891      - Attendee v left ride 0
+Time 23892      - Attendee b left ride 0
+Time 23893      - Attendee u left ride 0
+Time 23893      - Attendee Y left ride 0
+Time 23894      - Attendee M left ride 0
+Time 23895      - Attendee W left ride 0
+Time 24114      - Attendee t left ride 0
+Time 25740      - Attendee z entered ride 6
+Time 25741      - Attendee z left ride 6
+Time 27325      - Attendee U entered ride 9
+Time 27326      - Attendee U left ride 9
+Time 30469      - Attendee q entered ride 1
+Time 30470      - Attendee q left ride 1
+Time 40309      - Attendee y entered ride 2
+Time 40311      - Attendee V entered ride 2
+Time 40312      - Attendee y left ride 2
+Time 40313      - Attendee V left ride 2
+Time 41189      - Attendee c entered ride 3
+Time 41191      - Attendee c left ride 3
+Time 41357      - Attendee Z entered ride 0
+Time 41358      - Attendee O entered ride 0
+Time 41359      - Attendee P entered ride 0
+Time 41360      - Attendee T entered ride 0
+Time 41361      - Attendee d entered ride 0
+Time 41362      - Attendee Q entered ride 0
+Time 41363      - Attendee S entered ride 0
+Time 41364      - Attendee n entered ride 0
+Time 41365      - Attendee m entered ride 0
+Time 41366      - Attendee Z left ride 0
+Time 41367      - Attendee O left ride 0
+Time 41368      - Attendee P left ride 0
+Time 41369      - Attendee n left ride 0
+Time 41370      - Attendee d left ride 0
+Time 41371      - Attendee T left ride 0
+Time 41372      - Attendee Q left ride 0
+Time 41373      - Attendee S left ride 0
+Time 41926      - Attendee w entered ride 5
+Time 41927      - Attendee x entered ride 5
+Time 41928      - Attendee k entered ride 5
+Time 41929      - Attendee H entered ride 5
+Time 41929      - Attendee J entered ride 5
+Time 41930      - Attendee K entered ride 5
+Time 41931      - Attendee g entered ride 5
+Time 41932      - Attendee w left ride 5
+Time 41933      - Attendee x left ride 5
+Time 41934      - Attendee k left ride 5
+Time 41934      - Attendee J left ride 5
+Time 41935      - Attendee g left ride 5
+Time 41936      - Attendee K left ride 5
+Time 41937      - Attendee H left ride 5
+Time 42040      - Attendee m left ride 0
+Time 46251      - Attendee v entered ride 1
+Time 46252      - Attendee t entered ride 1
+Time 46254      - Attendee b entered ride 1
+Time 46255      - Attendee L entered ride 1
+Time 46256      - Attendee U entered ride 1
+Time 46257      - Attendee v left ride 1
+Time 46258      - Attendee t left ride 1
+Time 46259      - Attendee b left ride 1
+Time 46260      - Attendee L left ride 1
+Time 46261      - Attendee U left ride 1
+Time 49507      - Attendee x entered ride 6
+Time 49509      - Attendee x left ride 6
+Time 52501      - Attendee P left the park
+Time 55657      - Attendee M entered ride 1
+Time 55658      - Attendee W entered ride 1
+Time 55659      - Attendee V entered ride 1
+Time 55661      - Attendee M left ride 1
+Time 55662      - Attendee W left ride 1
+Time 55662      - Attendee V left ride 1
+Time 61134      - Attendee x entered ride 7
+Time 61136      - Attendee x left ride 7
+Time 61279      - Attendee s entered ride 2
+Time 61280      - Attendee j entered ride 2
+Time 61281      - Attendee a entered ride 2
+Time 61281      - Attendee G entered ride 2
+Time 61282      - Attendee X entered ride 2
+Time 61283      - Attendee q entered ride 2
+Time 61284      - Attendee I entered ride 2
+Time 61285      - Attendee l entered ride 2
+Time 61286      - Attendee u entered ride 2
+Time 61287      - Attendee e entered ride 2
+Time 61288      - Attendee h entered ride 2
+Time 61289      - Attendee s left ride 2
+Time 61290      - Attendee j left ride 2
+Time 61291      - Attendee a left ride 2
+Time 61292      - Attendee I left ride 2
+Time 61292      - Attendee e left ride 2
+Time 61293      - Attendee X left ride 2
+Time 61294      - Attendee q left ride 2
+Time 61295      - Attendee l left ride 2
+Time 61296      - Attendee u left ride 2
+Time 61446      - Attendee h left ride 2
+Time 61498      - Attendee G left ride 2
+Time 64986      - Attendee w entered ride 6
+Time 64987      - Attendee k entered ride 6
+Time 64988      - Attendee y entered ride 6
+Time 64989      - Attendee H entered ride 6
+Time 64990      - Attendee w left ride 6
+Time 64991      - Attendee k left ride 6
+Time 64991      - Attendee y left ride 6
+Time 64992      - Attendee H left ride 6
+Time 73971      - Attendee g entered ride 6
+Time 73974      - Attendee K entered ride 6
+Time 73975      - Attendee g left ride 6
+Time 73976      - Attendee K left ride 6
+Time 74479      - Attendee d entered ride 9
+Time 74480      - Attendee R entered ride 9
+Time 74481      - Attendee N entered ride 9
+Time 74482      - Attendee d left ride 9
+Time 74483      - Attendee R left ride 9
+Time 74484      - Attendee N left ride 9
+Time 74862      - Attendee Y entered ride 1
+Time 74863      - Attendee Y left ride 1
+Time 75217      - Exiting keyboard event thread
+---------------- Log Closed ----------------

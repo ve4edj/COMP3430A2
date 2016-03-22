@@ -4,7 +4,6 @@
 #include "safeScreen.h"
 #include <stdio.h>
 #include <unistd.h>
-#include <pthread.h>
 
 #define LOCAL_LOG_BUFF_SIZE 128
 
@@ -57,11 +56,16 @@ void * attendeeThread(void * in) {
 			usleep(self->speed * 1000);
 			break;
 		case AS_WAITFORRIDE:
-			// wait until there is room on the ride
+			pthread_mutex_lock(&rides[self->rides[self->currRide]]->rideMutex);
+			rides[self->rides[self->currRide]]->riders[rides[self->rides[self->currRide]]->currRider++] = self;
+			pthread_cond_signal(&rides[self->rides[self->currRide]]->riderAdded);
+			pthread_mutex_unlock(&rides[self->rides[self->currRide]]->rideMutex);
 			self->state = AS_ONRIDE;
 			break;
 		case AS_ONRIDE:
-			// wait until the ride is over
+			pthread_mutex_lock(&self->attendeeMutex);
+			pthread_cond_wait(&self->rideFinished, &self->attendeeMutex);
+			pthread_mutex_unlock(&self->attendeeMutex);
 			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
 			writeToLog(buff);
 			self->state = AS_RIDEFINISHED;

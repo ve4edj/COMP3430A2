@@ -2,6 +2,7 @@
 #define _RIDE_H
 
 #include "attendee.h"
+#include <pthread.h>
 
 typedef struct {
 	int number;
@@ -12,6 +13,9 @@ typedef struct {
 	attendee_t ** riders;
 	int exitX;
 	int exitY;
+	pthread_mutex_t rideMutex;
+	pthread_cond_t riderAdded;
+	int triggered;
 } ride_t;
 
 void * rideThread(void *);
