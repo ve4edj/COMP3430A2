@@ -194,7 +194,12 @@ void * keyboardInput(void * in) {
 				attendees[idx]->wantsToLeave = 1;
 			}
 		} else if ('0' <= ch && '9' >= ch) {
-			// start the ride if it's stopped, stop the ride if it's started
+			if (NULL != rides[ch - '0']) {
+				rides[ch - '0']->triggered = 1;
+				if (!(rides[ch - '0']->running)) {
+					pthread_cond_signal(&rides[ch - '0']->riderAdded);
+				}
+			}
 		}
 	}
 	writeToLog("Exiting keyboard event thread");
@@ -239,6 +244,7 @@ int main(int argc, char *argv[]) {
 			rides[i]->exitX = rideExitsX[i];
 			rides[i]->exitY = rideExitsY[i];
 			rides[i]->triggered = 0;
+			rides[i]->running = 0;
 			pthread_mutex_init(&rides[i]->rideMutex, NULL);
 			pthread_cond_init(&rides[i]->riderAdded, NULL);
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);

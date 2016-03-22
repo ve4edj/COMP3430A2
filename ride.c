@@ -23,12 +23,13 @@ void * rideThread(void * in) {
 	while (1) {
 		struct timeval timeout;
 		pthread_mutex_lock(&self->rideMutex);
+		self->running = 0;
 		do {
 			gettimeofday(&timeout, NULL);
 			pthread_cond_wait(&self->riderAdded, &self->rideMutex);
 		} while (!(self->triggered) && (self->currRider < self->numRiders) && !hasTimeoutElapsed(self, &timeout, self->timeout));
 		self->triggered = 0;
-
+		self->running = 1;
 		gettimeofday(&timeout, NULL);
 		char rideName[2] = {'\0'};
 		rideName[0] = self->number + '0';
@@ -36,13 +37,13 @@ void * rideThread(void * in) {
 			safe_blink_screen(rideName);
 			usleep(self->duration * 10);
 		}
-
 		for (int i = 0; i < self->currRider; i++) {
 			attendee_t * at = self->riders[i];
 			pthread_mutex_lock(&at->attendeeMutex);
 			pthread_cond_signal(&at->rideFinished);
 			pthread_mutex_unlock(&at->attendeeMutex);
 			self->riders[i] = NULL;
+			usleep(at->speed * 100);
 		}
 		self->currRider = 0;
 		self->triggered = 0;

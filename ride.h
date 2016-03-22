@@ -16,6 +16,7 @@ typedef struct {
 	pthread_mutex_t rideMutex;
 	pthread_cond_t riderAdded;
 	int triggered;
+	int running;
 } ride_t;
 
 void * rideThread(void *);
