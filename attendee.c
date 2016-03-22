@@ -1,3 +1,12 @@
+/*
+		Course:			COMP3430
+		Assignment:		2 - Amusement Park Simulator
+		Due date:		Tuesday, March 22 2016
+		Instructor:		John Braico
+		Programmed By:	Erik Johnson
+		Student #:		7711697
+*/
+
 #include "attendee.h"
 #include "ride.h"
 #include "log.h"
