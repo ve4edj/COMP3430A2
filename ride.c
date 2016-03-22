@@ -30,21 +30,25 @@ void * rideThread(void * in) {
 	snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Ride %d - thread loaded: timeout %d, duration %d, %d riders", self->number, self->timeout, self->duration, self->numRiders);
 	writeToLog(buff);
 	while (1) {
-		struct timeval timeout;
+		struct timeval now;
+		struct timespec timeout;
 		pthread_mutex_lock(&self->rideMutex);
 		self->running = 0;
 		do {
-			gettimeofday(&timeout, NULL);
-			pthread_cond_wait(&self->riderAdded, &self->rideMutex);
-		} while (!(self->triggered) && (self->currRider < self->numRiders) && !hasTimeoutElapsed(self, &timeout, self->timeout));
+			gettimeofday(&now, NULL);
+			unsigned long microsecs = now.tv_usec + ((self->timeout % 1000) * 1000);
+			timeout.tv_nsec = (microsecs % 1000000) * 1000;
+			timeout.tv_sec = now.tv_sec + (self->timeout / 1000) + (microsecs / 1000000);
+			pthread_cond_timedwait(&self->riderAdded, &self->rideMutex, &timeout);
+		} while (!(self->triggered) && (self->currRider < self->numRiders) && (!hasTimeoutElapsed(self, &now, self->timeout) || (self->currRider == 0)));
 		self->triggered = 0;
 		self->running = 1;
 		snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Ride %d started", self->number);
 		writeToLog(buff);
-		gettimeofday(&timeout, NULL);
+		gettimeofday(&now, NULL);
 		char rideName[2] = {'\0'};
 		rideName[0] = self->number + '0';
-		while (!(self->triggered) && !hasTimeoutElapsed(self, &timeout, self->duration)) {
+		while (!(self->triggered) && !hasTimeoutElapsed(self, &now, self->duration)) {
 			safe_blink_screen(rideName);
 			usleep(self->duration * 10);
 		}
