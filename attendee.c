@@ -57,7 +57,7 @@ void * attendeeThread(void * in) {
 			break;
 		case AS_WAITFORRIDE:
 			pthread_mutex_lock(&rides[self->rides[self->currRide]]->rideMutex);
-			rides[self->rides[self->currRide]]->riders[rides[self->rides[self->currRide]]->currRider++] = self;
+			rides[self->rides[self->currRide]]->riders[rides[self->rides[self->currRide]]->currRider++] = self;				// add self to the ride's riders list at the next available position
 			pthread_cond_signal(&rides[self->rides[self->currRide]]->riderAdded);
 			pthread_mutex_unlock(&rides[self->rides[self->currRide]]->rideMutex);
 			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);

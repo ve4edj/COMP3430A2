@@ -299,3 +299,1318 @@ Time 82680      - Attendee V entered ride 9
 Time 82681      - Ride 9 started
 Time 82705      - Exiting keyboard event thread
 ---------------- Log Closed ----------------
+---------------- Log Opened ----------------
+Time 2          - Park file loaded
+Time 3          - Event file loaded
+Time 4          - Ride 0 - thread loaded: timeout 7000, duration 3000, 9 riders
+Time 6          - Ride 1 - thread loaded: timeout 5000, duration 20000, 9 riders
+Time 7          - Ride 2 - thread loaded: timeout 4000, duration 20000, 9 riders
+Time 9          - Ride 3 - thread loaded: timeout 3000, duration 12000, 9 riders
+Time 10         - Ride 4 - thread loaded: timeout 2000, duration 99000, 9 riders
+Time 12         - Ride 5 - thread loaded: timeout 1000, duration 16000, 9 riders
+Time 14         - Ride 6 - thread loaded: timeout 1000, duration 5000, 9 riders
+Time 16         - Ride 7 - thread loaded: timeout 1000, duration 9000, 9 riders
+Time 17         - Ride 8 - thread loaded: timeout 1000, duration 18000, 9 riders
+Time 19         - Ride 9 - thread loaded: timeout 1000, duration 21000, 9 riders
+Time 20         - Attendee a - thread loaded: delay 20, speed 111, start position 5, 10 rides assigned
+Time 22         - Attendee b - thread loaded: delay 30, speed 222, start position 6, 10 rides assigned
+Time 24         - Attendee c - thread loaded: delay 30, speed 333, start position 7, 10 rides assigned
+Time 27         - Attendee d - thread loaded: delay 40, speed 444, start position 8, 10 rides assigned
+Time 29         - Attendee e - thread loaded: delay 60, speed 555, start position 9, 10 rides assigned
+Time 31         - Attendee f - thread loaded: delay 90, speed 666, start position 10, 10 rides assigned
+Time 33         - Attendee g - thread loaded: delay 130, speed 777, start position 11, 10 rides assigned
+Time 35         - Attendee h - thread loaded: delay 180, speed 888, start position 12, 10 rides assigned
+Time 37         - Attendee i - thread loaded: delay 180, speed 999, start position 13, 10 rides assigned
+Time 40         - Attendee j - thread loaded: delay 250, speed 111, start position 14, 10 rides assigned
+Time 42         - Attendee k - thread loaded: delay 330, speed 222, start position 15, 10 rides assigned
+Time 44         - Attendee l - thread loaded: delay 420, speed 333, start position 16, 8 rides assigned
+Time 46         - Attendee m - thread loaded: delay 440, speed 444, start position 17, 8 rides assigned
+Time 48         - Attendee n - thread loaded: delay 460, speed 555, start position 18, 8 rides assigned
+Time 50         - Attendee o - thread loaded: delay 480, speed 666, start position 19, 8 rides assigned
+Time 52         - Attendee p - thread loaded: delay 480, speed 777, start position 20, 8 rides assigned
+Time 54         - Attendee q - thread loaded: delay 500, speed 50, start position 21, 8 rides assigned
+Time 56         - Attendee r - thread loaded: delay 500, speed 888, start position 22, 8 rides assigned
+Time 58         - Attendee s - thread loaded: delay 520, speed 999, start position 23, 8 rides assigned
+Time 60         - Attendee t - thread loaded: delay 540, speed 100, start position 24, 8 rides assigned
+Time 62         - Attendee u - thread loaded: delay 560, speed 100, start position 25, 8 rides assigned
+Time 64         - Attendee v - thread loaded: delay 600, speed 100, start position 26, 8 rides assigned
+Time 66         - Attendee w - thread loaded: delay 600, speed 100, start position 27, 8 rides assigned
+Time 68         - Attendee x - thread loaded: delay 640, speed 100, start position 28, 8 rides assigned
+Time 70         - Attendee y - thread loaded: delay 680, speed 100, start position 29, 8 rides assigned
+Time 72         - Attendee z - thread loaded: delay 720, speed 100, start position 30, 8 rides assigned
+Time 74         - Attendee F - thread loaded: delay 1720, speed 444, start position 36, 8 rides assigned
+Time 76         - Attendee G - thread loaded: delay 1770, speed 555, start position 37, 8 rides assigned
+Time 78         - Attendee H - thread loaded: delay 1770, speed 666, start position 38, 8 rides assigned
+Time 81         - Attendee I - thread loaded: delay 1820, speed 777, start position 39, 8 rides assigned
+Time 83         - Attendee J - thread loaded: delay 1870, speed 888, start position 40, 8 rides assigned
+Time 85         - Attendee K - thread loaded: delay 1920, speed 999, start position 41, 8 rides assigned
+Time 87         - Attendee L - thread loaded: delay 1970, speed 111, start position 42, 10 rides assigned
+Time 90         - Attendee M - thread loaded: delay 2020, speed 222, start position 43, 10 rides assigned
+Time 92         - Attendee N - thread loaded: delay 2050, speed 333, start position 44, 9 rides assigned
+Time 94         - Attendee O - thread loaded: delay 2080, speed 444, start position 45, 10 rides assigned
+Time 96         - Attendee P - thread loaded: delay 2090, speed 555, start position 46, 10 rides assigned
+Time 98         - Attendee Q - thread loaded: delay 2120, speed 666, start position 47, 10 rides assigned
+Time 100        - Attendee R - thread loaded: delay 2150, speed 777, start position 48, 9 rides assigned
+Time 103        - Attendee S - thread loaded: delay 2210, speed 888, start position 49, 10 rides assigned
+Time 105        - Attendee T - thread loaded: delay 2240, speed 999, start position 50, 10 rides assigned
+Time 107        - Attendee U - thread loaded: delay 2250, speed 111, start position 51, 9 rides assigned
+Time 109        - Attendee V - thread loaded: delay 2280, speed 222, start position 52, 9 rides assigned
+Time 111        - Attendee W - thread loaded: delay 2310, speed 333, start position 53, 10 rides assigned
+Time 113        - Attendee X - thread loaded: delay 2340, speed 444, start position 54, 9 rides assigned
+Time 116        - Attendee Y - thread loaded: delay 2350, speed 555, start position 55, 10 rides assigned
+Time 118        - Attendee Z - thread loaded: delay 2380, speed 666, start position 56, 10 rides assigned
+Time 120        - Started keyboard event thread
+Time 121        - Attendee a entered the park
+Time 122        - Attendee b entered the park
+Time 123        - Attendee c entered the park
+Time 124        - Attendee d entered the park
+Time 125        - Attendee e entered the park
+Time 126        - Attendee f entered the park
+Time 167        - Attendee g entered the park
+Time 220        - Attendee i entered the park
+Time 376        - Attendee k entered the park
+Time 490        - Attendee m entered the park
+Time 534        - Attendee o entered the park
+Time 535        - Attendee p entered the park
+Time 560        - Attendee r entered the park
+Time 600        - Attendee l entered the park
+Time 604        - Attendee t entered the park
+Time 668        - Attendee v entered the park
+Time 669        - Attendee w entered the park
+Time 707        - Attendee u entered the park
+Time 753        - Attendee y entered the park
+Time 771        - Attendee x entered the park
+Time 796        - Attendee z entered the park
+Time 937        - Attendee n entered the park
+Time 948        - Attendee h entered the park
+Time 1222       - Attendee j entered the park
+Time 1313       - Attendee q entered the park
+Time 1354       - Attendee a entered ride 1
+Time 1451       - Attendee s entered the park
+Time 1817       - Attendee F entered the park
+Time 1852       - Attendee H entered the park
+Time 1904       - Attendee I entered the park
+Time 1957       - Attendee J entered the park
+Time 2008       - Attendee K entered the park
+Time 2061       - Attendee L entered the park
+Time 2110       - Attendee z entered ride 5
+Time 2111       - Ride 5 started
+Time 2145       - Attendee N entered the park
+Time 2174       - Attendee M entered the park
+Time 2190       - Attendee P entered the park
+Time 2253       - Attendee R entered the park
+Time 2322       - Attendee G entered the park
+Time 2348       - Attendee T entered the park
+Time 2392       - Attendee V entered the park
+Time 2426       - Attendee W entered the park
+Time 2469       - Attendee Y entered the park
+Time 2482       - Attendee O entered the park
+Time 2748       - Attendee Q entered the park
+Time 2760       - Attendee X entered the park
+Time 3026       - Attendee Z entered the park
+Time 3031       - Attendee S entered the park
+Time 3350       - Attendee U entered the park
+Time 3387       - Attendee y entered ride 2
+Time 4024       - Attendee j entered ride 1
+Time 4132       - Attendee c entered ride 1
+Time 4643       - Attendee q entered ride 0
+Time 6268       - Attendee U entered ride 9
+Time 6270       - Ride 9 started
+Time 6667       - Attendee L entered ride 0
+Time 6846       - Attendee v entered ride 0
+Time 6991       - Attendee u entered ride 0
+Time 7895       - Attendee t entered ride 0
+Time 7911       - Attendee e entered ride 1
+Time 8496       - Attendee F entered ride 6
+Time 8497       - Ride 6 started
+Time 10134      - Attendee f entered ride 1
+Time 10292      - Attendee l entered ride 1
+Time 11778      - Attendee M entered ride 0
+Time 13122      - Attendee W entered ride 0
+Time 13332      - Attendee V entered ride 2
+Time 13333      - Ride 2 started
+Time 13531      - Ride 6 stopped
+Time 13533      - Attendee F left ride 6
+Time 16067      - Attendee h entered ride 1
+Time 16069      - Ride 1 started
+Time 18047      - Attendee Y entered ride 0
+Time 18196      - Ride 5 stopped
+Time 18197      - Attendee z left ride 5
+Time 18208      - Attendee w entered ride 5
+Time 18210      - Attendee x entered ride 5
+Time 18211      - Attendee k entered ride 5
+Time 18212      - Attendee H entered ride 5
+Time 18213      - Attendee J entered ride 5
+Time 18214      - Attendee K entered ride 5
+Time 20735      - Attendee z entered ride 6
+Time 20737      - Ride 6 started
+Time 20892      - Attendee b entered ride 0
+Time 20894      - Ride 0 started
+Time 23923      - Ride 0 stopped
+Time 23924      - Attendee q left ride 0
+Time 23930      - Attendee L left ride 0
+Time 23941      - Attendee v left ride 0
+Time 23952      - Attendee u left ride 0
+Time 23962      - Attendee t left ride 0
+Time 23973      - Attendee M left ride 0
+Time 23997      - Attendee W left ride 0
+Time 24030      - Attendee Y left ride 0
+Time 24087      - Attendee b left ride 0
+Time 24110      - Attendee Z entered ride 0
+Time 24110      - Attendee O entered ride 0
+Time 24442      - Attendee P entered ride 0
+Time 25771      - Ride 6 stopped
+Time 25772      - Attendee z left ride 6
+Time 25846      - Attendee g entered ride 5
+Time 25847      - Ride 5 started
+Time 27352      - Ride 9 stopped
+Time 27353      - Attendee U left ride 9
+Time 27366      - Attendee N entered ride 9
+Time 27367      - Attendee R entered ride 9
+Time 28225      - Attendee F entered ride 4
+Time 28226      - Ride 4 started
+Time 28776      - Attendee Q entered ride 0
+Time 33422      - Ride 2 stopped
+Time 33423      - Attendee y left ride 2
+Time 33435      - Attendee V left ride 2
+Time 33458      - Attendee s entered ride 2
+Time 33460      - Attendee G entered ride 2
+Time 33461      - Attendee X entered ride 2
+Time 33462      - Attendee I entered ride 2
+Time 33463      - Attendee u entered ride 2
+Time 34156      - Attendee S entered ride 0
+Time 34335      - Attendee m entered ride 0
+Time 36152      - Ride 1 stopped
+Time 36153      - Attendee a left ride 1
+Time 36166      - Attendee j left ride 1
+Time 36177      - Attendee c left ride 1
+Time 36211      - Attendee e left ride 1
+Time 36267      - Attendee f left ride 1
+Time 36335      - Attendee l left ride 1
+Time 36370      - Attendee h left ride 1
+Time 36459      - Attendee q entered ride 1
+Time 36460      - Attendee v entered ride 1
+Time 36461      - Attendee t entered ride 1
+Time 36462      - Attendee L entered ride 1
+Time 36569      - Attendee U entered ride 1
+Time 37359      - Attendee T entered ride 0
+Time 37656      - Attendee n entered ride 0
+Time 38391      - Attendee y entered ride 6
+Time 38392      - Ride 6 started
+Time 38426      - Attendee d entered ride 0
+Time 38427      - Ride 0 started
+Time 38964      - Attendee a entered ride 2
+Time 38965      - Ride 2 started
+Time 39024      - Attendee V entered ride 1
+Time 41452      - Ride 0 stopped
+Time 41453      - Attendee Z left ride 0
+Time 41521      - Attendee O left ride 0
+Time 41566      - Attendee P left ride 0
+Time 41623      - Attendee Q left ride 0
+Time 41689      - Attendee S left ride 0
+Time 41779      - Attendee m left ride 0
+Time 41935      - Ride 5 stopped
+Time 41935      - Attendee w left ride 5
+Time 41945      - Attendee x left ride 5
+Time 41956      - Attendee k left ride 5
+Time 41978      - Attendee H left ride 5
+Time 42044      - Attendee J left ride 5
+Time 42122      - Attendee d left ride 0
+Time 42134      - Attendee K left ride 5
+Time 42226      - Attendee n left ride 0
+Time 42234      - Attendee g left ride 5
+Time 42568      - Attendee T left ride 0
+Time 43429      - Ride 6 stopped
+Time 43430      - Attendee y left ride 6
+Time 43906      - Attendee o entered ride 0
+Time 44187      - Attendee b entered ride 1
+Time 44188      - Ride 1 started
+Time 44464      - Attendee w entered ride 6
+Time 44465      - Ride 6 started
+Time 47550      - Attendee c entered ride 3
+Time 47552      - Ride 3 started
+Time 49504      - Ride 6 stopped
+Time 49505      - Attendee w left ride 6
+Time 49515      - Attendee x entered ride 6
+Time 49516      - Attendee k entered ride 6
+Time 50338      - Attendee p entered ride 0
+Time 52038      - Attendee w entered ride 7
+Time 52041      - Ride 7 started
+Time 53700      - Attendee d entered ride 9
+Time 53702      - Ride 9 started
+Time 54801      - Attendee r entered ride 0
+Time 59047      - Ride 2 stopped
+Time 59048      - Attendee s left ride 2
+Time 59149      - Attendee G left ride 2
+Time 59206      - Attendee X left ride 2
+Time 59251      - Attendee I left ride 2
+Time 59329      - Attendee u left ride 2
+Time 59332      - Attendee H entered ride 6
+Time 59333      - Ride 6 started
+Time 59350      - Attendee j entered ride 2
+Time 59352      - Attendee l entered ride 2
+Time 59353      - Attendee e entered ride 2
+Time 59638      - Ride 3 stopped
+Time 59639      - Attendee c left ride 3
+Time 59654      - Attendee a left ride 2
+Time 60379      - Attendee h entered ride 2
+Time 61126      - Ride 7 stopped
+Time 61128      - Attendee w left ride 7
+Time 62685      - Attendee a entered ride 3
+Time 62687      - Ride 3 started
+Time 64269      - Ride 1 stopped
+Time 64270      - Attendee q left ride 1
+Time 64276      - Attendee v left ride 1
+Time 64287      - Attendee t left ride 1
+Time 64298      - Attendee L left ride 1
+Time 64310      - Attendee U left ride 1
+Time 64322      - Attendee V left ride 1
+Time 64345      - Attendee b left ride 1
+Time 64362      - Ride 6 stopped
+Time 64363      - Attendee x left ride 6
+Time 64369      - Attendee M entered ride 1
+Time 64371      - Attendee W entered ride 1
+Time 64374      - Attendee k left ride 6
+Time 64398      - Attendee H left ride 6
+Time 64464      - Attendee g entered ride 6
+Time 65546      - Attendee q entered ride 2
+Time 65548      - Ride 2 started
+Time 66900      - Attendee x entered ride 7
+Time 66901      - Ride 7 started
+Time 70147      - Attendee K entered ride 6
+Time 70148      - Ride 6 started
+Time 70245      - Attendee i entered ride 0
+Time 70247      - Ride 0 started
+Time 71234      - Attendee X entered ride 1
+Time 71236      - Ride 1 started
+Time 73276      - Ride 0 stopped
+Time 73277      - Attendee o left ride 0
+Time 73345      - Attendee p left ride 0
+Time 73424      - Attendee r left ride 0
+Time 73514      - Attendee i left ride 0
+Time 74780      - Ride 3 stopped
+Time 74781      - Attendee a left ride 3
+Time 74788      - Ride 9 stopped
+Time 74789      - Attendee N left ride 9
+Time 74823      - Attendee R left ride 9
+Time 74901      - Attendee d left ride 9
+Time 74947      - Attendee u entered ride 9
+Time 75179      - Ride 6 stopped
+Time 75180      - Attendee g left ride 6
+Time 75259      - Attendee K left ride 6
+Time 75987      - Ride 7 stopped
+Time 75989      - Attendee x left ride 7
+Time 81085      - Attendee H entered ride 7
+Time 81087      - Ride 7 started
+Time 82423      - Attendee V entered ride 9
+Time 82425      - Ride 9 started
+Time 85641      - Ride 2 stopped
+Time 85642      - Attendee j left ride 2
+Time 85654      - Attendee l left ride 2
+Time 85689      - Attendee e left ride 2
+Time 85745      - Attendee h left ride 2
+Time 85835      - Attendee q left ride 2
+Time 85841      - Attendee w entered ride 2
+Time 85843      - Attendee v entered ride 2
+Time 85844      - Attendee t entered ride 2
+Time 85845      - Attendee L entered ride 2
+Time 85847      - Attendee U entered ride 2
+Time 85848      - Attendee x entered ride 2
+Time 86973      - Attendee G entered ride 6
+Time 86975      - Ride 6 started
+Time 88411      - Attendee n entered ride 2
+Time 88450      - Attendee j entered ride 3
+Time 88451      - Ride 3 started
+Time 90170      - Ride 7 stopped
+Time 90171      - Attendee H left ride 7
+Time 90238      - Attendee d entered ride 7
+Time 91317      - Ride 1 stopped
+Time 91318      - Attendee M left ride 1
+Time 91340      - Attendee W left ride 1
+Time 91375      - Attendee X left ride 1
+Time 91420      - Attendee Y entered ride 1
+Time 91423      - Attendee O entered ride 1
+Time 91425      - Attendee m entered ride 1
+Time 91645      - Attendee P entered ride 1
+Time 92002      - Ride 6 stopped
+Time 92003      - Attendee G left ride 6
+Time 95001      - Attendee f entered ride 0
+Time 95002      - Ride 0 started
+Time 97126      - Attendee M entered ride 2
+Time 97128      - Ride 2 started
+Time 98027      - Ride 0 stopped
+Time 98028      - Attendee f left ride 0
+Time 98944      - Attendee I entered ride 6
+Time 98947      - Ride 6 started
+Time 100537     - Ride 3 stopped
+Time 100539     - Attendee j left ride 3
+Time 100551     - Attendee e entered ride 3
+Time 100851     - Attendee Z entered ride 1
+Time 100853     - Ride 1 started
+Time 103508     - Ride 9 stopped
+Time 103509     - Attendee u left ride 9
+Time 103520     - Attendee V left ride 9
+Time 103543     - Attendee b entered ride 9
+Time 103544     - Attendee q entered ride 9
+Time 103545     - Attendee i entered ride 9
+Time 103991     - Ride 6 stopped
+Time 103992     - Attendee I left ride 6
+Time 106044     - Attendee u entered ride 8
+Time 106046     - Ride 8 started
+Time 108871     - Attendee h entered ride 3
+Time 108874     - Ride 3 started
+Time 110064     - Attendee l entered ride 9
+Time 110065     - Ride 9 started
+Time 117209     - Ride 2 stopped
+Time 117212     - Attendee w left ride 2
+Time 117223     - Attendee v left ride 2
+Time 117234     - Attendee t left ride 2
+Time 117245     - Attendee L left ride 2
+Time 117257     - Attendee U left ride 2
+Time 117336     - Attendee x left ride 2
+Time 117360     - Attendee W entered ride 2
+Time 117371     - Attendee n left ride 2
+Time 117438     - Attendee M left ride 2
+Time 120937     - Ride 1 stopped
+Time 120937     - Attendee Y left ride 1
+Time 120955     - Ride 3 stopped
+Time 120957     - Attendee e left ride 3
+Time 120993     - Attendee O left ride 1
+Time 121012     - Attendee h left ride 3
+Time 121037     - Attendee m left ride 1
+Time 121082     - Attendee P left ride 1
+Time 121139     - Attendee Z left ride 1
+Time 121206     - Attendee Q entered ride 1
+Time 121207     - Attendee N entered ride 1
+Time 122624     - Attendee S entered ride 1
+Time 124134     - Ride 8 stopped
+Time 124135     - Attendee u left ride 8
+Time 124146     - Attendee V entered ride 8
+Time 124148     - Attendee w entered ride 8
+Time 124149     - Attendee x entered ride 8
+Time 124904     - Attendee U entered ride 8
+Time 127300     - Ride 4 stopped
+Time 127301     - Attendee F left ride 4
+Time 127347     - Attendee z entered ride 4
+Time 127348     - Attendee y entered ride 4
+Time 127350     - Attendee J entered ride 4
+Time 127351     - Attendee c entered ride 4
+Time 127352     - Attendee k entered ride 4
+Time 127353     - Attendee a entered ride 4
+Time 127354     - Attendee g entered ride 4
+Time 127355     - Attendee j entered ride 4
+Time 127357     - Attendee K entered ride 4
+Time 127358     - Attendee G entered ride 4
+Time 128216     - Attendee H entered ride 2
+Time 128219     - Ride 2 started
+Time 129675     - Attendee I entered ride 4
+Time 129676     - Ride 4 started
+Time 129922     - Attendee u entered ride 3
+Time 129923     - Ride 3 started
+Time 131152     - Ride 9 stopped
+Time 131153     - Attendee b left ride 9
+Time 131177     - Attendee q left ride 9
+Time 131182     - Attendee i left ride 9
+Time 131283     - Attendee l left ride 9
+Time 131615     - Attendee T entered ride 1
+Time 131617     - Ride 1 started
+Time 132323     - Attendee v entered ride 9
+Time 132325     - Ride 9 started
+Time 132462     - Attendee q entered ride 8
+Time 132464     - Ride 8 started
+Time 142005     - Ride 3 stopped
+Time 142006     - Attendee u left ride 3
+Time 143767     - Attendee e entered ride 6
+Time 143769     - Ride 6 started
+Time 145119     - Attendee F entered ride 7
+Time 145121     - Ride 7 started
+Time 148301     - Ride 2 stopped
+Time 148303     - Attendee W left ride 2
+Time 148337     - Attendee H left ride 2
+Time 148406     - Attendee O entered ride 2
+Time 148408     - Attendee m entered ride 2
+Time 148409     - Attendee Y entered ride 2
+Time 148411     - Attendee P entered ride 2
+Time 148412     - Attendee Z entered ride 2
+Time 148805     - Ride 6 stopped
+Time 148806     - Attendee e left ride 6
+Time 148862     - Attendee u entered ride 6
+Time 150558     - Ride 8 stopped
+Time 150559     - Attendee V left ride 8
+Time 150582     - Attendee w left ride 8
+Time 150593     - Attendee x left ride 8
+Time 150605     - Attendee U left ride 8
+Time 150617     - Attendee q left ride 8
+Time 150622     - Attendee l entered ride 8
+Time 151704     - Ride 1 stopped
+Time 151705     - Attendee Q left ride 1
+Time 151772     - Attendee N left ride 1
+Time 151806     - Attendee S left ride 1
+Time 151896     - Attendee T left ride 1
+Time 151944     - Attendee b entered ride 2
+Time 151997     - Attendee o entered ride 1
+Time 151998     - Attendee R entered ride 1
+Time 151999     - Attendee p entered ride 1
+Time 152096     - Attendee f entered ride 2
+Time 153409     - Ride 9 stopped
+Time 153411     - Attendee v left ride 9
+Time 153422     - Attendee t entered ride 9
+Time 153423     - Attendee L entered ride 9
+Time 153425     - Attendee s entered ride 9
+Time 153426     - Attendee X entered ride 9
+Time 153427     - Attendee M entered ride 9
+Time 153428     - Attendee w entered ride 9
+Time 153468     - Attendee r entered ride 1
+Time 153703     - Attendee q entered ride 3
+Time 153706     - Ride 3 started
+Time 154203     - Ride 7 stopped
+Time 154204     - Attendee d left ride 7
+Time 154250     - Attendee F left ride 7
+Time 159664     - Attendee n entered ride 9
+Time 159665     - Ride 9 started
+Time 160126     - Attendee N entered ride 2
+Time 160128     - Ride 2 started
+Time 162711     - Attendee e entered ride 5
+Time 162712     - Ride 5 started
+Time 165340     - Attendee d entered ride 8
+Time 165342     - Ride 8 started
+Time 165796     - Ride 3 stopped
+Time 165797     - Attendee q left ride 3
+Time 165802     - Attendee x entered ride 3
+Time 165804     - Attendee U entered ride 3
+Time 165805     - Attendee v entered ride 3
+Time 165806     - Attendee V entered ride 3
+Time 178798     - Ride 5 stopped
+Time 178800     - Attendee e left ride 5
+Time 178856     - Attendee q entered ride 5
+Time 180213     - Ride 2 stopped
+Time 180214     - Attendee O left ride 2
+Time 180258     - Attendee m left ride 2
+Time 180304     - Attendee Y left ride 2
+Time 180361     - Attendee P left ride 2
+Time 180418     - Attendee Z left ride 2
+Time 180486     - Attendee b left ride 2
+Time 180609     - Attendee Q entered ride 2
+Time 180611     - Attendee S entered ride 2
+Time 180612     - Attendee T entered ride 2
+Time 180662     - Attendee f left ride 2
+Time 180663     - Attendee N left ride 2
+Time 180749     - Ride 9 stopped
+Time 180750     - Attendee t left ride 9
+Time 180760     - Attendee L left ride 9
+Time 180772     - Attendee s left ride 9
+Time 180873     - Attendee X left ride 9
+Time 180919     - Attendee M left ride 9
+Time 180942     - Attendee w left ride 9
+Time 180952     - Attendee n left ride 9
+Time 181008     - Attendee W entered ride 9
+Time 183436     - Ride 8 stopped
+Time 183437     - Attendee l left ride 8
+Time 183471     - Attendee d left ride 8
+Time 183478     - Attendee w entered ride 0
+Time 183479     - Ride 0 started
+Time 183516     - Attendee F entered ride 8
+Time 183682     - Attendee L entered ride 8
+Time 186505     - Attendee M entered ride 8
+Time 186507     - Ride 8 started
+Time 186508     - Ride 0 stopped
+Time 186509     - Attendee w left ride 0
+Time 187341     - Attendee t entered ride 3
+Time 187343     - Ride 3 started
+Time 195531     - Attendee w entered ride 1
+Time 195532     - Ride 1 started
+Time 198167     - Attendee d entered ride 6
+Time 198168     - Ride 6 started
+Time 199433     - Ride 3 stopped
+Time 199434     - Attendee x left ride 3
+Time 199445     - Attendee U left ride 3
+Time 199457     - Attendee v left ride 3
+Time 199468     - Attendee V left ride 3
+Time 199491     - Attendee t left ride 3
+Time 202491     - Attendee l entered ride 3
+Time 203152     - Attendee U entered ride 5
+Time 203153     - Ride 5 started
+Time 203203     - Ride 6 stopped
+Time 203204     - Attendee u left ride 6
+Time 203215     - Attendee d left ride 6
+Time 204591     - Ride 8 stopped
+Time 204592     - Attendee F left ride 8
+Time 204638     - Attendee L left ride 8
+Time 204650     - Attendee M left ride 8
+Time 204673     - Attendee H entered ride 8
+Time 204675     - Attendee X entered ride 8
+Time 204676     - Attendee n entered ride 8
+Time 204678     - Attendee b entered ride 8
+Time 206836     - Attendee x entered ride 0
+Time 206838     - Ride 0 started
+Time 207748     - Attendee N entered ride 8
+Time 207749     - Ride 8 started
+Time 209867     - Ride 0 stopped
+Time 209868     - Attendee x left ride 0
+Time 211043     - Attendee L entered ride 3
+Time 211045     - Ride 3 started
+Time 212728     - Attendee O entered ride 9
+Time 212729     - Ride 9 started
+Time 215616     - Ride 1 stopped
+Time 215617     - Attendee o left ride 1
+Time 215685     - Attendee R left ride 1
+Time 215763     - Attendee p left ride 1
+Time 215842     - Attendee r left ride 1
+Time 215932     - Attendee w left ride 1
+Time 215943     - Attendee i entered ride 1
+Time 216644     - Attendee w left the park
+Time 218904     - Attendee x entered ride 1
+Time 219239     - Ride 5 stopped
+Time 219241     - Attendee q left ride 5
+Time 219247     - Attendee U left ride 5
+Time 219259     - Attendee v entered ride 5
+Time 219260     - Attendee t entered ride 5
+Time 219262     - Attendee V entered ride 5
+Time 219263     - Attendee d entered ride 5
+Time 220526     - Attendee q entered ride 6
+Time 220527     - Ride 6 started
+Time 223134     - Ride 3 stopped
+Time 223135     - Attendee l left ride 3
+Time 223169     - Attendee L left ride 3
+Time 223180     - Attendee M entered ride 3
+Time 225568     - Ride 6 stopped
+Time 225569     - Attendee q left ride 6
+Time 225574     - Attendee U entered ride 6
+Time 225836     - Ride 8 stopped
+Time 225837     - Attendee H left ride 8
+Time 225905     - Attendee X left ride 8
+Time 225931     - Attendee q left the park
+Time 225949     - Attendee n left ride 8
+Time 226005     - Attendee b left ride 8
+Time 226027     - Attendee N left ride 8
+Time 226062     - Attendee s entered ride 8
+Time 226882     - Attendee L entered ride 5
+Time 226887     - Ride 5 started
+Time 228756     - Ride 4 stopped
+Time 228757     - Attendee z left ride 4
+Time 228768     - Attendee y left ride 4
+Time 228779     - Attendee J left ride 4
+Time 228869     - Attendee c left ride 4
+Time 228903     - Attendee k left ride 4
+Time 228926     - Attendee a left ride 4
+Time 228937     - Attendee g left ride 4
+Time 229125     - Attendee j left ride 4
+Time 229126     - Attendee K left ride 4
+Time 229204     - Attendee I left ride 4
+Time 229205     - Attendee G left ride 4
+Time 229262     - Attendee h entered ride 4
+Time 229263     - Attendee e entered ride 4
+Time 229264     - Attendee u entered ride 4
+Time 229982     - Ride 3 started
+Time 229983     - Attendee F entered ride 3
+Time 232911     - Attendee z entered ride 7
+Time 232913     - Ride 7 started
+Time 233818     - Ride 9 stopped
+Time 233819     - Attendee W left ride 9
+Time 233853     - Attendee O left ride 9
+Time 233898     - Attendee m entered ride 9
+Time 233899     - Attendee Y entered ride 9
+Time 233900     - Attendee P entered ride 9
+Time 233900     - Attendee f entered ride 9
+Time 233901     - Attendee Z entered ride 9
+Time 235915     - Attendee R entered ride 2
+Time 235916     - Ride 2 started
+Time 236430     - Attendee j entered ride 0
+Time 236431     - Ride 0 started
+Time 239460     - Ride 0 stopped
+Time 239461     - Attendee j left ride 0
+Time 242000     - Ride 7 stopped
+Time 242000     - Attendee z left ride 7
+Time 242011     - Attendee y entered ride 7
+Time 242013     - Attendee k entered ride 7
+Time 242065     - Ride 3 stopped
+Time 242066     - Attendee M left ride 3
+Time 242089     - Attendee F left ride 3
+Time 242135     - Attendee b entered ride 3
+Time 242182     - Attendee W entered ride 8
+Time 242185     - Ride 8 started
+Time 242274     - Attendee j entered ride 9
+Time 242275     - Ride 9 started
+Time 242976     - Ride 5 stopped
+Time 242977     - Attendee v left ride 5
+Time 242988     - Attendee t left ride 5
+Time 242999     - Attendee V left ride 5
+Time 243020     - Attendee d left ride 5
+Time 243065     - Attendee L left ride 5
+Time 243077     - Attendee a entered ride 5
+Time 243078     - Attendee l entered ride 5
+Time 245513     - Attendee v entered ride 6
+Time 245515     - Ride 6 started
+Time 245764     - Attendee N entered ride 3
+Time 245766     - Ride 3 started
+Time 249665     - Attendee M entered ride 5
+Time 249667     - Ride 5 started
+Time 250546     - Ride 6 stopped
+Time 250548     - Attendee U left ride 6
+Time 250560     - Attendee v left ride 6
+Time 250571     - Attendee t entered ride 6
+Time 250572     - Attendee L entered ride 6
+Time 250573     - Attendee V entered ride 6
+Time 253908     - Attendee v entered ride 7
+Time 253909     - Ride 7 started
+Time 254256     - Attendee U entered ride 4
+Time 254258     - Ride 4 started
+Time 256007     - Ride 2 stopped
+Time 256009     - Attendee Q left ride 2
+Time 256077     - Attendee S left ride 2
+Time 256165     - Attendee T left ride 2
+Time 256266     - Attendee R left ride 2
+Time 256345     - Attendee r entered ride 2
+Time 256346     - Attendee c entered ride 2
+Time 256347     - Attendee z entered ride 2
+Time 257855     - Ride 3 stopped
+Time 257856     - Attendee b left ride 3
+Time 257879     - Attendee N left ride 3
+Time 257913     - Attendee X entered ride 3
+Time 258222     - Attendee n entered ride 3
+Time 258610     - Attendee d entered ride 3
+Time 260270     - Ride 8 stopped
+Time 260271     - Attendee s left ride 8
+Time 260372     - Attendee W left ride 8
+Time 260406     - Attendee O entered ride 8
+Time 262992     - Ride 7 stopped
+Time 262994     - Attendee y left ride 7
+Time 263004     - Attendee k left ride 7
+Time 263026     - Attendee v left ride 7
+Time 263037     - Attendee G entered ride 7
+Time 263038     - Attendee g entered ride 7
+Time 263361     - Ride 9 stopped
+Time 263362     - Attendee m left ride 9
+Time 263408     - Attendee Y left ride 9
+Time 263464     - Attendee P left ride 9
+Time 263520     - Attendee f left ride 9
+Time 263587     - Attendee Z left ride 9
+Time 263655     - Attendee j left ride 9
+Time 263739     - Attendee v left the park
+Time 264551     - Attendee H entered ride 3
+Time 264552     - Ride 3 started
+Time 265751     - Ride 5 stopped
+Time 265752     - Attendee a left ride 5
+Time 265765     - Attendee l left ride 5
+Time 265799     - Attendee M left ride 5
+Time 266130     - Attendee J entered ride 7
+Time 266131     - Ride 7 started
+Time 266140     - Attendee K entered ride 2
+Time 266140     - Ride 2 started
+Time 268562     - Attendee a entered ride 6
+Time 268564     - Ride 6 started
+Time 268908     - Attendee N entered ride 5
+Time 268909     - Ride 5 started
+Time 271013     - Attendee o entered ride 9
+Time 271015     - Ride 9 started
+Time 273331     - Attendee p entered ride 8
+Time 273332     - Ride 8 started
+Time 273599     - Ride 6 stopped
+Time 273601     - Attendee t left ride 6
+Time 273612     - Attendee L left ride 6
+Time 273624     - Attendee V left ride 6
+Time 273647     - Attendee a left ride 6
+Time 273658     - Attendee M entered ride 6
+Time 274122     - Attendee l entered ride 6
+Time 275133     - Ride 7 stopped
+Time 275134     - Attendee G left ride 7
+Time 275190     - Attendee g left ride 7
+Time 275269     - Attendee J left ride 7
+Time 275360     - Attendee I entered ride 7
+Time 275361     - Attendee b entered ride 7
+Time 276644     - Ride 3 stopped
+Time 276645     - Attendee X left ride 3
+Time 276681     - Attendee a entered ride 7
+Time 276682     - Ride 7 started
+Time 276691     - Attendee n left ride 3
+Time 276747     - Attendee d left ride 3
+Time 276793     - Attendee H left ride 3
+Time 276861     - Attendee y entered ride 3
+Time 279431     - Attendee W entered ride 3
+Time 284988     - Ride 5 stopped
+Time 284989     - Attendee N left ride 5
+Time 285021     - Attendee j entered ride 5
+Time 285770     - Ride 7 stopped
+Time 285771     - Attendee I left ride 7
+Time 285850     - Attendee b left ride 7
+Time 285873     - Attendee a left ride 7
+Time 286221     - Ride 2 stopped
+Time 286222     - Attendee r left ride 2
+Time 286312     - Attendee c left ride 2
+Time 286346     - Attendee z left ride 2
+Time 286358     - Attendee K left ride 2
+Time 286458     - Attendee k entered ride 2
+Time 291338     - Attendee X entered ride 5
+Time 291340     - Ride 5 started
+Time 291418     - Ride 8 stopped
+Time 291419     - Attendee O left ride 8
+Time 291464     - Attendee p left ride 8
+Time 291541     - Attendee m entered ride 8
+Time 291543     - Attendee Y entered ride 8
+Time 291544     - Attendee P entered ride 8
+Time 291545     - Attendee Z entered ride 8
+Time 291546     - Attendee a entered ride 8
+Time 292096     - Ride 9 stopped
+Time 292096     - Attendee o left ride 9
+Time 292164     - Attendee F entered ride 9
+Time 294016     - Attendee N entered ride 6
+Time 294018     - Ride 6 started
+Time 296883     - Attendee z entered ride 8
+Time 296885     - Ride 8 started
+Time 299055     - Ride 6 stopped
+Time 299057     - Attendee M left ride 6
+Time 299080     - Attendee l left ride 6
+Time 299114     - Attendee N left ride 6
+Time 304730     - Attendee Q entered ride 9
+Time 304732     - Ride 9 started
+Time 305708     - Attendee c entered ride 7
+Time 305709     - Ride 7 started
+Time 306855     - Attendee G entered ride 2
+Time 306857     - Ride 2 started
+Time 307423     - Ride 5 stopped
+Time 307425     - Attendee j left ride 5
+Time 307437     - Attendee X left ride 5
+Time 307482     - Attendee n entered ride 5
+Time 308232     - Attendee f entered ride 3
+Time 308233     - Ride 3 started
+Time 310236     - Attendee j entered ride 6
+Time 310238     - Ride 6 started
+Time 314712     - Ride 7 stopped
+Time 314713     - Attendee c left ride 7
+Time 314746     - Attendee l entered ride 7
+Time 314974     - Ride 8 stopped
+Time 314975     - Attendee m left ride 8
+Time 315020     - Attendee Y left ride 8
+Time 315076     - Attendee P left ride 8
+Time 315133     - Attendee Z left ride 8
+Time 315200     - Attendee a left ride 8
+Time 315213     - Attendee z left ride 8
+Time 315223     - Attendee J entered ride 8
+Time 315224     - Attendee R entered ride 8
+Time 315225     - Attendee o entered ride 8
+Time 315280     - Ride 6 stopped
+Time 315281     - Attendee j left ride 6
+Time 318573     - Attendee X entered ride 6
+Time 318575     - Ride 6 started
+Time 318992     - Attendee j entered ride 8
+Time 318993     - Ride 8 started
+Time 320322     - Ride 3 stopped
+Time 320323     - Attendee y left ride 3
+Time 320334     - Attendee W left ride 3
+Time 320369     - Attendee f left ride 3
+Time 320436     - Attendee g entered ride 3
+Time 320437     - Attendee O entered ride 3
+Time 320439     - Attendee s entered ride 3
+Time 321199     - Attendee z entered ride 3
+Time 323615     - Ride 6 stopped
+Time 323616     - Attendee X left ride 6
+Time 325755     - Attendee c entered ride 5
+Time 325756     - Ride 5 started
+Time 325824     - Ride 9 stopped
+Time 325825     - Attendee F left ride 9
+Time 325870     - Attendee Q left ride 9
+Time 325938     - Attendee S entered ride 9
+Time 325939     - Attendee a entered ride 9
+Time 325940     - Attendee H entered ride 9
+Time 326942     - Ride 2 stopped
+Time 326944     - Attendee k left ride 2
+Time 326967     - Attendee G left ride 2
+Time 329462     - Attendee y entered ride 9
+Time 329464     - Ride 9 started
+Time 329678     - Attendee m entered ride 6
+Time 329679     - Ride 6 started
+Time 330113     - Attendee I entered ride 2
+Time 334720     - Ride 6 stopped
+Time 334721     - Attendee m left ride 6
+Time 335831     - Attendee p entered ride 3
+Time 335833     - Ride 3 started
+Time 336960     - Attendee F entered ride 0
+Time 336961     - Ride 0 started
+Time 337082     - Ride 8 stopped
+Time 337083     - Attendee J left ride 8
+Time 337173     - Attendee R left ride 8
+Time 337252     - Attendee o left ride 8
+Time 337319     - Attendee j left ride 8
+Time 339991     - Ride 0 stopped
+Time 339992     - Attendee F left ride 0
+Time 341700     - Attendee j entered ride 7
+Time 341701     - Ride 7 started
+Time 341842     - Ride 5 stopped
+Time 341843     - Attendee n left ride 5
+Time 341899     - Attendee c left ride 5
+Time 341934     - Attendee W entered ride 5
+Time 342359     - Attendee k entered ride 8
+Time 342361     - Ride 8 started
+Time 347911     - Ride 3 stopped
+Time 347912     - Attendee g left ride 3
+Time 347991     - Attendee O left ride 3
+Time 348035     - Attendee s left ride 3
+Time 348136     - Attendee z left ride 3
+Time 348146     - Attendee p left ride 3
+Time 348225     - Attendee Y entered ride 3
+Time 348226     - Attendee P entered ride 3
+Time 350259     - Attendee c entered ride 6
+Time 350261     - Ride 6 started
+Time 350556     - Ride 9 stopped
+Time 350557     - Attendee S left ride 9
+Time 350646     - Attendee a left ride 9
+Time 350658     - Attendee H left ride 9
+Time 350726     - Attendee y left ride 9
+Time 350737     - Attendee T entered ride 9
+Time 350788     - Ride 7 stopped
+Time 350790     - Attendee l left ride 7
+Time 350824     - Attendee j left ride 7
+Time 351146     - Attendee r entered ride 9
+Time 351613     - Attendee j left the park
+Time 353132     - Attendee l left the park
+Time 353334     - Ride 4 stopped
+Time 353335     - Attendee h left ride 4
+Time 353426     - Attendee e left ride 4
+Time 353456     - Attendee a entered ride 0
+Time 353457     - Ride 0 started
+Time 353483     - Attendee u left ride 4
+Time 353494     - Attendee U left ride 4
+Time 353506     - Attendee t entered ride 4
+Time 353507     - Attendee L entered ride 4
+Time 353509     - Attendee V entered ride 4
+Time 353510     - Attendee d entered ride 4
+Time 353511     - Attendee b entered ride 4
+Time 353512     - Attendee M entered ride 4
+Time 353513     - Attendee N entered ride 4
+Time 353514     - Attendee X entered ride 4
+Time 353515     - Attendee m entered ride 4
+Time 353855     - Attendee Z entered ride 3
+Time 353856     - Ride 3 started
+Time 355290     - Ride 6 stopped
+Time 355291     - Attendee c left ride 6
+Time 356310     - Attendee n entered ride 6
+Time 356485     - Ride 0 stopped
+Time 356486     - Attendee a left ride 0
+Time 356498     - Attendee y entered ride 0
+Time 356499     - Attendee z entered ride 0
+Time 357272     - Attendee a left the park
+Time 357847     - Attendee u entered ride 7
+Time 357849     - Ride 7 started
+Time 360442     - Ride 8 stopped
+Time 360443     - Attendee k left ride 8
+Time 360466     - Attendee Q entered ride 8
+Time 360467     - Attendee K entered ride 8
+Time 360468     - Attendee f entered ride 8
+Time 362686     - Attendee O entered ride 5
+Time 362687     - Ride 5 started
+Time 363690     - Attendee G entered ride 8
+Time 363691     - Ride 8 started
+Time 365950     - Ride 3 stopped
+Time 365952     - Attendee Y left ride 3
+Time 366008     - Attendee P left ride 3
+Time 366064     - Attendee Z left ride 3
+Time 366938     - Ride 7 stopped
+Time 366939     - Attendee u left ride 7
+Time 366950     - Attendee U entered ride 7
+Time 367342     - Attendee H entered ride 0
+Time 367344     - Ride 0 started
+Time 367651     - Attendee u left the park
+Time 370372     - Ride 0 stopped
+Time 370373     - Attendee y left ride 0
+Time 370383     - Attendee z left ride 0
+Time 370394     - Attendee H left ride 0
+Time 371092     - Attendee z left the park
+Time 375067     - Attendee H left the park
+Time 375859     - Attendee k entered ride 3
+Time 375862     - Ride 3 started
+Time 377358     - Attendee e entered ride 7
+Time 377361     - Ride 7 started
+Time 378777     - Ride 5 stopped
+Time 378778     - Attendee W left ride 5
+Time 378813     - Attendee O left ride 5
+Time 378857     - Attendee h entered ride 5
+Time 378859     - Attendee p entered ride 5
+Time 379407     - Attendee y entered ride 1
+Time 379408     - Ride 1 started
+Time 381790     - Ride 8 stopped
+Time 381792     - Attendee Q left ride 8
+Time 381859     - Attendee K left ride 8
+Time 381960     - Attendee f left ride 8
+Time 382027     - Attendee G left ride 8
+Time 382058     - Attendee s entered ride 5
+Time 382059     - Ride 5 started
+Time 382084     - Attendee c entered ride 8
+Time 382085     - Attendee S entered ride 8
+Time 386448     - Ride 7 stopped
+Time 386449     - Attendee U left ride 7
+Time 386461     - Attendee e left ride 7
+Time 387135     - Attendee W entered ride 6
+Time 387136     - Ride 6 started
+Time 387235     - Attendee U left the park
+Time 387950     - Ride 3 stopped
+Time 387951     - Attendee k left ride 3
+Time 387974     - Attendee o entered ride 3
+Time 387976     - Attendee R entered ride 3
+Time 388669     - Attendee J entered ride 3
+Time 392169     - Ride 6 stopped
+Time 392171     - Attendee n left ride 6
+Time 392227     - Attendee W left ride 6
+Time 392262     - Attendee O entered ride 6
+Time 393062     - Attendee g entered ride 8
+Time 393064     - Ride 8 started
+Time 395945     - Attendee G entered ride 9
+Time 395948     - Ride 9 started
+Time 398150     - Ride 5 stopped
+Time 398151     - Attendee h left ride 5
+Time 398241     - Attendee p left ride 5
+Time 398320     - Attendee s left ride 5
+Time 398422     - Attendee Y entered ride 5
+Time 398424     - Attendee P entered ride 5
+Time 398425     - Attendee Z entered ride 5
+Time 399495     - Ride 1 stopped
+Time 399496     - Attendee i left ride 1
+Time 399597     - Attendee x left ride 1
+Time 399607     - Attendee y left ride 1
+Time 399618     - Attendee F entered ride 1
+Time 400306     - Attendee x left the park
+Time 400318     - Attendee y left the park
+Time 402935     - Attendee W entered ride 4
+Time 402937     - Ride 4 started
+Time 411149     - Ride 8 stopped
+Time 411151     - Attendee c left ride 8
+Time 411186     - Attendee S left ride 8
+Time 411276     - Attendee g left ride 8
+Time 411355     - Attendee e entered ride 8
+Time 417041     - Ride 9 stopped
+Time 417042     - Attendee T left ride 9
+Time 417143     - Attendee r left ride 9
+Time 417233     - Attendee G left ride 9
+Time 417290     - Attendee k entered ride 9
+Time 419498     - Attendee h entered ride 6
+Time 419499     - Ride 6 started
+Time 419516     - Attendee c entered ride 9
+Time 419518     - Ride 9 started
+Time 419840     - Attendee Q entered ride 3
+Time 419841     - Ride 3 started
+Time 424506     - Attendee i entered ride 2
+Time 424507     - Ride 2 started
+Time 424543     - Ride 6 stopped
+Time 424544     - Attendee O left ride 6
+Time 424590     - Attendee h left ride 6
+Time 424680     - Attendee p entered ride 6
+Time 424681     - Attendee s entered ride 6
+Time 431144     - Attendee G entered ride 0
+Time 431146     - Ride 0 started
+Time 431936     - Ride 3 stopped
+Time 431938     - Attendee o left ride 3
+Time 432005     - Attendee R left ride 3
+Time 432083     - Attendee J left ride 3
+Time 432173     - Attendee Q left ride 3
+Time 434148     - Ride 0 stopped
+Time 434150     - Attendee G left ride 0
+Time 438047     - Attendee G left the park
+Time 438883     - Attendee K entered ride 3
+Time 438884     - Ride 3 started
+Time 439383     - Attendee r entered ride 8
+Time 439384     - Ride 8 started
+Time 440608     - Ride 9 stopped
+Time 440610     - Attendee k left ride 9
+Time 440632     - Attendee c left ride 9
+Time 444604     - Ride 2 stopped
+Time 444606     - Attendee I left ride 2
+Time 444684     - Attendee i left ride 2
+Time 446195     - Attendee k entered ride 0
+Time 446196     - Ride 0 started
+Time 449197     - Ride 0 stopped
+Time 449198     - Attendee k left ride 0
+Time 449327     - Attendee c entered ride 0
+Time 450971     - Ride 3 stopped
+Time 450973     - Attendee K left ride 3
+Time 453968     - Attendee o entered ride 5
+Time 453969     - Ride 5 started
+Time 457480     - Ride 8 stopped
+Time 457481     - Attendee e left ride 8
+Time 457537     - Attendee r left ride 8
+Time 457627     - Attendee T entered ride 8
+Time 461868     - Attendee g entered ride 2
+Time 461869     - Ride 2 started
+Time 461890     - Attendee S entered ride 3
+Time 461891     - Ride 3 started
+Time 467286     - Attendee h entered ride 0
+Time 467288     - Ride 0 started
+Time 469086     - Attendee k entered ride 1
+Time 469088     - Ride 1 started
+Time 470052     - Ride 5 stopped
+Time 470053     - Attendee Y left ride 5
+Time 470110     - Attendee P left ride 5
+Time 470166     - Attendee Z left ride 5
+Time 470233     - Attendee o left ride 5
+Time 470291     - Ride 0 stopped
+Time 470292     - Attendee c left ride 0
+Time 470301     - Attendee Q entered ride 5
+Time 470302     - Attendee R entered ride 5
+Time 470326     - Attendee h left ride 0
+Time 471396     - Attendee e entered ride 9
+Time 471398     - Ride 9 started
+Time 472635     - Attendee c left the park
+Time 473977     - Ride 3 stopped
+Time 473978     - Attendee S left ride 3
+Time 481963     - Ride 2 stopped
+Time 481964     - Attendee g left ride 2
+Time 483966     - Attendee Y entered ride 6
+Time 483967     - Ride 6 started
+Time 489010     - Ride 6 stopped
+Time 489011     - Attendee p left ride 6
+Time 489090     - Attendee s left ride 6
+Time 489180     - Ride 1 stopped
+Time 489181     - Attendee F left ride 1
+Time 489190     - Attendee Y left ride 6
+Time 489226     - Attendee k left ride 1
+Time 489247     - Attendee P entered ride 6
+Time 489248     - Attendee Z entered ride 6
+Time 490792     - Attendee k left the park
+Time 492300     - Attendee F left the park
+Time 492489     - Ride 9 stopped
+Time 492490     - Attendee e left ride 9
+Time 492547     - Attendee J entered ride 9
+Time 492567     - Attendee h entered ride 9
+Time 501398     - Attendee I entered ride 9
+Time 501400     - Ride 9 started
+Time 502019     - Ride 4 stopped
+Time 502020     - Attendee t left ride 4
+Time 502031     - Attendee L left ride 4
+Time 502043     - Attendee V left ride 4
+Time 502066     - Attendee d left ride 4
+Time 502112     - Attendee b left ride 4
+Time 502145     - Attendee M left ride 4
+Time 502158     - Attendee N left ride 4
+Time 502314     - Attendee n entered ride 4
+Time 502315     - Attendee f entered ride 4
+Time 502316     - Attendee O entered ride 4
+Time 502317     - Attendee o entered ride 4
+Time 502335     - Attendee m left ride 4
+Time 502336     - Attendee X left ride 4
+Time 502494     - Attendee W left ride 4
+Time 502731     - Attendee t left the park
+Time 503324     - Attendee S entered ride 5
+Time 503326     - Ride 5 started
+Time 506401     - Attendee e entered ride 0
+Time 506403     - Ride 0 started
+Time 506638     - Attendee L entered ride 7
+Time 506640     - Ride 7 started
+Time 508107     - Attendee Y entered ride 4
+Time 508109     - Ride 4 started
+Time 508227     - Attendee r entered ride 3
+Time 508229     - Ride 3 started
+Time 509404     - Ride 0 stopped
+Time 509405     - Attendee e left ride 0
+Time 509707     - Attendee b entered ride 6
+Time 509708     - Ride 6 started
+Time 509712     - Attendee i entered ride 8
+Time 509714     - Ride 8 started
+Time 513301     - Attendee e left the park
+Time 514754     - Ride 6 stopped
+Time 514755     - Attendee P left ride 6
+Time 514811     - Attendee Z left ride 6
+Time 514879     - Attendee b left ride 6
+Time 515727     - Ride 7 stopped
+Time 515728     - Attendee L left ride 7
+Time 515740     - Attendee M entered ride 7
+Time 515741     - Attendee V entered ride 7
+Time 515878     - Attendee N entered ride 7
+Time 516211     - Attendee W entered ride 7
+Time 516518     - Attendee L left the park
+Time 516769     - Attendee d entered ride 2
+Time 516771     - Ride 2 started
+Time 519416     - Ride 5 stopped
+Time 519417     - Attendee Q left ride 5
+Time 519484     - Attendee R left ride 5
+Time 519562     - Attendee S left ride 5
+Time 520326     - Ride 3 stopped
+Time 520327     - Attendee r left ride 3
+Time 521044     - Attendee m entered ride 7
+Time 521045     - Ride 7 started
+Time 521362     - Attendee b entered ride 5
+Time 521363     - Ride 5 started
+Time 522487     - Ride 9 stopped
+Time 522488     - Attendee J left ride 9
+Time 522578     - Attendee h left ride 9
+Time 522667     - Attendee I left ride 9
+Time 522745     - Attendee K entered ride 9
+Time 527816     - Ride 8 stopped
+Time 527817     - Attendee T left ride 8
+Time 527918     - Attendee i left ride 8
+Time 530047     - Ride 7 stopped
+Time 530049     - Attendee M left ride 7
+Time 530072     - Attendee V left ride 7
+Time 530095     - Attendee N left ride 7
+Time 530130     - Attendee W left ride 7
+Time 530164     - Attendee m left ride 7
+Time 530210     - Attendee X entered ride 7
+Time 531616     - Attendee M left the park
+Time 531639     - Attendee V left the park
+Time 532439     - Attendee N left the park
+Time 532805     - Attendee W left the park
+Time 533729     - Attendee m left the park
+Time 536107     - Attendee Q entered ride 6
+Time 536109     - Ride 6 started
+Time 536866     - Ride 2 stopped
+Time 536869     - Attendee d left ride 2
+Time 537462     - Ride 5 stopped
+Time 537463     - Attendee b left ride 5
+Time 538780     - Attendee g entered ride 9
+Time 538782     - Ride 9 started
+Time 539030     - Attendee b left the park
+Time 541152     - Ride 6 stopped
+Time 541154     - Attendee Q left ride 6
+Time 541222     - Attendee R entered ride 6
+Time 542902     - Attendee I entered ride 0
+Time 542903     - Ride 0 started
+Time 543578     - Attendee S entered ride 6
+Time 543581     - Ride 6 started
+Time 545909     - Ride 0 stopped
+Time 545910     - Attendee I left ride 0
+Time 545989     - Attendee J entered ride 0
+Time 548007     - Attendee d entered ride 1
+Time 548009     - Ride 1 started
+Time 548625     - Ride 6 stopped
+Time 548626     - Attendee R left ride 6
+Time 548705     - Attendee S left ride 6
+Time 549680     - Attendee r entered ride 5
+Time 549683     - Ride 5 started
+Time 553935     - Attendee i entered ride 7
+Time 553937     - Ride 7 started
+Time 559871     - Ride 9 stopped
+Time 559872     - Attendee K left ride 9
+Time 559973     - Attendee g left ride 9
+Time 563024     - Ride 7 stopped
+Time 563025     - Attendee X left ride 7
+Time 563071     - Attendee i left ride 7
+Time 563172     - Attendee h entered ride 7
+Time 565775     - Ride 5 stopped
+Time 565776     - Attendee r left ride 5
+Time 566143     - Attendee X left the park
+Time 568099     - Ride 1 stopped
+Time 568101     - Attendee d left ride 1
+Time 571221     - Attendee d left the park
+Time 584846     - Attendee T entered ride 3
+Time 584848     - Ride 3 started
+Time 584877     - Attendee K entered ride 0
+Time 584878     - Ride 0 started
+Time 587907     - Ride 0 stopped
+Time 587909     - Attendee J left ride 0
+Time 587999     - Attendee K left ride 0
+Time 588010     - Attendee r entered ride 6
+Time 588012     - Ride 6 started
+Time 593062     - Ride 6 stopped
+Time 593063     - Attendee r left ride 6
+Time 595001     - Attendee K left the park
+Time 596931     - Ride 3 stopped
+Time 596933     - Attendee T left ride 3
+Time 599288     - Attendee r left the park
+Time 607195     - Ride 4 stopped
+Time 607196     - Attendee n left ride 4
+Time 607252     - Attendee f left ride 4
+Time 607318     - Attendee O left ride 4
+Time 607365     - Attendee o left ride 4
+Time 607432     - Attendee Y left ride 4
+Time 607489     - Attendee p entered ride 4
+Time 607491     - Attendee s entered ride 4
+Time 607492     - Attendee P entered ride 4
+Time 607493     - Attendee Z entered ride 4
+Time 607495     - Attendee Q entered ride 4
+Time 607496     - Attendee R entered ride 4
+Time 607497     - Attendee S entered ride 4
+Time 611091     - Attendee n left the park
+Time 612097     - Attendee i entered ride 3
+Time 612099     - Ride 3 started
+Time 615948     - Attendee I entered ride 1
+Time 615949     - Ride 1 started
+Time 624188     - Ride 3 stopped
+Time 624189     - Attendee i left ride 3
+Time 625585     - Attendee O entered ride 7
+Time 625587     - Ride 7 started
+Time 628947     - Attendee T entered ride 5
+Time 628950     - Ride 5 started
+Time 634591     - Ride 7 stopped
+Time 634593     - Attendee h left ride 7
+Time 634682     - Attendee O left ride 7
+Time 634728     - Attendee Y entered ride 7
+Time 635287     - Attendee f entered ride 7
+Time 636038     - Ride 1 stopped
+Time 636040     - Attendee I left ride 1
+Time 636068     - Attendee o entered ride 7
+Time 636118     - Attendee g entered ride 1
+Time 637800     - Attendee O left the park
+Time 641489     - Attendee I left the park
+Time 645045     - Ride 5 stopped
+Time 645046     - Attendee T left ride 5
+Time 649203     - Attendee i entered ride 4
+Time 649205     - Ride 4 started
+Time 656828     - Attendee h entered ride 8
+Time 656829     - Ride 8 started
+Time 667077     - Attendee J entered ride 1
+Time 667079     - Ride 1 started
+Time 670063     - Attendee T entered ride 6
+Time 670065     - Ride 6 started
+Time 674928     - Ride 8 stopped
+Time 674929     - Attendee h left ride 8
+Time 675109     - Ride 6 stopped
+Time 675110     - Attendee T left ride 6
+Time 681155     - Attendee h left the park
+Time 687170     - Ride 1 stopped
+Time 687171     - Attendee g left ride 1
+Time 687250     - Attendee J left ride 1
+Time 693478     - Attendee J left the park
+Time 748291     - Ride 4 stopped
+Time 748292     - Attendee p left ride 4
+Time 748372     - Attendee s left ride 4
+Time 748473     - Attendee P left ride 4
+Time 748530     - Attendee Z left ride 4
+Time 748597     - Attendee Q left ride 4
+Time 748665     - Attendee R left ride 4
+Time 748933     - Attendee T entered ride 4
+Time 749072     - Attendee i left ride 4
+Time 749073     - Attendee S left ride 4
+Time 756421     - Attendee g entered ride 0
+Time 756423     - Ride 0 started
+Time 759427     - Ride 0 stopped
+Time 759428     - Attendee g left ride 0
+Time 764878     - Attendee g left the park
+Time 771841     - Attendee P entered ride 7
+Time 771842     - Ride 7 started
+Time 780844     - Ride 7 stopped
+Time 780845     - Attendee Y left ride 7
+Time 780902     - Attendee f left ride 7
+Time 780970     - Attendee o left ride 7
+Time 781035     - Attendee P left ride 7
+Time 781090     - Attendee i entered ride 6
+Time 781092     - Ride 6 started
+Time 781093     - Attendee Q entered ride 7
+Time 781094     - Attendee p entered ride 7
+Time 781901     - Attendee Z entered ride 7
+Time 783669     - Attendee R entered ride 7
+Time 783670     - Ride 7 started
+Time 784741     - Attendee Y left the park
+Time 784932     - Attendee P left the park
+Time 785645     - Attendee o left the park
+Time 786141     - Ride 6 stopped
+Time 786142     - Attendee i left ride 6
+Time 792759     - Ride 7 stopped
+Time 792760     - Attendee Q left ride 7
+Time 792828     - Attendee p left ride 7
+Time 792906     - Attendee Z left ride 7
+Time 792974     - Attendee R left ride 7
+Time 793052     - Attendee S entered ride 7
+Time 793053     - Attendee s entered ride 7
+Time 797433     - Attendee Q left the park
+Time 797579     - Attendee Z left the park
+Time 798272     - Attendee p left the park
+Time 799201     - Attendee R left the park
+Time 802929     - Attendee f entered ride 5
+Time 802930     - Ride 5 started
+Time 819015     - Ride 5 stopped
+Time 819017     - Attendee f left ride 5
+Time 819085     - Attendee i entered ride 5
+Time 835706     - Attendee f entered ride 6
+Time 835708     - Ride 6 started
+Time 840746     - Ride 6 stopped
+Time 840748     - Attendee f left ride 6
+Time 845422     - Attendee f left the park
+Time 926461     - Exiting keyboard event thread
+---------------- Log Closed ----------------
