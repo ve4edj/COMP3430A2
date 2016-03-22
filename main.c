@@ -95,7 +95,7 @@ void loadEvents(char * eventFile) {
 					case RP_NUM:
 						rt = malloc(sizeof(ride_t));
 						if (NULL == rt)
-							die("Error in malloc");
+							die("Fail in malloc");
 						rt->number = atoi(toke);
 						rp = RP_TIMEOUT;
 						break;
@@ -116,7 +116,7 @@ void loadEvents(char * eventFile) {
 					case AP_DELAY:
 						at = malloc(sizeof(attendee_t));
 						if (NULL == at)
-							die("Error in malloc");
+							die("Fail in malloc");
 						startupDelay += atoi(toke);
 						at->delay = startupDelay;
 						ap = AP_NAME;
@@ -142,7 +142,7 @@ void loadEvents(char * eventFile) {
 						at->numRides = numRides;
 						at->rides = malloc(sizeof(int) * numRides);
 						if (NULL == at->rides)
-							die("Error in malloc");
+							die("Fail in malloc");
 						for (int i = 0; i < numRides; i++) {
 							at->rides[i] = toke[i] - '0';
 						}
@@ -234,6 +234,8 @@ int main(int argc, char *argv[]) {
 			rides[i]->numRiders = rideLengths[i];
 			rides[i]->currRider = 0;
 			rides[i]->riders = calloc(rideLengths[i], sizeof(attendee_t));
+			if (NULL == rides[i]->riders)
+				die("Fail in calloc");
 			rides[i]->exitX = rideExitsX[i];
 			rides[i]->exitY = rideExitsY[i];
 			pthread_create(&(rideThreads[i]), NULL, rideThread, (void *)rides[i]);
