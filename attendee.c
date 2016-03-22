@@ -60,14 +60,14 @@ void * attendeeThread(void * in) {
 			rides[self->rides[self->currRide]]->riders[rides[self->rides[self->currRide]]->currRider++] = self;
 			pthread_cond_signal(&rides[self->rides[self->currRide]]->riderAdded);
 			pthread_mutex_unlock(&rides[self->rides[self->currRide]]->rideMutex);
+			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
+			writeToLog(buff);
 			self->state = AS_ONRIDE;
 			break;
 		case AS_ONRIDE:
 			pthread_mutex_lock(&self->attendeeMutex);
 			pthread_cond_wait(&self->rideFinished, &self->attendeeMutex);
 			pthread_mutex_unlock(&self->attendeeMutex);
-			snprintf(buff, LOCAL_LOG_BUFF_SIZE, "Attendee %c entered ride %d", self->name, self->rides[self->currRide]);
-			writeToLog(buff);
 			self->state = AS_RIDEFINISHED;
 			break;
 		case AS_RIDEFINISHED:
