@@ -13,7 +13,7 @@ OBJS   = $(SRCS:%.c=$(ODIR)/%.o)
 LFLAGS = $(LIBS:%=-l%)
 
 $(PRGM): $(OBJS) $(ODIR)
-	$(CC) $(CFLAGS) $(LFLAGS) $(OBJS) -o $(PRGM)
+	$(CC) -o $(PRGM) $(OBJS) $(LFLAGS) $(CFLAGS)
 
 $(ODIR)/%.o: %.c $(ODIR)
 	$(CC) $(CFLAGS) -c $< -o $@
